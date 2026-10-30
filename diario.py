@@ -96,7 +96,7 @@ def _con_texto(noticia):
 
 def publicar_articulos(vistas: dict) -> None:
     # La tarea puede ejecutarse varias veces al día: los artículos solo se publican una vez.
-    if any(a["fecha_publicacion"] == date.today().isoformat() for a in almacen.cargar_articulos()):
+    if any(a["fecha_publicacion"] == date.today().isoformat() and a.get("tipo") != "analisis" for a in almacen.cargar_articulos()):
         log.info("Los artículos de hoy ya están publicados")
         return
     desde =(date.today() - timedelta(days=config.DIAS_MAX_ANTIGUEDAD)).isoformat()

@@ -87,7 +87,7 @@ def construir() -> None:
     env.filters["fecha_corta"] = fecha_corta
 
     grafica, resumen, otras = preparar_precios()
-    articulos = almacen.cargar_articulos()
+    articulos = [a for a in almacen.cargar_articulos() if a.get("estado", "published") == "published"]
     fecha_precios = max((r["fecha"] for r in resumen), default="")
     comun = {
         "sitio": {"nombre": config.SITIO_NOMBRE, "lema": config.SITIO_LEMA, "url": config.SITIO_URL},

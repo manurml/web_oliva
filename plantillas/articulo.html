@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% from "_tarjeta.html" import pieza %}
 {% block titulo %}{{ a.titulo }} | {{ sitio.nombre }}{% endblock %}
-{% block descripcion %}{{ a.entradilla }}{% endblock %}
+{% block descripcion %}{{ a.meta_descripcion or a.entradilla }}{% endblock %}
 {% block cabecera %}
   {% if sitio.url %}<link rel="canonical" href="{{ sitio.url }}/articulos/{{ a.slug }}.html">{% endif %}
   <meta property="og:type" content="article">

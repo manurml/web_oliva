@@ -27,6 +27,16 @@ MAX_PAGINAS_NUEVAS_POR_FUENTE = 25
 # Redacción con Claude (necesita la variable de entorno ANTHROPIC_API_KEY)
 MODELO_CLAUDE = "claude-opus-5-5"
 
+# Agente de análisis diario con Gemini (necesita GEMINI_API_KEY)
+GEMINI_MODELO = os.environ.get("GEMINI_MODELO", "gemini-3.8-flash")
+GEMINI_MODELO_RESERVA = os.environ.get("GEMINI_MODELO_RESERVA", "gemini-3.5-flash-lite")  # si el principal está saturado
+AGENTE_ESTADO = os.environ.get("AGENTE_ESTADO", "published")  # "published" o "draft"
+AGENTE_DIAS_MAX_DATOS = 7        # con precios más antiguos no se publica
+AGENTE_MAX_NOTICIAS = 8
+AGENTE_INTENTOS = 4
+AGENTE_ESPERA_S = 20
+AGENTE_TIMEOUT_MS = 120_000
+
 # Precios. InfaOliva indica en su web: "Queda prohibida la publicación de la
 # información facilitada por INFAOLIVA ... utilizando el propio nombre de
 # INFAOLIVA sin autorización previa". Actívalo solo si tienes su autorización.

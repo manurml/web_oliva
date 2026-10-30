@@ -11,10 +11,13 @@ Web estática de precios y noticias del aceite de oliva. Python 3.12 + Jinja2 �
 - `plantillas/`: Jinja2 (`_grafica`, `_precios` y `_tarjeta` son parciales). `estaticos/`: `estilo.css`, `precios.js` (Chart.js), `favicon.svg`.
 - `marca/`: logo (SVG) y hoja de marca. `pc/actualizar.py`: tarea real, en el PC (Oleista da 403 desde GitHub): sincroniza, ejecuta y sube a GitHub; registro en `pc/registro.log`. `pc/programar_tareas.ps1` crea las tareas de Windows: cada 30 min de 07:00 a 22:00 y cierre a las 22:30. `.github/workflows/diario.yml`: solo manual. Los artículos se publican una sola vez al día. Web: https://manurml.github.io/web_oliva/
 
+- `services/agent_aove/`: análisis diario con Gemini (`.github/workflows/daily_aove.yml`, 07:00 UTC). Lee precios y noticias guardados, sin descargar de las fuentes. Una cifra o fecha sin respaldo en los datos deja el artículo en `draft`.
+
 ## Comandos
+- Artículo de análisis: `python -m services.agent_aove` (`--seco` muestra el contexto, `--borrador` no lo publica)
 - Regenerar la web: `python diario.py --solo-web`
 - Ejecución completa (red; redacta con Claude si hay `ANTHROPIC_API_KEY`): `python diario.py`
-- Comprobar: `python -m pyflakes aove diario.py config.py` y `node --check estaticos/precios.js`
+- Comprobar: `python -m pyflakes aove services diario.py config.py` y `node --check estaticos/precios.js`
 - Ver la web: servidor `web` de `.claude/launch.json` (puerto 8765, sirve `docs/`)
 
 ## Reglas
