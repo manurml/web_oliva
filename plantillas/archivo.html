@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% from "_tarjeta.html" import pieza %}
+{% block titulo %}Noticias del aceite de oliva | {{ sitio.nombre }}{% endblock %}
+{% block contenido %}
+  <section class="noticias noticias--archivo">
+    <h1 class="seccion-titulo">Noticias <span>Artículos propios a partir de InfaOliva y Oleista</span></h1>
+    {% if articulos %}
+    <div class="lista">
+      {% for a in articulos %}{{ pieza(a, raiz) }}{% endfor %}
+    </div>
+    {% else %}
+    <p class="vacio">Aún no hay noticias. Cada mañana se publican las dos más relevantes de InfaOliva y Oleista.</p>
+    {% endif %}
+  </section>
+{% endblock %}

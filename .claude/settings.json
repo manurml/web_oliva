@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(./docs/**)",
+      "Read(./datos/noticias_vistas.json)",
+      "Read(./datos/precios.json)"
+    ]
+  }
+}

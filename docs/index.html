@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#111310" media="(prefers-color-scheme: dark)">
+  <title>AOVE al Día</title>
+  <meta name="description" content="Noticias y precios del aceite de oliva virgen extra, cada mañana">
+  <link rel="icon" href="estaticos/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estaticos/estilo.css?v=202610301652">
+  
+</head>
+<body>
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+  <header class="contenedor cabecera">
+    <a class="marca" href="index.html">
+      <svg class="logo" width="24" height="24" viewBox="0 0 48 48" aria-hidden="true">
+        <path d="M26 17Q38.2 17.2 43 6Q30.8 5.8 26 17Z"/>
+        <ellipse cx="21" cy="31.5" rx="10.5" ry="14" transform="rotate(28 21 31.5)"/>
+      </svg>
+      <span translate="no">AOVE al Día</span>
+    </a>
+    <nav class="menu" aria-label="Principal">
+      <a href="precios.html">Precios</a>
+      <a href="articulos/index.html">Noticias</a>
+      <a href="acerca.html">Fuentes</a>
+    </nav>
+  </header>
+
+  <main class="contenedor" id="contenido" tabindex="-1">
+    
+  
+<section class="grafica" aria-labelledby="titulo-grafica">
+  
+  <div class="grafica__cabeza">
+    <div>
+      <p class="estado"><span class="estado__punto" aria-hidden="true"></span>Último dato: 22 de octubre de 2026</p>
+      <h1 id="titulo-grafica">Precio del aceite de oliva en <span id="grafica-region" aria-live="polite">España</span></h1>
+      <p class="sub">En origen, a granel, en euros por kilo.</p>
+    </div>
+    <div class="controles">
+      <div class="segmentado" role="group" aria-label="Mercado">
+        
+        <button type="button" class="region" data-region="España" aria-pressed="true">España</button>
+        
+        <button type="button" class="region" data-region="Andalucía" aria-pressed="false">Andalucía</button>
+        
+        <button type="button" class="region" data-region="Italia" aria-pressed="false">Italia</button>
+        
+        <button type="button" class="region" data-region="Grecia" aria-pressed="false">Grecia</button>
+        
+      </div>
+      <div class="segmentado" role="group" aria-label="Periodo">
+        <button type="button" class="rango" data-dias="30" aria-label="Último mes">1M</button>
+        <button type="button" class="rango" data-dias="90" aria-label="Últimos 3 meses" aria-pressed="true">3M</button>
+        <button type="button" class="rango" data-dias="365" aria-label="Último año">1A</button>
+        <button type="button" class="rango" data-dias="0" aria-label="Todo el histórico">Todo</button>
+      </div>
+    </div>
+  </div>
+  <div class="leyenda" id="leyenda" aria-hidden="true"></div>
+  <div class="grafica__lienzo"><canvas id="grafica" role="img" aria-label="Evolución del precio del aceite de oliva virgen extra, virgen y lampante. Los datos están en la tabla de abajo."></canvas></div>
+  <details class="grafica__tabla">
+    <summary>Ver datos en tabla</summary>
+    <div class="tabla-scroll" tabindex="0" role="region" aria-label="Datos de la gráfica"><table id="tabla-datos" class="tabla"></table></div>
+  </details>
+  
+</section>
+<script id="datos-precios" type="application/json">{"España":{"AOVE":[["2026-07-24",3.513],["2026-07-27",3.63],["2026-07-28",3.63],["2026-07-29",3.63],["2026-07-30",3.4],["2026-07-31",3.4],["2026-08-03",3.645],["2026-08-04",3.645],["2026-08-05",3.645],["2026-08-06",3.45],["2026-08-07",3.45],["2026-08-10",3.55],["2026-08-11",3.55],["2026-08-12",3.55],["2026-08-17",3.62],["2026-08-18",3.62],["2026-08-19",3.595],["2026-08-20",3.43],["2026-08-21",3.567],["2026-08-24",3.66],["2026-08-25",3.66],["2026-08-26",3.66],["2026-08-27",3.433],["2026-08-28",3.414],["2026-08-31",3.535],["2026-09-01",3.545],["2026-09-02",3.545],["2026-09-03",3.528],["2026-09-04",3.475],["2026-09-07",3.6],["2026-09-08",3.6],["2026-09-09",3.6],["2026-09-10",3.45],["2026-09-11",3.414],["2026-09-14",3.525],["2026-09-15",3.525],["2026-09-16",3.525],["2026-09-17",3.38],["2026-09-18",3.4],["2026-09-21",3.59],["2026-09-22",3.59],["2026-09-23",3.59],["2026-09-24",3.4],["2026-09-25",3.4],["2026-09-28",3.735],["2026-09-29",3.735],["2026-09-30",3.735],["2026-10-01",3.367],["2026-10-02",3.32],["2026-10-05",3.26],["2026-10-06",3.26],["2026-10-07",3.254],["2026-10-08",3.14],["2026-10-09",3.12],["2026-10-12",3.2],["2026-10-13",3.2],["2026-10-14",3.131],["2026-10-15",3.164],["2026-10-16",3.158],["2026-10-19",3.105],["2026-10-20",3.105],["2026-10-21",3.138],["2026-10-22",3.138]],"Lampante":[["2026-07-24",2.99],["2026-07-27",2.993],["2026-07-28",2.993],["2026-07-29",2.993],["2026-07-30",2.995],["2026-07-31",2.976],["2026-08-03",2.974],["2026-08-04",2.974],["2026-08-05",2.974],["2026-08-06",3.0],["2026-08-07",3.0],["2026-08-10",2.99],["2026-08-11",2.99],["2026-08-12",2.99],["2026-08-17",3.052],["2026-08-18",3.052],["2026-08-19",3.052],["2026-08-20",3.07],["2026-08-21",3.127],["2026-08-24",3.063],["2026-08-25",3.063],["2026-08-26",3.063],["2026-08-27",3.124],["2026-08-28",3.108],["2026-08-31",3.091],["2026-09-01",3.091],["2026-09-02",3.091],["2026-09-03",3.125],["2026-09-04",3.15],["2026-09-07",3.123],["2026-09-08",3.123],["2026-09-09",3.123],["2026-09-10",3.19],["2026-09-11",3.186],["2026-09-14",3.116],["2026-09-15",3.116],["2026-09-16",3.116],["2026-09-17",3.192],["2026-09-18",3.15],["2026-09-21",3.121],["2026-09-22",3.12],["2026-09-23",3.12],["2026-09-24",3.17],["2026-09-25",3.17],["2026-09-28",2.94],["2026-09-29",2.94],["2026-09-30",2.94],["2026-10-01",3.0],["2026-10-02",2.983],["2026-10-05",2.97],["2026-10-06",2.97],["2026-10-07",2.965],["2026-10-08",2.9],["2026-10-09",2.88],["2026-10-12",2.925],["2026-10-13",2.925],["2026-10-14",2.925],["2026-10-15",2.906],["2026-10-16",2.9],["2026-10-19",2.935],["2026-10-20",2.93],["2026-10-21",2.89],["2026-10-22",2.8]],"Virgen":[["2026-07-24",3.117],["2026-07-27",3.21],["2026-07-28",3.21],["2026-07-29",3.21],["2026-07-30",3.13],["2026-07-31",3.13],["2026-08-03",3.145],["2026-08-04",3.145],["2026-08-05",3.145],["2026-08-06",3.15],["2026-08-07",3.15],["2026-08-10",3.206],["2026-08-11",3.206],["2026-08-12",3.206],["2026-08-17",3.178],["2026-08-18",3.178],["2026-08-19",3.178],["2026-08-20",3.2],["2026-08-21",3.2],["2026-08-24",3.214],["2026-08-25",3.214],["2026-08-26",3.214],["2026-08-27",3.188],["2026-08-28",3.208],["2026-08-31",3.24],["2026-09-01",3.24],["2026-09-02",3.24],["2026-09-03",3.225],["2026-09-04",3.25],["2026-09-07",3.264],["2026-09-08",3.264],["2026-09-09",3.264],["2026-09-10",3.25],["2026-09-11",3.25],["2026-09-14",3.253],["2026-09-15",3.253],["2026-09-16",3.253],["2026-09-17",3.263],["2026-09-18",3.25],["2026-09-21",3.243],["2026-09-22",3.243],["2026-09-23",3.243],["2026-09-24",3.25],["2026-09-25",3.25],["2026-09-28",3.177],["2026-09-29",3.177],["2026-09-30",3.165],["2026-10-01",3.15],["2026-10-02",3.06],["2026-10-05",3.01],["2026-10-06",3.01],["2026-10-07",3.01],["2026-10-08",3.0],["2026-10-09",2.99],["2026-10-12",3.029],["2026-10-13",3.02],["2026-10-14",3.02],["2026-10-15",3.0],["2026-10-16",3.012],["2026-10-19",3.025],["2026-10-20",3.02]]},"Andalucía":{"AOVE":[["2026-07-27",3.68],["2026-07-28",3.68],["2026-07-29",3.68],["2026-08-03",3.63],["2026-08-04",3.63],["2026-08-05",3.63],["2026-08-10",3.42],["2026-08-11",3.42],["2026-08-12",3.42],["2026-08-17",3.5],["2026-08-18",3.5],["2026-08-19",3.5],["2026-08-24",3.58],["2026-08-25",3.58],["2026-08-26",3.58],["2026-08-31",3.46],["2026-09-01",3.46],["2026-09-02",3.46],["2026-09-07",3.54],["2026-09-08",3.54],["2026-09-09",3.54],["2026-09-14",3.44],["2026-09-15",3.44],["2026-09-16",3.44],["2026-09-21",3.48],["2026-09-22",3.48],["2026-09-23",3.48],["2026-09-28",3.53],["2026-09-29",3.53],["2026-09-30",3.53],["2026-10-05",3.18],["2026-10-06",3.18],["2026-10-07",3.18],["2026-10-12",3.17],["2026-10-13",3.17],["2026-10-14",3.17]],"Lampante":[["2026-07-27",3.0],["2026-07-28",3.0],["2026-07-29",3.0],["2026-08-03",3.01],["2026-08-04",3.01],["2026-08-05",3.01],["2026-08-10",3.04],["2026-08-11",3.04],["2026-08-12",3.04],["2026-08-17",3.08],["2026-08-18",3.08],["2026-08-19",3.08],["2026-08-24",3.13],["2026-08-25",3.13],["2026-08-26",3.13],["2026-08-31",3.16],["2026-09-01",3.16],["2026-09-02",3.16],["2026-09-07",3.2],["2026-09-08",3.2],["2026-09-09",3.2],["2026-09-14",3.17],["2026-09-15",3.17],["2026-09-16",3.17],["2026-09-21",3.18],["2026-09-22",3.18],["2026-09-23",3.18],["2026-09-28",2.98],["2026-09-29",2.98],["2026-09-30",2.98],["2026-10-05",2.96],["2026-10-06",2.96],["2026-10-07",2.96],["2026-10-12",2.97],["2026-10-13",2.97],["2026-10-14",2.97]],"Virgen":[["2026-07-27",3.23],["2026-07-28",3.23],["2026-07-29",3.23],["2026-08-03",3.16],["2026-08-04",3.16],["2026-08-05",3.16],["2026-08-10",3.28],["2026-08-11",3.28],["2026-08-12",3.28],["2026-08-17",3.24],["2026-08-18",3.24],["2026-08-19",3.24],["2026-08-24",3.27],["2026-08-25",3.27],["2026-08-26",3.27],["2026-08-31",3.28],["2026-09-01",3.28],["2026-09-02",3.28],["2026-09-07",3.3],["2026-09-08",3.3],["2026-09-09",3.3],["2026-09-14",3.3],["2026-09-15",3.3],["2026-09-16",3.3],["2026-09-21",3.29],["2026-09-22",3.29],["2026-09-23",3.29],["2026-09-28",3.18],["2026-09-29",3.18],["2026-09-30",3.18],["2026-10-05",3.04],["2026-10-06",3.04],["2026-10-07",3.04],["2026-10-12",3.04],["2026-10-13",3.04],["2026-10-14",3.04]]},"Italia":{"AOVE":[["2026-07-27",4.882],["2026-07-28",4.882],["2026-07-29",4.882],["2026-08-03",4.863],["2026-08-04",4.863],["2026-08-05",4.863],["2026-08-10",4.858],["2026-08-11",4.858],["2026-08-12",4.858],["2026-08-17",4.854],["2026-08-18",4.854],["2026-08-19",4.854],["2026-08-24",4.849],["2026-08-25",4.849],["2026-08-26",4.85],["2026-08-31",4.849],["2026-09-01",4.849],["2026-09-02",4.849],["2026-09-07",4.818],["2026-09-08",4.818],["2026-09-09",4.818],["2026-09-14",4.817],["2026-09-15",4.817],["2026-09-16",4.817],["2026-09-21",4.749],["2026-09-22",4.749],["2026-09-23",4.749],["2026-09-28",4.642],["2026-09-29",4.642],["2026-09-30",4.642],["2026-10-05",4.37],["2026-10-06",4.37],["2026-10-07",4.37],["2026-10-12",4.748],["2026-10-13",4.748],["2026-10-14",4.748]],"Lampante":[["2026-07-27",2.788],["2026-07-28",2.788],["2026-07-29",2.788],["2026-08-03",2.788],["2026-08-04",2.788],["2026-08-05",2.788],["2026-08-10",2.788],["2026-08-11",2.788],["2026-08-12",2.788],["2026-08-17",2.788],["2026-08-18",2.788],["2026-08-19",2.788],["2026-08-24",2.788],["2026-08-25",2.788],["2026-08-26",2.79],["2026-08-31",2.788],["2026-09-01",2.788],["2026-09-02",2.788],["2026-09-07",2.841],["2026-09-08",2.841],["2026-09-09",2.841],["2026-09-14",2.841],["2026-09-15",2.841],["2026-09-16",2.841],["2026-09-21",2.799],["2026-09-22",2.799],["2026-09-23",2.799],["2026-09-28",2.77],["2026-09-29",2.77],["2026-09-30",2.77],["2026-10-05",2.77],["2026-10-06",2.77],["2026-10-07",2.77],["2026-10-12",2.731],["2026-10-13",2.731],["2026-10-14",2.731]],"Virgen":[["2026-07-27",3.5],["2026-07-28",3.5],["2026-07-29",3.5],["2026-08-03",3.5],["2026-08-04",3.5],["2026-08-05",3.5],["2026-08-10",3.5],["2026-08-11",3.5],["2026-08-12",3.5],["2026-08-17",3.5],["2026-08-18",3.5],["2026-08-19",3.5],["2026-08-24",3.5],["2026-08-25",3.5],["2026-08-26",3.5],["2026-08-31",3.5],["2026-09-01",3.5],["2026-09-02",3.5],["2026-09-07",3.5],["2026-09-08",3.5],["2026-09-09",3.5],["2026-09-14",3.3],["2026-09-15",3.3],["2026-09-16",3.3],["2026-09-21",3.2],["2026-09-22",3.2],["2026-09-23",3.2],["2026-09-28",3.2],["2026-09-29",3.2],["2026-09-30",3.2],["2026-10-05",3.2],["2026-10-06",3.2],["2026-10-07",3.2],["2026-10-12",3.0],["2026-10-13",3.0],["2026-10-14",3.0]]},"Grecia":{"AOVE":[["2026-07-27",3.708],["2026-07-28",3.754],["2026-07-29",3.754],["2026-07-30",3.8],["2026-08-03",3.65],["2026-08-04",3.71],["2026-08-05",3.71],["2026-08-06",3.77],["2026-08-10",3.65],["2026-08-11",3.69],["2026-08-12",3.69],["2026-08-13",3.73],["2026-08-17",3.6],["2026-08-18",3.665],["2026-08-19",3.665],["2026-08-20",3.73],["2026-08-24",3.6],["2026-08-25",3.655],["2026-08-26",3.655],["2026-08-27",3.71],["2026-08-31",3.475],["2026-09-01",3.587],["2026-09-02",3.587],["2026-09-03",3.7],["2026-09-07",3.575],["2026-09-08",3.647],["2026-09-09",3.647],["2026-09-10",3.72],["2026-09-14",3.608],["2026-09-15",3.679],["2026-09-16",3.679],["2026-09-17",3.75],["2026-09-21",3.705],["2026-09-22",3.722],["2026-09-23",3.722],["2026-09-24",3.74],["2026-09-28",3.588],["2026-09-29",3.634],["2026-09-30",3.634],["2026-10-01",3.68],["2026-10-05",3.641],["2026-10-06",3.65],["2026-10-07",3.65],["2026-10-08",3.66],["2026-10-12",3.453],["2026-10-13",3.521],["2026-10-14",3.521],["2026-10-15",3.59],["2026-10-20",3.53]],"Lampante":[["2026-07-28",2.17],["2026-07-29",2.17],["2026-07-30",2.17],["2026-08-04",2.17],["2026-08-05",2.17],["2026-08-06",2.17],["2026-08-11",2.17],["2026-08-12",2.17],["2026-08-13",2.17],["2026-08-18",2.17],["2026-08-19",2.17],["2026-08-20",2.17],["2026-08-25",2.17],["2026-08-26",2.17],["2026-08-27",2.17],["2026-09-01",2.17],["2026-09-02",2.17],["2026-09-03",2.17],["2026-09-07",2.0],["2026-09-08",2.085],["2026-09-09",2.085],["2026-09-10",2.17],["2026-09-14",2.0],["2026-09-15",2.085],["2026-09-16",2.085],["2026-09-17",2.17],["2026-09-22",2.17],["2026-09-23",2.17],["2026-09-24",2.17],["2026-09-28",2.0],["2026-09-29",2.085],["2026-09-30",2.085],["2026-10-01",2.17],["2026-10-06",2.1],["2026-10-07",2.1],["2026-10-08",2.1],["2026-10-12",2.0],["2026-10-13",2.05],["2026-10-14",2.05],["2026-10-15",2.1],["2026-10-20",2.2]],"Virgen":[["2026-07-28",2.8],["2026-07-29",2.8],["2026-07-30",2.8],["2026-08-04",2.8],["2026-08-05",2.8],["2026-08-06",2.8],["2026-08-11",2.8],["2026-08-12",2.8],["2026-08-13",2.8],["2026-08-18",2.8],["2026-08-19",2.8],["2026-08-20",2.8],["2026-08-25",2.8],["2026-08-26",2.8],["2026-08-27",2.8],["2026-08-31",2.9],["2026-09-01",2.85],["2026-09-02",2.85],["2026-09-03",2.8],["2026-09-07",3.0],["2026-09-08",2.9],["2026-09-09",2.9],["2026-09-10",2.8],["2026-09-14",3.0],["2026-09-15",2.9],["2026-09-16",2.9],["2026-09-17",2.8],["2026-09-21",2.9],["2026-09-22",2.85],["2026-09-23",2.85],["2026-09-24",2.8],["2026-09-28",3.0],["2026-09-29",2.8],["2026-09-30",2.8],["2026-10-01",2.6],["2026-10-05",3.0],["2026-10-06",2.9],["2026-10-07",2.9],["2026-10-08",2.8],["2026-10-12",3.0],["2026-10-13",2.9],["2026-10-14",2.9],["2026-10-15",2.8],["2026-10-20",2.9]]}}</script>
+  
+
+
+
+<section class="precios" aria-labelledby="titulo-precios">
+  <h2 id="titulo-precios" class="seccion-titulo">Precio hoy <span>Variación respecto al día, la semana y el mes anteriores</span></h2>
+  
+  <div class="precios__fila" data-region-panel="España" >
+    
+    <div class="precio" data-tipo="AOVE">
+      <h3 class="precio__tipo"><span class="muestra" aria-hidden="true"></span>Virgen extra</h3>
+      <p class="precio__valor">3,138<span class="precio__unidad">&nbsp;€/kg</span></p>
+      <dl class="precio__vars">
+        <div><dt>Día</dt><dd><span class="var">sin cambios</span></dd></div>
+        <div><dt>Semana</dt><dd><span class="var var--baja">−0,8&nbsp;%</span></dd></div>
+        <div><dt>Mes</dt><dd><span class="var var--baja">−12,6&nbsp;%</span></dd></div>
+      </dl>
+    </div>
+    
+    <div class="precio" data-tipo="Virgen">
+      <h3 class="precio__tipo"><span class="muestra" aria-hidden="true"></span>Virgen</h3>
+      <p class="precio__valor">3,020<span class="precio__unidad">&nbsp;€/kg</span></p>
+      <dl class="precio__vars">
+        <div><dt>Día</dt><dd><span class="var var--baja">−0,2&nbsp;%</span></dd></div>
+        <div><dt>Semana</dt><dd><span class="var">sin cambios</span></dd></div>
+        <div><dt>Mes</dt><dd><span class="var var--baja">−7,1&nbsp;%</span></dd></div>
+      </dl>
+    </div>
+    
+    <div class="precio" data-tipo="Lampante">
+      <h3 class="precio__tipo"><span class="muestra" aria-hidden="true"></span>Lampante</h3>
+      <p class="precio__valor">2,800<span class="precio__unidad">&nbsp;€/kg</span></p>
+      <dl class="precio__vars">
+        <div><dt>Día</dt><dd><span class="var var--baja">−3,1&nbsp;%</span></dd></div>
+        <div><dt>Semana</dt><dd><span class="var var--baja">−3,6&nbsp;%</span></dd></div>
+        <div><dt>Mes</dt><dd><span class="var var--baja">−10,3&nbsp;%</span></dd></div>
+      </dl>
+    </div>
+    
+  </div>
+  
+  <div class="precios__fila" data-region-panel="Andalucía" hidden>
+    
+    <div class="precio" data-tipo="AOVE">
+      <h3 class="precio__tipo"><span class="muestra" aria-hidden="true"></span>Virgen extra</h3>
+      <p class="precio__valor">3,170<span class="precio__unidad">&nbsp;€/kg</span></p>
+      <dl class="precio__vars">
+        <div><dt>Día</dt><dd><span class="var">sin cambios</span></dd></div>
+        <div><dt>Semana</dt><dd><span class="var var--baja">−0,3&nbsp;%</span></dd></div>
+        <div><dt>Mes</dt><dd><span class="var var--baja">−7,8&nbsp;%</span></dd></div>
+      </dl>
+    </div>
+    
+    <div class="precio" data-tipo="Virgen">
+      <h3 class="precio__tipo"><span class="muestra" aria-hidden="true"></span>Virgen</h3>
+      <p class="precio__valor">3,040<span class="precio__unidad">&nbsp;€/kg</span></p>
+      <dl class="precio__vars">
+        <div><dt>Día</dt><dd><span class="var">sin cambios</span></dd></div>
+        <div><dt>Semana</dt><dd><span class="var">sin cambios</span></dd></div>
+        <div><dt>Mes</dt><dd><span class="var var--baja">−7,9&nbsp;%</span></dd></div>
+      </dl>
+    </div>
+    
+    <div class="precio" data-tipo="Lampante">
+      <h3 class="precio__tipo"><span class="muestra" aria-hidden="true"></span>Lampante</h3>
+      <p class="precio__valor">2,970<span class="precio__unidad">&nbsp;€/kg</span></p>
+      <dl class="precio__vars">
+        <div><dt>Día</dt><dd><span class="var">sin cambios</span></dd></div>
+        <div><dt>Semana</dt><dd><span class="var var--sube">+0,3&nbsp;%</span></dd></div>
+        <div><dt>Mes</dt><dd><span class="var var--baja">−6,3&nbsp;%</span></dd></div>
+      </dl>
+    </div>
+    
+  </div>
+  
+  <div class="precios__fila" data-region-panel="Italia" hidden>
+    
+    <div class="precio" data-tipo="AOVE">
+      <h3 class="precio__tipo"><span class="muestra" aria-hidden="true"></span>Virgen extra</h3>
+      <p class="precio__valor">4,748<span class="precio__unidad">&nbsp;€/kg</span></p>
+      <dl class="precio__vars">
+        <div><dt>Día</dt><dd><span class="var">sin cambios</span></dd></div>
+        <div><dt>Semana</dt><dd><span class="var var--sube">+8,6&nbsp;%</span></dd></div>
+        <div><dt>Mes</dt><dd><span class="var var--baja">−1,4&nbsp;%</span></dd></div>
+      </dl>
+    </div>
+    
+    <div class="precio" data-tipo="Virgen">
+      <h3 class="precio__tipo"><span class="muestra" aria-hidden="true"></span>Virgen</h3>
+      <p class="precio__valor">3,000<span class="precio__unidad">&nbsp;€/kg</span></p>
+      <dl class="precio__vars">
+        <div><dt>Día</dt><dd><span class="var">sin cambios</span></dd></div>
+        <div><dt>Semana</dt><dd><span class="var var--baja">−6,3&nbsp;%</span></dd></div>
+        <div><dt>Mes</dt><dd><span class="var var--baja">−9,1&nbsp;%</span></dd></div>
+      </dl>
+    </div>
+    
+    <div class="precio" data-tipo="Lampante">
+      <h3 class="precio__tipo"><span class="muestra" aria-hidden="true"></span>Lampante</h3>
+      <p class="precio__valor">2,731<span class="precio__unidad">&nbsp;€/kg</span></p>
+      <dl class="precio__vars">
+        <div><dt>Día</dt><dd><span class="var">sin cambios</span></dd></div>
+        <div><dt>Semana</dt><dd><span class="var var--baja">−1,4&nbsp;%</span></dd></div>
+        <div><dt>Mes</dt><dd><span class="var var--baja">−3,9&nbsp;%</span></dd></div>
+      </dl>
+    </div>
+    
+  </div>
+  
+  <div class="precios__fila" data-region-panel="Grecia" hidden>
+    
+    <div class="precio" data-tipo="AOVE">
+      <h3 class="precio__tipo"><span class="muestra" aria-hidden="true"></span>Virgen extra</h3>
+      <p class="precio__valor">3,530<span class="precio__unidad">&nbsp;€/kg</span></p>
+      <dl class="precio__vars">
+        <div><dt>Día</dt><dd><span class="var var--baja">−1,7&nbsp;%</span></dd></div>
+        <div><dt>Semana</dt><dd><span class="var var--sube">+0,3&nbsp;%</span></dd></div>
+        <div><dt>Mes</dt><dd><span class="var var--baja">−5,9&nbsp;%</span></dd></div>
+      </dl>
+    </div>
+    
+    <div class="precio" data-tipo="Virgen">
+      <h3 class="precio__tipo"><span class="muestra" aria-hidden="true"></span>Virgen</h3>
+      <p class="precio__valor">2,900<span class="precio__unidad">&nbsp;€/kg</span></p>
+      <dl class="precio__vars">
+        <div><dt>Día</dt><dd><span class="var var--sube">+3,6&nbsp;%</span></dd></div>
+        <div><dt>Semana</dt><dd><span class="var">sin cambios</span></dd></div>
+        <div><dt>Mes</dt><dd><span class="var var--sube">+3,6&nbsp;%</span></dd></div>
+      </dl>
+    </div>
+    
+    <div class="precio" data-tipo="Lampante">
+      <h3 class="precio__tipo"><span class="muestra" aria-hidden="true"></span>Lampante</h3>
+      <p class="precio__valor">2,200<span class="precio__unidad">&nbsp;€/kg</span></p>
+      <dl class="precio__vars">
+        <div><dt>Día</dt><dd><span class="var var--sube">+4,8&nbsp;%</span></dd></div>
+        <div><dt>Semana</dt><dd><span class="var var--sube">+7,3&nbsp;%</span></dd></div>
+        <div><dt>Mes</dt><dd><span class="var var--sube">+1,4&nbsp;%</span></dd></div>
+      </dl>
+    </div>
+    
+  </div>
+  
+
+  
+</section>
+
+  <section class="noticias" aria-labelledby="titulo-noticias">
+    <div class="seccion-cabeza">
+      <h2 class="seccion-titulo" id="titulo-noticias">Noticias <span>Lo más relevante de InfaOliva y Oleista</span></h2>
+      
+    </div>
+    
+    <p class="vacio">Aún no hay noticias. Cada mañana se publican las dos más relevantes de InfaOliva y Oleista.</p>
+    
+  </section>
+
+  </main>
+
+  <footer class="contenedor pie">
+    <p class="estado"><span class="estado__punto" aria-hidden="true"></span>Actualizado el 30 de octubre de 2026, a las 16:52</p>
+    <p>Precios en origen orientativos, a granel. Los artículos son de elaboración propia y enlazan a la publicación original.</p>
+  </footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js" defer></script>
+  <script src="estaticos/precios.js?v=202610301652" defer></script>
+
+</body>
+</html>

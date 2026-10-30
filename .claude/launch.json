@@ -1,0 +1,29 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "web",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8765",
+        "--directory",
+        "docs"
+      ],
+      "port": 8765
+    },
+    {
+      "name": "marca",
+      "runtimeExecutable": "python",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8767",
+        "--directory",
+        "marca"
+      ],
+      "port": 8767
+    }
+  ]
+}

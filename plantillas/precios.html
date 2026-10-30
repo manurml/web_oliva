@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block titulo %}Precio del aceite de oliva hoy | {{ sitio.nombre }}{% endblock %}
+{% block descripcion %}Precio del aceite de oliva virgen extra, virgen y lampante hoy en España, Andalucía, Italia y Grecia, con su evolución.{% endblock %}
+{% block contenido %}
+  {% include "_grafica.html" %}
+  {% include "_precios.html" %}
+
+  <section class="tabla-completa">
+    <h2 class="seccion-titulo">Todos los mercados <span>España, Andalucía, Italia y Grecia</span></h2>
+    <div class="tabla-scroll" tabindex="0" role="region" aria-label="Todos los mercados">
+    <table class="tabla">
+      <thead><tr><th>Mercado</th><th>Aceite</th><th class="num">€/kg</th><th class="num">Día</th><th class="num">Semana</th><th class="num">Mes</th><th>Fecha</th></tr></thead>
+      <tbody>
+      {% for p in resumen %}
+        <tr>
+          <td>{{ p.region }}</td><td>{{ p.tipo }}</td><td class="num">{{ p.valor|euros }}</td>
+          {% for v in [p.dia, p.semana, p.mes] %}
+          <td class="num {{ 'var--' ~ v.signo if v }}">{% if v %}{{ '%+.1f'|format(v.pct)|replace('.', ',')|replace('-', '−') }}&nbsp;%{% else %}sin dato{% endif %}</td>
+          {% endfor %}
+          <td>{{ p.fecha|fecha_larga }}</td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+    </div>
+    <p class="nota">Precios en origen a granel. Cada variación compara con el último día hábil disponible.</p>
+  </section>
+{% endblock %}
+{% block scripts %}
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js" defer></script>
+  <script src="{{ raiz }}estaticos/precios.js?v={{ version }}" defer></script>
+{% endblock %}

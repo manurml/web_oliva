@@ -1,0 +1,44 @@
+{# Precios del día de la región elegida en la gráfica. #}
+{% macro variacion(v) -%}
+  {%- if not v -%}<span class="var">sin dato</span>
+  {%- elif v.signo == 'igual' -%}<span class="var">sin cambios</span>
+  {%- else -%}<span class="var var--{{ v.signo }}">{{ '%+.1f'|format(v.pct)|replace('.', ',')|replace('-', '−') }}&nbsp;%</span>
+  {%- endif -%}
+{%- endmacro %}
+{% set nombres = {'AOVE': 'Virgen extra', 'Virgen': 'Virgen', 'Lampante': 'Lampante'} %}
+
+<section class="precios" aria-labelledby="titulo-precios">
+  <h2 id="titulo-precios" class="seccion-titulo">Precio hoy <span>Variación respecto al día, la semana y el mes anteriores</span></h2>
+  {% for r in regiones %}
+  <div class="precios__fila" data-region-panel="{{ r }}" {% if not loop.first %}hidden{% endif %}>
+    {% for p in resumen if p.region == r %}
+    <div class="precio" data-tipo="{{ p.tipo }}">
+      <h3 class="precio__tipo"><span class="muestra" aria-hidden="true"></span>{{ nombres.get(p.tipo, p.tipo) }}</h3>
+      <p class="precio__valor">{{ p.valor|euros }}<span class="precio__unidad">&nbsp;€/kg</span></p>
+      <dl class="precio__vars">
+        <div><dt>Día</dt><dd>{{ variacion(p.dia) }}</dd></div>
+        <div><dt>Semana</dt><dd>{{ variacion(p.semana) }}</dd></div>
+        <div><dt>Mes</dt><dd>{{ variacion(p.mes) }}</dd></div>
+      </dl>
+    </div>
+    {% endfor %}
+  </div>
+  {% endfor %}
+
+  {% if otras %}
+  <details class="otras">
+    <summary>Otras cotizaciones del día</summary>
+    <div class="tabla-scroll" tabindex="0" role="region" aria-label="Otras cotizaciones">
+    <table class="tabla">
+      <thead><tr><th>Categoría</th><th>Mercado</th><th>Fecha</th><th class="num">€/kg</th></tr></thead>
+      <tbody>
+      {% for o in otras %}
+        <tr><td>{{ o.tipo }}</td><td>{{ o.region }}, {{ o.fuente }}</td><td>{{ o.fecha|fecha_larga }}</td>
+            <td class="num">{{ o.valor|euros if o.valor else o.nota }}</td></tr>
+      {% endfor %}
+      </tbody>
+    </table>
+    </div>
+  </details>
+  {% endif %}
+</section>

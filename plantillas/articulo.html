@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% from "_tarjeta.html" import pieza %}
+{% block titulo %}{{ a.titulo }} | {{ sitio.nombre }}{% endblock %}
+{% block descripcion %}{{ a.entradilla }}{% endblock %}
+{% block cabecera %}
+  {% if sitio.url %}<link rel="canonical" href="{{ sitio.url }}/articulos/{{ a.slug }}.html">{% endif %}
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="{{ a.titulo }}">
+  <meta property="og:description" content="{{ a.entradilla }}">
+{% endblock %}
+{% block contenido %}
+<div class="articulo-rejilla">
+  <article class="articulo">
+    <p class="sub">Publicado el <time datetime="{{ a.fecha_publicacion }}">{{ a.fecha_publicacion|fecha_larga }}</time></p>
+    <h1>{{ a.titulo }}</h1>
+    <p class="entradilla">{{ a.entradilla }}</p>
+
+    {% if a.claves %}
+    <aside class="claves" aria-label="Lo esencial">
+      <h2>Lo esencial</h2>
+      <ul>{% for c in a.claves %}<li>{{ c }}</li>{% endfor %}</ul>
+    </aside>
+    {% endif %}
+
+    <div class="articulo__cuerpo">
+      {% for b in a.bloques %}
+        {% if b.tipo == 'subtitulo' %}<h2>{{ b.texto }}</h2>{% else %}<p>{{ b.texto }}</p>{% endif %}
+      {% endfor %}
+    </div>
+
+    <footer class="fuente-original">
+      <p>Información original: <a href="{{ a.fuente.url }}" rel="noopener" target="_blank">{{ a.fuente.titulo }}</a>, publicada por {{ a.fuente.nombre }}{% if a.fuente.fecha %} el {{ a.fuente.fecha|fecha_larga }}{% endif %}.</p>
+      {% if a.redactado_con_ia %}<p class="nota">Artículo de elaboración propia, redactado con ayuda de inteligencia artificial a partir de la publicación citada.</p>{% endif %}
+      {% if a.etiquetas %}<p class="nota">Temas: {{ a.etiquetas|join(', ') }}.</p>{% endif %}
+    </footer>
+  </article>
+
+  {% if resumen %}
+  <aside class="lateral" aria-label="Precio de hoy en España">
+    <h2>Precio hoy en España</h2>
+    <dl class="mini-precios">
+      {% for p in resumen %}
+      <div data-tipo="{{ p.tipo }}"><dt><span class="muestra" aria-hidden="true"></span>{{ p.tipo }}</dt><dd>{{ p.valor|euros }}&nbsp;€/kg</dd></div>
+      {% endfor %}
+    </dl>
+    <p><a href="../precios.html">Ver la evolución del precio</a></p>
+  </aside>
+  {% endif %}
+</div>
+
+{% if relacionados %}
+<section class="noticias">
+  <h2 class="seccion-titulo">Más noticias</h2>
+  <div class="lista">{% for r in relacionados %}{{ pieza(r, raiz) }}{% endfor %}</div>
+</section>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% from "_tarjeta.html" import pieza %}
+{% block contenido %}
+  {% include "_grafica.html" %}
+  {% include "_precios.html" %}
+
+  <section class="noticias" aria-labelledby="titulo-noticias">
+    <div class="seccion-cabeza">
+      <h2 class="seccion-titulo" id="titulo-noticias">Noticias <span>Lo más relevante de InfaOliva y Oleista</span></h2>
+      {% if articulos %}<a class="boton-enlace" href="articulos/index.html">Todas las noticias<span aria-hidden="true"> →</span></a>{% endif %}
+    </div>
+    {% if articulos %}
+    <div class="lista">
+      {% for a in articulos %}{{ pieza(a, raiz) }}{% endfor %}
+    </div>
+    {% else %}
+    <p class="vacio">Aún no hay noticias. Cada mañana se publican las dos más relevantes de InfaOliva y Oleista.</p>
+    {% endif %}
+  </section>
+{% endblock %}
+{% block scripts %}
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js" defer></script>
+  <script src="{{ raiz }}estaticos/precios.js?v={{ version }}" defer></script>
+{% endblock %}

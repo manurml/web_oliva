@@ -1,0 +1,35 @@
+{# Gráfica de evolución: es lo primero de la página. Los controles de región también cambian los precios de abajo. #}
+<section class="grafica" aria-labelledby="titulo-grafica">
+  {% if regiones %}
+  <div class="grafica__cabeza">
+    <div>
+      <p class="estado"><span class="estado__punto" aria-hidden="true"></span>Último dato: {{ fecha_precios|fecha_larga }}</p>
+      <h1 id="titulo-grafica">Precio del aceite de oliva en <span id="grafica-region" aria-live="polite">{{ regiones[0] }}</span></h1>
+      <p class="sub">En origen, a granel, en euros por kilo.</p>
+    </div>
+    <div class="controles">
+      <div class="segmentado" role="group" aria-label="Mercado">
+        {% for r in regiones %}
+        <button type="button" class="region" data-region="{{ r }}" aria-pressed="{{ 'true' if loop.first else 'false' }}">{{ r }}</button>
+        {% endfor %}
+      </div>
+      <div class="segmentado" role="group" aria-label="Periodo">
+        <button type="button" class="rango" data-dias="30" aria-label="Último mes">1M</button>
+        <button type="button" class="rango" data-dias="90" aria-label="Últimos 3 meses" aria-pressed="true">3M</button>
+        <button type="button" class="rango" data-dias="365" aria-label="Último año">1A</button>
+        <button type="button" class="rango" data-dias="0" aria-label="Todo el histórico">Todo</button>
+      </div>
+    </div>
+  </div>
+  <div class="leyenda" id="leyenda" aria-hidden="true"></div>
+  <div class="grafica__lienzo"><canvas id="grafica" role="img" aria-label="Evolución del precio del aceite de oliva virgen extra, virgen y lampante. Los datos están en la tabla de abajo."></canvas></div>
+  <details class="grafica__tabla">
+    <summary>Ver datos en tabla</summary>
+    <div class="tabla-scroll" tabindex="0" role="region" aria-label="Datos de la gráfica"><table id="tabla-datos" class="tabla"></table></div>
+  </details>
+  {% else %}
+  <h1 id="titulo-grafica">Precio del aceite de oliva</h1>
+  <p class="vacio">Todavía no hay precios guardados. Aparecerán tras la próxima actualización de la mañana.</p>
+  {% endif %}
+</section>
+<script id="datos-precios" type="application/json">{{ datos_grafica|safe }}</script>
