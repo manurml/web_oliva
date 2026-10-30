@@ -2,7 +2,8 @@
  "InfaOliva|Origen (Picual)|AOVE - Diciembre 25/26": {
   "fuente": "InfaOliva",
   "notas": {
-   "2026-10-22": "Sin cierre de operaciones"
+   "2026-10-22": "Sin cierre de operaciones",
+   "2026-10-30": "Sin cierre de operaciones"
   },
   "puntos": {},
   "region": "Origen (Picual)",
@@ -11,7 +12,8 @@
  "InfaOliva|Origen (Picual)|AOVE - Noviembre 25/26": {
   "fuente": "InfaOliva",
   "notas": {
-   "2026-10-22": "Sin cierre de operaciones"
+   "2026-10-22": "Sin cierre de operaciones",
+   "2026-10-30": "Sin cierre de operaciones"
   },
   "puntos": {},
   "region": "Origen (Picual)",
@@ -19,7 +21,9 @@
  },
  "InfaOliva|Origen (Picual)|Lampante": {
   "fuente": "InfaOliva",
-  "notas": {},
+  "notas": {
+   "2026-10-30": "Sin cierre de operaciones"
+  },
   "puntos": {
    "2026-10-22": 2.8
   },
@@ -29,7 +33,8 @@
  "InfaOliva|Origen (Picual)|Virgen": {
   "fuente": "InfaOliva",
   "notas": {
-   "2026-10-22": "Sin cierre de operaciones"
+   "2026-10-22": "Sin cierre de operaciones",
+   "2026-10-30": "Sin cierre de operaciones"
   },
   "puntos": {},
   "region": "Origen (Picual)",
