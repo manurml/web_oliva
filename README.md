@@ -47,7 +47,7 @@ Sin `ANTHROPIC_API_KEY` la web se genera igualmente, pero las noticias salen com
 Programa la tarea con el Programador de tareas (el PC debe estar encendido a esa hora):
 
 ```powershell
-schtasks /Create /SC DAILY /ST 07:30 /TN "AOVE al Dia" /TR "python \"C:\Users\MANUEL ROMERO\Downloads\web_oliva\diario.py\""
+schtasks /Create /SC DAILY /ST 07:30 /TN "AOVE al Dia" /TR "python \"C:\ruta\a\web_oliva\diario.py\""
 ```
 
 ## Ajustes útiles (`config.py`)
