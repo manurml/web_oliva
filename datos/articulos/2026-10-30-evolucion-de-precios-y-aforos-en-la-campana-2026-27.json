@@ -1,0 +1,54 @@
+{
+ "bloques": [
+  {
+   "texto": "Panorama de precios en origen y cotizaciones recientes",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "El mercado del aceite de oliva en origen registra diversos movimientos en las cotizaciones a granel durante el mes de octubre de 2026, según los datos proporcionados por Oleista. Para el aceite de oliva virgen extra en España, el precio se situó en 3,180 euros por kilo el 27 de octubre de 2026, con una variación mensual del -6,5 %. Por su parte, el aceite virgen en España marcó 2,950 euros por kilo el 26 de octubre de 2026, lo que representa una caída del 1,7 % en la sesión anterior y del 9,2 % en el último mes. En cuanto al lampante en España, se registró un precio de 2,800 euros por kilo el 28 de octubre de 2026, con descensos del 1,8 % en la sesión anterior y del 5,2 % en la semana.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "En el ámbito internacional, el aceite de oliva virgen extra en Italia alcanzó los 4,780 euros por kilo el 21 de octubre de 2026, con una variación mensual del +0,7 %. En Grecia, el virgen extra cotizó a 3,410 euros por kilo el 27 de octubre de 2026, reflejando una caída del 3,4 % tanto en la sesión anterior como en la semana, y un descenso del 8,8 % en el mes.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Estimaciones de producción para la campaña 2026/27",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "Las noticias recientes del sector publicadas por Oleista el 28 de octubre de 2026 detallan el aforo de producción de aceite de oliva país por país para la campaña 2026/27. Las estimaciones para los siete grandes productores señalan que España aforará 1.602.596 toneladas. Asimismo, el informe indica que Turquía se situará como el segundo productor, mientras que se proyectan caídas significativas en otros territorios, concretamente del 40 % en Túnez y del 30 % en Marruecos.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Costes y decisiones en la recolección temprana",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "Otra de las cuestiones analizadas recientemente en el sector por Oleista el 8 de octubre de 2026 plantea si compensa recoger la aceituna de forma temprana. Según la información difundida, adelantar la recolección implica un coste mayor y un menor rendimiento en kilos de aceite, por lo que se plantea la necesidad de calcular cuánto se debería cobrar de más por kilo para que resulte rentable antes de fijar una fecha para la recogida.",
+   "tipo": "parrafo"
+  }
+ ],
+ "claves": [],
+ "contenido_markdown": "## Panorama de precios en origen y cotizaciones recientes\n\nEl mercado del aceite de oliva en origen registra diversos movimientos en las cotizaciones a granel durante el mes de octubre de 2026, según los datos proporcionados por Oleista. Para el aceite de oliva virgen extra en España, el precio se situó en 3,180 euros por kilo el 27 de octubre de 2026, con una variación mensual del -6,5 %. Por su parte, el aceite virgen en España marcó 2,950 euros por kilo el 26 de octubre de 2026, lo que representa una caída del 1,7 % en la sesión anterior y del 9,2 % en el último mes. En cuanto al lampante en España, se registró un precio de 2,800 euros por kilo el 28 de octubre de 2026, con descensos del 1,8 % en la sesión anterior y del 5,2 % en la semana.\n\nEn el ámbito internacional, el aceite de oliva virgen extra en Italia alcanzó los 4,780 euros por kilo el 21 de octubre de 2026, con una variación mensual del +0,7 %. En Grecia, el virgen extra cotizó a 3,410 euros por kilo el 27 de octubre de 2026, reflejando una caída del 3,4 % tanto en la sesión anterior como en la semana, y un descenso del 8,8 % en el mes.\n\n## Estimaciones de producción para la campaña 2026/27\n\nLas noticias recientes del sector publicadas por Oleista el 28 de octubre de 2026 detallan el aforo de producción de aceite de oliva país por país para la campaña 2026/27. Las estimaciones para los siete grandes productores señalan que España aforará 1.602.596 toneladas. Asimismo, el informe indica que Turquía se situará como el segundo productor, mientras que se proyectan caídas significativas en otros territorios, concretamente del 40 % en Túnez y del 30 % en Marruecos.\n\n## Costes y decisiones en la recolección temprana\n\nOtra de las cuestiones analizadas recientemente en el sector por Oleista el 8 de octubre de 2026 plantea si compensa recoger la aceituna de forma temprana. Según la información difundida, adelantar la recolección implica un coste mayor y un menor rendimiento en kilos de aceite, por lo que se plantea la necesidad de calcular cuánto se debería cobrar de más por kilo para que resulte rentable antes de fijar una fecha para la recogida.",
+ "entradilla": "Repaso a los precios en origen del aceite de oliva y a las recientes estimaciones de producción para la campaña 2026/27 según los datos de Oleista.",
+ "estado": "published",
+ "etiquetas": [
+  "precios",
+  "produccion",
+  "aceite de oliva",
+  "campana"
+ ],
+ "fecha_publicacion": "2026-10-30",
+ "fuente": {
+  "fecha": "2026-10-28",
+  "nombre": "Oleista",
+  "titulo": "Cotizaciones del aceite de oliva",
+  "url": "https://oleista.com/es/precios"
+ },
+ "meta_descripcion": "Consulta los precios del aceite de oliva y los datos de producción de la campaña 2026/27 según Oleista.",
+ "redactado_con_ia": true,
+ "slug": "2026-10-30-evolucion-de-precios-y-aforos-en-la-campana-2026-27",
+ "tipo": "analisis",
+ "titulo": "Evolución de precios y aforos en la campaña 2026/27"
+}
