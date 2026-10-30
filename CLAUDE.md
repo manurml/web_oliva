@@ -9,7 +9,7 @@ Web estática de precios y noticias del aceite de oliva. Python 3.12 + Jinja2 �
 - `aove/redactor.py`: selección y redacción con Claude (salida estructurada, `fallbacks="default"`).
 - `aove/almacen.py`: lectura y escritura de `datos/`. `aove/web.py`: datos → plantillas.
 - `plantillas/`: Jinja2 (`_grafica`, `_precios` y `_tarjeta` son parciales). `estaticos/`: `estilo.css`, `precios.js` (Chart.js), `favicon.svg`.
-- `marca/`: logo (SVG) y hoja de marca. `.github/workflows/diario.yml`: cada 30 min (05-20 UTC) con `--si-hay-cambios`, y ejecución completa a las 21:00 UTC. Los artículos se publican una sola vez al día.
+- `marca/`: logo (SVG) y hoja de marca. `pc/actualizar.py`: tarea real, en el PC (Oleista da 403 desde GitHub): sincroniza, ejecuta y sube a GitHub; registro en `pc/registro.log`. `pc/programar_tareas.ps1` crea las tareas de Windows: cada 30 min de 07:00 a 22:00 y cierre a las 22:30. `.github/workflows/diario.yml`: solo manual. Los artículos se publican una sola vez al día. Web: https://manurml.github.io/web_oliva/
 
 ## Comandos
 - Regenerar la web: `python diario.py --solo-web`

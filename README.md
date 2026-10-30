@@ -32,23 +32,14 @@ python diario.py
 
 Sin `ANTHROPIC_API_KEY` la web se genera igualmente, pero las noticias salen como fichas breves con enlace en lugar de artículos redactados. Para ver la web: abre `docs/index.html` o lanza `python -m http.server 8765 --directory docs`.
 
-## Publicarla y automatizarla (GitHub, gratis)
+## Publicación y actualización automática
 
-1. Crea un repositorio en GitHub y sube esta carpeta.
-2. En **Settings → Secrets and variables → Actions**:
-   - Secreto `ANTHROPIC_API_KEY`: tu clave de la API de Claude (console.anthropic.com).
-   - Variable `SITIO_URL`: la URL pública, por ejemplo `https://tu-usuario.github.io/web_oliva`.
-   - Variable `CONTACTO_BOT`: un email o web de contacto que se envía a las fuentes para identificar al bot.
-3. En **Settings → Pages**: origen *Deploy from a branch*, rama `main`, carpeta `/docs`.
-4. En **Actions → Actualización diaria → Run workflow** lánzalo la primera vez. Después comprueba cada 30 minutos (de 05:00 a 20:30 UTC) si Oleista ha publicado precios nuevos y, en cuanto los hay, actualiza la web. A las 21:00 UTC hace una última pasada para publicar las noticias aunque ese día no haya habido precios nuevos. Las comprobaciones sin cambios no modifican nada y los artículos se publican una sola vez al día.
+La web está en https://manurml.github.io/web_oliva/ (GitHub Pages, carpeta `docs/`). Oleista rechaza las peticiones desde los servidores de GitHub (error 403), así que la actualización corre en el PC:
 
-### Alternativa: en tu PC con Windows
+- `pc/actualizar.py` trae los últimos cambios, ejecuta `diario.py` y sube `datos/` y `docs/` si algo ha cambiado. Lo que hace queda en `pc/registro.log`.
+- `pc/programar_tareas.ps1` crea dos tareas de Windows: una comprobación cada 30 minutos de 07:00 a 22:00 y un cierre a las 22:30, que publica las noticias aunque no haya precios nuevos.
 
-Programa la tarea con el Programador de tareas (el PC debe estar encendido a esa hora):
-
-```powershell
-schtasks /Create /SC DAILY /ST 07:30 /TN "AOVE al Dia" /TR "python \"C:\ruta\a\web_oliva\diario.py\""
-```
+El PC debe estar encendido y con la sesión iniciada. Si estaba apagado, la tarea se ejecuta al volver a encenderlo. Sin `ANTHROPIC_API_KEY` en las variables de entorno, las noticias se publican como fichas breves.
 
 ## Ajustes útiles (`config.py`)
 
