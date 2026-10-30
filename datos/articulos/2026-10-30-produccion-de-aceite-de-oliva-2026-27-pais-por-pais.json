@@ -1,0 +1,23 @@
+{
+ "bloques": [
+  {
+   "texto": "Oleista publica esta información. Consulta el artículo completo en la fuente original.",
+   "tipo": "parrafo"
+  }
+ ],
+ "claves": [],
+ "entradilla": "España aforará 1.602.596 t y Turquía será el segundo productor, pero Túnez cae un 40 % y Marruecos un 30 %. Las estimaciones de los siete grandes productores.",
+ "etiquetas": [
+  "breve"
+ ],
+ "fecha_publicacion": "2026-10-30",
+ "fuente": {
+  "fecha": "2026-10-28",
+  "nombre": "Oleista",
+  "titulo": "Producción de aceite de oliva 2026/27, país por país",
+  "url": "https://oleista.com/es/blog/produccion-aceite-oliva-2026-27-paises-productores"
+ },
+ "redactado_con_ia": false,
+ "slug": "2026-10-30-produccion-de-aceite-de-oliva-2026-27-pais-por-pais",
+ "titulo": "Producción de aceite de oliva 2026/27, país por país"
+}

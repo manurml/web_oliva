@@ -1,4 +1,28 @@
 {
+ "https://oleista.com/es/blog/10-variedades-recomendables-para-el-cultivo-del-olivar-en-seto": {
+  "estado": "antigua",
+  "noticia": {
+   "fecha": "2024-09-17",
+   "fuente": "Oleista",
+   "orden": 4,
+   "resumen": "El cultivo del olivo en seto no es una moda pasajera; es una revolución que ha llegado para quedarse, transformando el paisaje agrícola y presentando un futuro prometedor para el sector oleícola. Con la mirada puesta en la calidad, la eficiencia y la sostenibilidad, los olivares se posicionan una vez más en la vanguardia de la agricultura.",
+   "texto": "",
+   "titulo": "10 Variedades recomendables para el cultivo del olivar en seto.",
+   "url": "https://oleista.com/es/blog/10-variedades-recomendables-para-el-cultivo-del-olivar-en-seto"
+  }
+ },
+ "https://oleista.com/es/blog/aceite-de-oliva-tendencias-y-pronostico-de-produccion-2024-2025": {
+  "estado": "antigua",
+  "noticia": {
+   "fecha": "2024-12-06",
+   "fuente": "Oleista",
+   "orden": 2,
+   "resumen": "Los cálculos iniciales para la temporada 2024/25 muestran un crecimiento en la producción mundial de aceite de oliva, superando los 2.5 millones de toneladas del año anterior. Se anticipa una producción de 3.1 millones de toneladas, lo que la situaría en el promedio de las seis temporadas anteriores, aunque se nota un efecto por la escasez reciente. La mayoría de los países productores importantes, con España a la cabeza, muestran recuperación, excepto Italia.",
+   "texto": "",
+   "titulo": "Aceite de Oliva: Tendencias  y Pronóstico de Producción 2024/2025",
+   "url": "https://oleista.com/es/blog/aceite-de-oliva-tendencias-y-pronostico-de-produccion-2024-2025"
+  }
+ },
  "https://oleista.com/es/blog/aforo-aceite-andalucia-2026-2027": {
   "estado": "antigua",
   "noticia": {
@@ -9,6 +33,18 @@
    "texto": "",
    "titulo": "Aforo del aceite en Andalucía 2026/27: la Junta prevé 1.261.200 toneladas",
    "url": "https://oleista.com/es/blog/aforo-aceite-andalucia-2026-2027"
+  }
+ },
+ "https://oleista.com/es/blog/analisis-fisicoquimico-y-organoleptico-del-aceite-de-oliva-que-son-y-como-se-realizan": {
+  "estado": "antigua",
+  "noticia": {
+   "fecha": "2023-07-25",
+   "fuente": "Oleista",
+   "orden": 11,
+   "resumen": "Es de vital importancia que los productores de aceite de oliva estén plenamente informados sobre el tipo y las características del aceite almacenado en sus bodegas. Por esta razón, resulta fundamental que los vendedores en Oleista realicen análisis fisicoquímicos y organolépticos exhaustivos de los lotes de aceite que desean comercializar. Estos análisis adquieren una relevancia crucial para los compradores, pues el precio del aceite variará en función de los resultados obtenidos en estas evaluaciones. Además, al proporcionar datos precisos sobre la calidad del aceite, los productores podrán ofrecer información valiosa a los compradores, fortaleciendo la confianza en las transacciones comerciales y fomentando una relación más sólida y beneficiosa entre ambas partes.",
+   "texto": "",
+   "titulo": "Análisis Fisicoquímico y Organoléptico del aceite de oliva ¿Qué son y cómo se realizan?",
+   "url": "https://oleista.com/es/blog/analisis-fisicoquimico-y-organoleptico-del-aceite-de-oliva-que-son-y-como-se-realizan"
   }
  },
  "https://oleista.com/es/blog/como-controlar-la-acidez-en-el-aceite-de-olivaquestion": {
@@ -48,7 +84,7 @@
   }
  },
  "https://oleista.com/es/blog/compensa-recoger-aceituna-temprano": {
-  "estado": "candidata",
+  "estado": "publicada",
   "noticia": {
    "fecha": "2026-10-08",
    "fuente": "Oleista",
@@ -119,6 +155,42 @@
    "url": "https://oleista.com/es/blog/cual-es-el-mejor-momento-para-vender-el-aceite-de-olivaquestion-vender-ahora-o-esperar"
   }
  },
+ "https://oleista.com/es/blog/cursos-para-maestros-de-almazaras": {
+  "estado": "antigua",
+  "noticia": {
+   "fecha": "2023-03-29",
+   "fuente": "Oleista",
+   "orden": 15,
+   "resumen": "¿Cúales son los cursos que un maestro de almazara ha de realizar para formarse y mantenerse actualizado?",
+   "texto": "",
+   "titulo": "Cursos para maestros de Almazaras",
+   "url": "https://oleista.com/es/blog/cursos-para-maestros-de-almazaras"
+  }
+ },
+ "https://oleista.com/es/blog/donde-puedo-realizar-el-analisis-de-aceite-de-oliva-y-la-valoracion-sensorialquestion": {
+  "estado": "antigua",
+  "noticia": {
+   "fecha": "2023-11-22",
+   "fuente": "Oleista",
+   "orden": 8,
+   "resumen": "La Importancia de Laboratorios Certificados por el Consejo Oleícola Internacional (COI)",
+   "texto": "",
+   "titulo": "¿Dónde Puedo Realizar el Análisis de Aceite de Oliva y la valoración sensorial?",
+   "url": "https://oleista.com/es/blog/donde-puedo-realizar-el-analisis-de-aceite-de-oliva-y-la-valoracion-sensorialquestion"
+  }
+ },
+ "https://oleista.com/es/blog/donde-se-pueden-consultar-los-precios-del-aceite-de-oliva": {
+  "estado": "antigua",
+  "noticia": {
+   "fecha": "2023-03-26",
+   "fuente": "Oleista",
+   "orden": 16,
+   "resumen": "Descubre las diferentes fuentes para consultar el precios del aceite de oliva a granel cada semana.",
+   "texto": "",
+   "titulo": "¿Donde se pueden consultar los precios del aceite de oliva?",
+   "url": "https://oleista.com/es/blog/donde-se-pueden-consultar-los-precios-del-aceite-de-oliva"
+  }
+ },
  "https://oleista.com/es/blog/el-aceite-de-oliva-y-su-huella-de-carbono": {
   "estado": "antigua",
   "noticia": {
@@ -129,6 +201,18 @@
    "texto": "",
    "titulo": "El aceite de oliva y su huella de Carbono ",
    "url": "https://oleista.com/es/blog/el-aceite-de-oliva-y-su-huella-de-carbono"
+  }
+ },
+ "https://oleista.com/es/blog/el-color-del-aceite-de-oliva": {
+  "estado": "antigua",
+  "noticia": {
+   "fecha": "2023-09-30",
+   "fuente": "Oleista",
+   "orden": 9,
+   "resumen": "En el universo de los aceites, el aceite de oliva virgen extra (AOVE) se destaca por su calidad excepcional y su riqueza sensorial. Su aroma y sabor, que evocan trazas frutales, amargos y picantes, son indicadores fundamentales de su excelencia. Sin embargo, es común que los consumidores se dejen influenciar por una característica que, aunque estéticamente atractiva, no está directamente relacionada con su calidad: el color.",
+   "texto": "",
+   "titulo": "El Color del aceite de Oliva",
+   "url": "https://oleista.com/es/blog/el-color-del-aceite-de-oliva"
   }
  },
  "https://oleista.com/es/blog/el-mejor-envase-para-el-aceite-de-oliva-virgen-extra-brick-vs-vidrio-vs-plastico": {
@@ -155,6 +239,30 @@
    "url": "https://oleista.com/es/blog/el-rendimiento-graso-puede-desmontar-el-aforo-tres-escenarios-para-la-campana-2026-27"
   }
  },
+ "https://oleista.com/es/blog/elaboraciOn-del-aceite-de-oliva-paso-a-paso": {
+  "estado": "antigua",
+  "noticia": {
+   "fecha": "2023-08-12",
+   "fuente": "Oleista",
+   "orden": 10,
+   "resumen": "La Fascinante Ruta del Oro Líquido: Cómo se Elabora el Aceite de Oliva Virgen Extra Paso a Paso",
+   "texto": "",
+   "titulo": "ELABORACIÓN DEL ACEITE DE OLIVA PASO A PASO",
+   "url": "https://oleista.com/es/blog/elaboraciOn-del-aceite-de-oliva-paso-a-paso"
+  }
+ },
+ "https://oleista.com/es/blog/exportacion-del-aceite-de-oliva-todo-lo-que-necesitas-saber": {
+  "estado": "antigua",
+  "noticia": {
+   "fecha": "2023-07-02",
+   "fuente": "Oleista",
+   "orden": 12,
+   "resumen": "¿Qué se ha de tener en cuenta antes de exportar aceite de oliva? ¿Qué documentación ha de acompañar a la carga? ¿Qué transportes se utilizan?",
+   "texto": "",
+   "titulo": "Exportación del aceite de oliva. Todo lo que necesitas saber.",
+   "url": "https://oleista.com/es/blog/exportacion-del-aceite-de-oliva-todo-lo-que-necesitas-saber"
+  }
+ },
  "https://oleista.com/es/blog/flexitank-ventajas-y-desventajas-de-su-uso-en-el-transporte-de-aceite-de-oliva": {
   "estado": "antigua",
   "noticia": {
@@ -177,6 +285,30 @@
    "texto": "",
    "titulo": "Hongos y enfermedades radiculares del olivo: cómo las lluvias intensas aumentan el riesgo en el olivar",
    "url": "https://oleista.com/es/blog/hongos-y-enfermedades-radiculares-del-olivo-como-las-lluvias-intensas-aumentan-el-riesgo-en-el-olivar"
+  }
+ },
+ "https://oleista.com/es/blog/importaciones-y-exportaciones-de-aceite-de-oliva-a-granel-los-incoterms": {
+  "estado": "antigua",
+  "noticia": {
+   "fecha": "2023-06-18",
+   "fuente": "Oleista",
+   "orden": 13,
+   "resumen": "En este Post se detalla la importancia de elegir el Incoterm correcto en las exportaciones e importaciones para conocer hasta donde llegan las obligaciones del vendedor y del comprador, así como quién debe asegurar la mercancía.",
+   "texto": "",
+   "titulo": "Importaciones y exportaciones de aceite de oliva a granel: Los Incoterms",
+   "url": "https://oleista.com/es/blog/importaciones-y-exportaciones-de-aceite-de-oliva-a-granel-los-incoterms"
+  }
+ },
+ "https://oleista.com/es/blog/la-dosis-diaria-recomendada-de-aceite-de-oliva": {
+  "estado": "antigua",
+  "noticia": {
+   "fecha": "2024-02-25",
+   "fuente": "Oleista",
+   "orden": 6,
+   "resumen": "El aceite de oliva extra virgen se destaca como el ingrediente estelar de la Dieta Mediterránea, reconocida por la UNESCO como Patrimonio Cultural Inmaterial. Investigaciones como el estudio PREDIMED han confirmado que incorporar aceite de oliva extra virgen como fuente principal de grasa en la dieta contribuye a disminuir los problemas cardiovasculares, especialmente en individuos con alto riesgo, entre otros beneficios significativos.",
+   "texto": "",
+   "titulo": "La Dosis Diaria recomendada de Aceite de Oliva",
+   "url": "https://oleista.com/es/blog/la-dosis-diaria-recomendada-de-aceite-de-oliva"
   }
  },
  "https://oleista.com/es/blog/la-lipogenesis-en-la-aceituna-el-momento-de-formacion-del-aceite": {
@@ -225,6 +357,78 @@
    "texto": "",
    "titulo": "Mosca del olivo ¿Cómo proteger tu aceite de oliva?",
    "url": "https://oleista.com/es/blog/mosca-del-olivo-como-proteger-tu-aceite-de-olivaquestion"
+  }
+ },
+ "https://oleista.com/es/blog/oleocanthal-el-tesoro-oculto-en-el-aceite-de-oliva-virgen-extra": {
+  "estado": "antigua",
+  "noticia": {
+   "fecha": "2023-12-05",
+   "fuente": "Oleista",
+   "orden": 7,
+   "resumen": "",
+   "texto": "",
+   "titulo": "Oleocanthal: El Tesoro Oculto en el Aceite de Oliva Virgen extra",
+   "url": "https://oleista.com/es/blog/oleocanthal-el-tesoro-oculto-en-el-aceite-de-oliva-virgen-extra"
+  }
+ },
+ "https://oleista.com/es/blog/produccion-aceite-oliva-2026-27-paises-productores": {
+  "estado": "publicada",
+  "noticia": {
+   "fecha": "2026-10-28",
+   "fuente": "Oleista",
+   "orden": 0,
+   "resumen": "España aforará 1.602.596 t y Turquía será el segundo productor, pero Túnez cae un 40 % y Marruecos un 30 %. Las estimaciones de los siete grandes productores.",
+   "texto": "",
+   "titulo": "Producción de aceite de oliva 2026/27, país por país",
+   "url": "https://oleista.com/es/blog/produccion-aceite-oliva-2026-27-paises-productores"
+  }
+ },
+ "https://oleista.com/es/blog/que-requisitos-he-de-cumplir-para-vender-o-exportar-mi-aceite-de-oliva": {
+  "estado": "antigua",
+  "noticia": {
+   "fecha": "2024-03-24",
+   "fuente": "Oleista",
+   "orden": 5,
+   "resumen": "Descubre las claves para exportar aceite de oliva cumpliendo con la legislación de la Unión Europea. Aprende sobre los requisitos y normativas esenciales para el éxito internacional de tu producto.",
+   "texto": "",
+   "titulo": "¿Qué requisitos he de cumplir para vender o exportar mi aceite de oliva?",
+   "url": "https://oleista.com/es/blog/que-requisitos-he-de-cumplir-para-vender-o-exportar-mi-aceite-de-oliva"
+  }
+ },
+ "https://oleista.com/es/blog/que-son-los-mosh-y-moah-en-el-aceite-de-olivaquestion": {
+  "estado": "antigua",
+  "noticia": {
+   "fecha": "2024-10-15",
+   "fuente": "Oleista",
+   "orden": 3,
+   "resumen": "El aceite de oliva puede estar expuesto a la contaminación por hidrocarburos minerales (MOSH y MOAH) de diversas fuentes, tanto naturales como artificiales. Aunque no hay una legislación concluyente, las recomendaciones actuales promueven la vigilancia y la limitación de estos compuestos en los alimentos.",
+   "texto": "",
+   "titulo": "¿Qué son los MOSH y MOAH en el aceite de Oliva?",
+   "url": "https://oleista.com/es/blog/que-son-los-mosh-y-moah-en-el-aceite-de-olivaquestion"
+  }
+ },
+ "https://oleista.com/es/blog/que-son-los-polifenoles-del-aceite-de-oliva": {
+  "estado": "antigua",
+  "noticia": {
+   "fecha": "2023-06-09",
+   "fuente": "Oleista",
+   "orden": 14,
+   "resumen": "Los polifenoles son compuestos químicos con propiedades antiinflamotarias y muy beneficiosos para la salud, presentes en el aceite de oliva virgen de cosecha temprana y determinadas variedades\r\n",
+   "texto": "",
+   "titulo": "¿Qué son los polifenoles del aceite de oliva?",
+   "url": "https://oleista.com/es/blog/que-son-los-polifenoles-del-aceite-de-oliva"
+  }
+ },
+ "https://oleista.com/es/blog/receta-de-mermelada-de-aceite-de-oliva-virgen-extra": {
+  "estado": "antigua",
+  "noticia": {
+   "fecha": "2025-01-07",
+   "fuente": "Oleista",
+   "orden": 1,
+   "resumen": "Un toque especial a tus platos que cautivará a los amantes de la mezcla de dulce y salado.",
+   "texto": "",
+   "titulo": "Receta de Mermelada de Aceite de Oliva Virgen Extra",
+   "url": "https://oleista.com/es/blog/receta-de-mermelada-de-aceite-de-oliva-virgen-extra"
   }
  },
  "https://oleista.com/es/mercado/situacion-del-mercado-del-aceite-de-oliva-espanol-diciembre-2025": {

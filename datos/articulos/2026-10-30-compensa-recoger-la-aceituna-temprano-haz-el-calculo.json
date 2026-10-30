@@ -1,0 +1,23 @@
+{
+ "bloques": [
+  {
+   "texto": "Oleista publica esta información. Consulta el artículo completo en la fuente original.",
+   "tipo": "parrafo"
+  }
+ ],
+ "claves": [],
+ "entradilla": "Adelantar la recolección cuesta más y deja menos kilos de aceite. Antes de fijar la fecha, calcula cuánto tendrías que cobrar de más por kilo para que te compense.",
+ "etiquetas": [
+  "breve"
+ ],
+ "fecha_publicacion": "2026-10-30",
+ "fuente": {
+  "fecha": "2026-10-08",
+  "nombre": "Oleista",
+  "titulo": "¿Compensa recoger la aceituna temprano? Haz el cálculo",
+  "url": "https://oleista.com/es/blog/compensa-recoger-aceituna-temprano"
+ },
+ "redactado_con_ia": false,
+ "slug": "2026-10-30-compensa-recoger-la-aceituna-temprano-haz-el-calculo",
+ "titulo": "¿Compensa recoger la aceituna temprano? Haz el cálculo"
+}
