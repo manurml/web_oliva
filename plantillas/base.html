@@ -4,42 +4,54 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light dark">
-  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#111310" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#f4f6f2" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#121812" media="(prefers-color-scheme: dark)">
   <title>{% block titulo %}{{ sitio.nombre }}{% endblock %}</title>
   <meta name="description" content="{% block descripcion %}{{ sitio.lema }}{% endblock %}">
   <link rel="icon" href="{{ raiz }}estaticos/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ raiz }}estaticos/estilo.css?v={{ version }}">
   {% block cabecera %}{% endblock %}
 </head>
 <body>
   <a class="saltar" href="#contenido">Saltar al contenido</a>
+  {% set partes = sitio.nombre.split(' ', 1) %}
   <header class="contenedor cabecera">
-    <a class="marca" href="{{ raiz }}index.html">
-      <svg class="logo" width="24" height="24" viewBox="0 0 48 48" aria-hidden="true">
-        <path d="M26 17Q38.2 17.2 43 6Q30.8 5.8 26 17Z"/>
-        <ellipse cx="21" cy="31.5" rx="10.5" ry="14" transform="rotate(28 21 31.5)"/>
-      </svg>
-      <span translate="no">{{ sitio.nombre }}</span>
-    </a>
-    <nav class="menu" aria-label="Principal">
-      <a href="{{ raiz }}precios.html">Precios</a>
-      <a href="{{ raiz }}articulos/index.html">Noticias</a>
-      <a href="{{ raiz }}acerca.html">Fuentes</a>
-    </nav>
+    <div class="cabecera__barra">
+      <a class="marca" href="{{ raiz }}index.html">
+        <span class="marca__icono">
+          <svg class="logo" width="20" height="20" viewBox="0 0 48 48" aria-hidden="true">
+            <path d="M26 17Q38.2 17.2 43 6Q30.8 5.8 26 17Z"/>
+            <ellipse cx="21" cy="31.5" rx="10.5" ry="14" transform="rotate(28 21 31.5)"/>
+          </svg>
+        </span>
+        <span translate="no">{{ partes[0] }}{% if partes|length > 1 %} <i>{{ partes[1] }}</i>{% endif %}</span>
+      </a>
+      <nav class="menu" aria-label="Principal">
+        <a href="{{ raiz }}precios.html">Cotizaciones</a>
+        <a href="{{ raiz }}articulos/index.html">Noticias</a>
+        <a href="{{ raiz }}acerca.html">Fuentes</a>
+      </nav>
+    </div>
   </header>
 
   <main class="contenedor" id="contenido" tabindex="-1">
     {% block contenido %}{% endblock %}
   </main>
 
-  <footer class="contenedor pie">
-    <p class="estado"><span class="estado__punto" aria-hidden="true"></span>Actualizado el {{ generado }}</p>
-    <p>Precios en origen orientativos, a granel. Los artículos son de elaboración propia y enlazan a la publicación original.</p>
+  <footer class="pie">
+    <div class="contenedor pie__fila">
+      <p><span class="pie__marca" translate="no">{{ sitio.nombre }}</span> © {{ anio }}</p>
+      <nav class="pie__enlaces" aria-label="Pie de página">
+        <a href="{{ raiz }}precios.html">Cotizaciones</a>
+        <a href="{{ raiz }}articulos/index.html">Noticias</a>
+        <a href="{{ raiz }}acerca.html">Fuentes y metodología</a>
+      </nav>
+      <p class="pie__legal">Precios en origen orientativos, a granel. Los artículos son de elaboración propia y enlazan a la publicación original. Actualizado el {{ generado }}.</p>
+    </div>
   </footer>
   {% block scripts %}{% endblock %}
 </body>

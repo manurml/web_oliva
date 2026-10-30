@@ -1,8 +1,9 @@
-{# Una noticia en la lista: fuente y fecha arriba, titular y entradilla debajo. #}
+{# Una noticia en tarjeta: toda la tarjeta enlaza al artículo. #}
 {% macro pieza(a, raiz) -%}
-<article class="pieza">
-  <p class="pieza__meta"><span class="etiqueta">Fuente: {{ a.fuente.nombre }}</span><time datetime="{{ a.fecha_publicacion }}">{{ a.fecha_publicacion|fecha_corta }}</time></p>
+<article class="tarjeta pieza">
+  <span class="etiqueta">Fuente: {{ a.fuente.nombre }}</span>
   <h3 class="pieza__titulo"><a href="{{ raiz }}articulos/{{ a.slug }}.html">{{ a.titulo }}</a></h3>
   <p class="pieza__entradilla">{{ a.entradilla }}</p>
+  <p class="pieza__pie"><time datetime="{{ a.fecha_publicacion }}">{{ a.fecha_publicacion|fecha_larga }}</time></p>
 </article>
 {%- endmacro %}

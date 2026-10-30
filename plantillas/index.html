@@ -1,13 +1,13 @@
 {% extends "base.html" %}
 {% from "_tarjeta.html" import pieza %}
 {% block contenido %}
-  {% include "_grafica.html" %}
   {% include "_precios.html" %}
+  {% include "_grafica.html" %}
 
   <section class="noticias" aria-labelledby="titulo-noticias">
     <div class="seccion-cabeza">
-      <h2 class="seccion-titulo" id="titulo-noticias">Noticias <span>Lo más relevante de InfaOliva y Oleista</span></h2>
-      {% if articulos %}<a class="boton-enlace" href="articulos/index.html">Todas las noticias<span aria-hidden="true"> →</span></a>{% endif %}
+      <h2 class="seccion-titulo" id="titulo-noticias">Artículos y noticias</h2>
+      {% if articulos %}<a class="enlace-mas" href="articulos/index.html">Ver todas las noticias<span aria-hidden="true"> ›</span></a>{% endif %}
     </div>
     {% if articulos %}
     <div class="lista">

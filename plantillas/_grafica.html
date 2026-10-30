@@ -1,24 +1,16 @@
-{# Gráfica de evolución: es lo primero de la página. Los controles de región también cambian los precios de abajo. #}
-<section class="grafica" aria-labelledby="titulo-grafica">
-  {% if regiones %}
+{# Gráfica comparativa de los tres tipos de aceite. Sigue al mercado elegido en la portada. #}
+{% if regiones %}
+<section class="tarjeta grafica" aria-labelledby="titulo-grafica">
   <div class="grafica__cabeza">
     <div>
-      <p class="estado"><span class="estado__punto" aria-hidden="true"></span>Último dato: {{ fecha_precios|fecha_larga }}</p>
-      <h1 id="titulo-grafica">Precio del aceite de oliva en <span id="grafica-region" aria-live="polite">{{ regiones[0] }}</span></h1>
-      <p class="sub">En origen, a granel, en euros por kilo.</p>
+      <h2 id="titulo-grafica">Evolución del precio en <span id="grafica-region" aria-live="polite">{{ regiones[0] }}</span></h2>
+      <p>Virgen extra, virgen y lampante, en euros por kilo.</p>
     </div>
-    <div class="controles">
-      <div class="segmentado" role="group" aria-label="Mercado">
-        {% for r in regiones %}
-        <button type="button" class="region" data-region="{{ r }}" aria-pressed="{{ 'true' if loop.first else 'false' }}">{{ r }}</button>
-        {% endfor %}
-      </div>
-      <div class="segmentado" role="group" aria-label="Periodo">
-        <button type="button" class="rango" data-dias="30" aria-label="Último mes">1M</button>
-        <button type="button" class="rango" data-dias="90" aria-label="Últimos 3 meses" aria-pressed="true">3M</button>
-        <button type="button" class="rango" data-dias="365" aria-label="Último año">1A</button>
-        <button type="button" class="rango" data-dias="0" aria-label="Todo el histórico">Todo</button>
-      </div>
+    <div class="pildoras" role="group" aria-label="Periodo">
+      <button type="button" class="rango" data-dias="30" aria-label="Último mes">1M</button>
+      <button type="button" class="rango" data-dias="90" aria-label="Últimos 3 meses" aria-pressed="true">3M</button>
+      <button type="button" class="rango" data-dias="365" aria-label="Último año">1A</button>
+      <button type="button" class="rango" data-dias="0" aria-label="Todo el histórico">Todo</button>
     </div>
   </div>
   <div class="leyenda" id="leyenda" aria-hidden="true"></div>
@@ -27,9 +19,22 @@
     <summary>Ver datos en tabla</summary>
     <div class="tabla-scroll" tabindex="0" role="region" aria-label="Datos de la gráfica"><table id="tabla-datos" class="tabla"></table></div>
   </details>
-  {% else %}
-  <h1 id="titulo-grafica">Precio del aceite de oliva</h1>
-  <p class="vacio">Todavía no hay precios guardados. Aparecerán tras la próxima actualización de la mañana.</p>
+  {% if otras %}
+  <details class="otras">
+    <summary>Otras cotizaciones del día</summary>
+    <div class="tabla-scroll" tabindex="0" role="region" aria-label="Otras cotizaciones">
+    <table class="tabla">
+      <thead><tr><th>Categoría</th><th>Mercado</th><th>Fecha</th><th class="num">€/kg</th></tr></thead>
+      <tbody>
+      {% for o in otras %}
+        <tr><td>{{ o.tipo }}</td><td>{{ o.region }}, {{ o.fuente }}</td><td>{{ o.fecha|fecha_larga }}</td>
+            <td class="num">{{ o.valor|euros if o.valor else o.nota }}</td></tr>
+      {% endfor %}
+      </tbody>
+    </table>
+    </div>
+  </details>
   {% endif %}
 </section>
+{% endif %}
 <script id="datos-precios" type="application/json">{{ datos_grafica|safe }}</script>

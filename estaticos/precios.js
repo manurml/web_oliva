@@ -20,7 +20,7 @@
   const fechaMesAnio = new Intl.DateTimeFormat("es-ES", { month: "short", year: "2-digit" });
   const aFecha = (iso) => new Date(iso + "T00:00:00");
 
-  Chart.defaults.font.family = '"Schibsted Grotesk", system-ui, sans-serif';
+  Chart.defaults.font.family = 'Outfit, system-ui, sans-serif';
   Chart.defaults.font.size = 13;
 
   // Estado inicial desde la URL (?region=Italia&periodo=1A), para poder enlazar una vista concreta.
@@ -35,7 +35,7 @@
     afterDatasetsDraw(chart) {
       const { ctx } = chart;
       ctx.save();
-      ctx.font = '600 12px "Schibsted Grotesk", system-ui, sans-serif';
+      ctx.font = '600 12px Outfit, system-ui, sans-serif';
       ctx.fillStyle = css("--texto");
       ctx.textBaseline = "middle";
       const usados = [];
@@ -60,7 +60,7 @@
       if (!activo || !activo.length) return;
       const { ctx, chartArea } = chart;
       ctx.save();
-      ctx.strokeStyle = css("--texto-2");
+      ctx.strokeStyle = css("--tenue");
       ctx.globalAlpha = 0.35;
       ctx.lineWidth = 1;
       ctx.beginPath();
@@ -123,14 +123,58 @@
     },
   });
 
+  // Gráfica pequeña de la tarjeta de precio: solo el virgen extra, con curva suave y relleno dorado.
+  const mini = new Chart(document.getElementById("grafica-mini"), {
+    type: "line",
+    data: { datasets: [] },
+    options: {
+      maintainAspectRatio: false,
+      animation: false,
+      interaction: { mode: "index", intersect: false },
+      elements: { line: { borderWidth: 2.5, cubicInterpolationMode: "monotone" }, point: { radius: 0, hoverRadius: 5, hitRadius: 12 } },
+      scales: { x: { type: "time", display: false }, y: { display: false } },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          displayColors: false,
+          padding: 8,
+          callbacks: {
+            title: (items) => (items.length ? fechaLarga.format(aFecha(items[0].raw.x)) : ""),
+            label: (c) => `${num3.format(c.parsed.y)} €/kg`,
+          },
+        },
+      },
+    },
+  });
+
+  function pintarMini(s) {
+    const aove = s.find((x) => x.tipo.clave === "AOVE");
+    mini.data.datasets = aove ? [{
+      data: aove.puntos,
+      borderColor: css("--texto"),
+      pointHoverBackgroundColor: css("--oro"),
+      pointHoverBorderColor: css("--texto"),
+      fill: true,
+      backgroundColor: ({ chart }) => {
+        if (!chart.chartArea) return "transparent";
+        const g = chart.ctx.createLinearGradient(0, chart.chartArea.top, 0, chart.chartArea.bottom);
+        g.addColorStop(0, "rgba(226, 178, 59, 0.2)");
+        g.addColorStop(1, "rgba(226, 178, 59, 0)");
+        return g;
+      },
+    }] : [];
+    Object.assign(mini.options.plugins.tooltip, { backgroundColor: css("--boton"), titleColor: css("--boton-texto"), bodyColor: css("--boton-texto") });
+    mini.update();
+  }
+
   // Colores del tema actual (se vuelven a leer si el sistema pasa a modo claro u oscuro).
   function aplicarTema() {
     const o = grafica.options;
-    o.scales.x.ticks.color = o.scales.y.ticks.color = css("--texto-2");
+    o.scales.x.ticks.color = o.scales.y.ticks.color = css("--tenue");
     o.scales.x.border = { color: css("--linea") };
     o.scales.y.grid = { color: css("--rejilla") };
     Object.assign(o.plugins.tooltip, {
-      backgroundColor: css("--fondo"),
+      backgroundColor: css("--superficie"),
       titleColor: css("--texto"),
       bodyColor: css("--texto"),
       borderColor: css("--linea"),
@@ -147,10 +191,11 @@
       borderColor: css(tipo.token),
       backgroundColor: css(tipo.token),
       pointBackgroundColor: css(tipo.token),
-      pointBorderColor: css("--fondo"),
+      pointBorderColor: css("--superficie"),
       pointHoverBorderWidth: 2,
     }));
     grafica.update();
+    pintarMini(s);
 
     document.getElementById("grafica-region").textContent = region;
     document.getElementById("leyenda").innerHTML = s

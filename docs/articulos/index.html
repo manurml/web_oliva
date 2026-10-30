@@ -4,49 +4,56 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light dark">
-  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#111310" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#f4f6f2" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#121812" media="(prefers-color-scheme: dark)">
   <title>Noticias del aceite de oliva | AOVE al Día</title>
   <meta name="description" content="Noticias y precios del aceite de oliva virgen extra, cada mañana">
   <link rel="icon" href="../estaticos/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../estaticos/estilo.css?v=202610301701">
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../estaticos/estilo.css?v=202610301728">
   
 </head>
 <body>
   <a class="saltar" href="#contenido">Saltar al contenido</a>
+  
   <header class="contenedor cabecera">
-    <a class="marca" href="../index.html">
-      <svg class="logo" width="24" height="24" viewBox="0 0 48 48" aria-hidden="true">
-        <path d="M26 17Q38.2 17.2 43 6Q30.8 5.8 26 17Z"/>
-        <ellipse cx="21" cy="31.5" rx="10.5" ry="14" transform="rotate(28 21 31.5)"/>
-      </svg>
-      <span translate="no">AOVE al Día</span>
-    </a>
-    <nav class="menu" aria-label="Principal">
-      <a href="../precios.html">Precios</a>
-      <a href="../articulos/index.html">Noticias</a>
-      <a href="../acerca.html">Fuentes</a>
-    </nav>
+    <div class="cabecera__barra">
+      <a class="marca" href="../index.html">
+        <span class="marca__icono">
+          <svg class="logo" width="20" height="20" viewBox="0 0 48 48" aria-hidden="true">
+            <path d="M26 17Q38.2 17.2 43 6Q30.8 5.8 26 17Z"/>
+            <ellipse cx="21" cy="31.5" rx="10.5" ry="14" transform="rotate(28 21 31.5)"/>
+          </svg>
+        </span>
+        <span translate="no">AOVE <i>al Día</i></span>
+      </a>
+      <nav class="menu" aria-label="Principal">
+        <a href="../precios.html">Cotizaciones</a>
+        <a href="../articulos/index.html">Noticias</a>
+        <a href="../acerca.html">Fuentes</a>
+      </nav>
+    </div>
   </header>
 
   <main class="contenedor" id="contenido" tabindex="-1">
     
   <section class="noticias noticias--archivo">
-    <h1 class="seccion-titulo">Noticias <span>Artículos propios a partir de InfaOliva y Oleista</span></h1>
+    <div class="seccion-cabeza"><h1 class="seccion-titulo">Noticias</h1></div>
     
     <div class="lista">
-      <article class="pieza">
-  <p class="pieza__meta"><span class="etiqueta">Fuente: Oleista</span><time datetime="2026-10-30">30 oct</time></p>
+      <article class="tarjeta pieza">
+  <span class="etiqueta">Fuente: Oleista</span>
   <h3 class="pieza__titulo"><a href="../articulos/2026-10-30-produccion-de-aceite-de-oliva-2026-27-pais-por-pais.html">Producción de aceite de oliva 2026/27, país por país</a></h3>
   <p class="pieza__entradilla">España aforará 1.602.596 t y Turquía será el segundo productor, pero Túnez cae un 40 % y Marruecos un 30 %. Las estimaciones de los siete grandes productores.</p>
-</article><article class="pieza">
-  <p class="pieza__meta"><span class="etiqueta">Fuente: Oleista</span><time datetime="2026-10-30">30 oct</time></p>
+  <p class="pieza__pie"><time datetime="2026-10-30">30 de octubre de 2026</time></p>
+</article><article class="tarjeta pieza">
+  <span class="etiqueta">Fuente: Oleista</span>
   <h3 class="pieza__titulo"><a href="../articulos/2026-10-30-compensa-recoger-la-aceituna-temprano-haz-el-calculo.html">¿Compensa recoger la aceituna temprano? Haz el cálculo</a></h3>
   <p class="pieza__entradilla">Adelantar la recolección cuesta más y deja menos kilos de aceite. Antes de fijar la fecha, calcula cuánto tendrías que cobrar de más por kilo para que te compense.</p>
+  <p class="pieza__pie"><time datetime="2026-10-30">30 de octubre de 2026</time></p>
 </article>
     </div>
     
@@ -54,9 +61,16 @@
 
   </main>
 
-  <footer class="contenedor pie">
-    <p class="estado"><span class="estado__punto" aria-hidden="true"></span>Actualizado el 30 de octubre de 2026, a las 17:01</p>
-    <p>Precios en origen orientativos, a granel. Los artículos son de elaboración propia y enlazan a la publicación original.</p>
+  <footer class="pie">
+    <div class="contenedor pie__fila">
+      <p><span class="pie__marca" translate="no">AOVE al Día</span> © 2026</p>
+      <nav class="pie__enlaces" aria-label="Pie de página">
+        <a href="../precios.html">Cotizaciones</a>
+        <a href="../articulos/index.html">Noticias</a>
+        <a href="../acerca.html">Fuentes y metodología</a>
+      </nav>
+      <p class="pie__legal">Precios en origen orientativos, a granel. Los artículos son de elaboración propia y enlazan a la publicación original. Actualizado el 30 de octubre de 2026, a las 17:28.</p>
+    </div>
   </footer>
   
 </body>

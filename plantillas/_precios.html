@@ -1,44 +1,59 @@
-{# Precios del día de la región elegida en la gráfica. #}
+{# Portada: tarjeta con el precio del día y su evolución, junto a la presentación y los selectores. #}
 {% macro variacion(v) -%}
   {%- if not v -%}<span class="var">sin dato</span>
   {%- elif v.signo == 'igual' -%}<span class="var">sin cambios</span>
   {%- else -%}<span class="var var--{{ v.signo }}">{{ '%+.1f'|format(v.pct)|replace('.', ',')|replace('-', '−') }}&nbsp;%</span>
   {%- endif -%}
 {%- endmacro %}
-{% set nombres = {'AOVE': 'Virgen extra', 'Virgen': 'Virgen', 'Lampante': 'Lampante'} %}
 
-<section class="precios" aria-labelledby="titulo-precios">
-  <h2 id="titulo-precios" class="seccion-titulo">Precio hoy <span>Variación respecto al día, la semana y el mes anteriores</span></h2>
-  {% for r in regiones %}
-  <div class="precios__fila" data-region-panel="{{ r }}" {% if not loop.first %}hidden{% endif %}>
-    {% for p in resumen if p.region == r %}
-    <div class="precio" data-tipo="{{ p.tipo }}">
-      <h3 class="precio__tipo"><span class="muestra" aria-hidden="true"></span>{{ nombres.get(p.tipo, p.tipo) }}</h3>
-      <p class="precio__valor">{{ p.valor|euros }}<span class="precio__unidad">&nbsp;€/kg</span></p>
-      <dl class="precio__vars">
-        <div><dt>Día</dt><dd>{{ variacion(p.dia) }}</dd></div>
-        <div><dt>Semana</dt><dd>{{ variacion(p.semana) }}</dd></div>
-        <div><dt>Mes</dt><dd>{{ variacion(p.mes) }}</dd></div>
+<section class="portada" id="cotizaciones" aria-label="Precio del aceite de oliva">
+  {% if regiones %}
+  <div class="tarjeta precio-card" data-tipo="AOVE">
+    {% for r in regiones %}
+    {% set aove = resumen|selectattr('region', 'eq', r)|selectattr('tipo', 'eq', 'AOVE')|first %}
+    <div data-region-panel="{{ r }}" {% if not loop.first %}hidden{% endif %}>
+      <div class="precio-card__cabeza">
+        <span class="pastilla">Virgen extra, {{ r }}</span>
+        <span class="semana">{{ variacion(aove.semana) }} en una semana</span>
+      </div>
+      <p class="precio-card__valor">{{ aove.valor|euros }}<span class="precio-card__unidad">€/kg</span></p>
+      <p class="precio-card__nota">Precio en origen a granel, {{ aove.fecha|fecha_larga }}</p>
+      <dl class="variaciones">
+        <div><dt>Sesión anterior</dt><dd>{{ variacion(aove.dia) }}</dd></div>
+        <div><dt>Un mes</dt><dd>{{ variacion(aove.mes) }}</dd></div>
       </dl>
     </div>
     {% endfor %}
-  </div>
-  {% endfor %}
-
-  {% if otras %}
-  <details class="otras">
-    <summary>Otras cotizaciones del día</summary>
-    <div class="tabla-scroll" tabindex="0" role="region" aria-label="Otras cotizaciones">
-    <table class="tabla">
-      <thead><tr><th>Categoría</th><th>Mercado</th><th>Fecha</th><th class="num">€/kg</th></tr></thead>
-      <tbody>
-      {% for o in otras %}
-        <tr><td>{{ o.tipo }}</td><td>{{ o.region }}, {{ o.fuente }}</td><td>{{ o.fecha|fecha_larga }}</td>
-            <td class="num">{{ o.valor|euros if o.valor else o.nota }}</td></tr>
+    <div class="mini"><canvas id="grafica-mini" role="img" aria-label="Evolución reciente del precio del virgen extra"></canvas></div>
+    {% for r in regiones %}
+    <div class="subprecios" data-region-panel="{{ r }}" {% if not loop.first %}hidden{% endif %}>
+      {% for p in resumen if p.region == r and p.tipo != 'AOVE' %}
+      <div class="subprecio" data-tipo="{{ p.tipo }}">
+        <h2><span class="muestra" aria-hidden="true"></span>{{ p.tipo }}</h2>
+        <p>{{ p.valor|euros(2) }}&nbsp;€/kg</p>
+        <small>{{ variacion(p.semana) }} en una semana</small>
+      </div>
       {% endfor %}
-      </tbody>
-    </table>
     </div>
-  </details>
+    {% endfor %}
+  </div>
   {% endif %}
+
+  <div class="portada__texto">
+    {% if regiones %}<p class="antetitulo">Último dato: {{ fecha_precios|fecha_larga }}</p>{% endif %}
+    <h1>El valor real del <em>oro líquido</em>, cada día.</h1>
+    <p class="portada__intro">Seguimos las cotizaciones en origen del aceite de oliva en España, Andalucía, Italia y Grecia, y reunimos las noticias del sector.</p>
+    {% if regiones %}
+    <div>
+      <span class="etiqueta-grupo" id="etiqueta-mercado">Elige un mercado</span>
+      <div class="pildoras" role="group" aria-labelledby="etiqueta-mercado">
+        {% for r in regiones %}
+        <button type="button" class="region" data-region="{{ r }}" aria-pressed="{{ 'true' if loop.first else 'false' }}">{{ r }}</button>
+        {% endfor %}
+      </div>
+    </div>
+    {% else %}
+    <p class="vacio">Todavía no hay precios guardados. Aparecerán tras la próxima actualización.</p>
+    {% endif %}
+  </div>
 </section>

@@ -3,7 +3,7 @@
 {% block titulo %}Noticias del aceite de oliva | {{ sitio.nombre }}{% endblock %}
 {% block contenido %}
   <section class="noticias noticias--archivo">
-    <h1 class="seccion-titulo">Noticias <span>Artículos propios a partir de InfaOliva y Oleista</span></h1>
+    <div class="seccion-cabeza"><h1 class="seccion-titulo">Noticias</h1></div>
     {% if articulos %}
     <div class="lista">
       {% for a in articulos %}{{ pieza(a, raiz) }}{% endfor %}
