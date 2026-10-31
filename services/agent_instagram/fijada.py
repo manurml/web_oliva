@@ -7,7 +7,7 @@ PIE = """Si trabajas con aceite de oliva, aquí tienes los precios y las noticia
 
 Publicamos las cotizaciones en origen del virgen extra, el virgen y el lampante en España, Andalucía, Italia y Grecia, cada vez que hay datos nuevos, siempre con la fecha de cada dato.
 
-Los precios proceden de las cotizaciones publicadas por Oleista. Las noticias son de elaboración propia, a partir de publicaciones de InfaOliva y Oleista, y citan su fuente.
+Los precios proceden de las cotizaciones publicadas por Oleista. Las noticias son de elaboración propia, a partir de publicaciones del sector, y citan su fuente.
 
 Son precios orientativos, a granel: no son una oferta de compra o venta ni una recomendación. Los textos se elaboran con ayuda de inteligencia artificial.
 
@@ -25,7 +25,7 @@ DIAPOSITIVAS = [
      "puntos": ["Precios en origen del virgen extra, el virgen y el lampante.", "España, Andalucía, Italia y Grecia.",
                 "Gráficas para ver la tendencia.", "Noticias del sector, explicadas."], "desliza": True},
     {"archivo": "publicacion/3-fuentes.png", "antetitulo": "De dónde sale", "titulo": "Siempre con su fuente y su fecha",
-     "puntos": ["Precios: cotizaciones publicadas por Oleista.", "Noticias: elaboración propia a partir de InfaOliva y Oleista.",
+     "puntos": ["Precios: cotizaciones publicadas por Oleista.", "Noticias: elaboración propia a partir de publicaciones del sector.",
                 "Textos elaborados con ayuda de inteligencia artificial."], "desliza": True},
     {"archivo": "publicacion/4-cierre.png", "antetitulo": "Para tenerlo en cuenta", "titulo": "Información, no asesoramiento",
      "puntos": ["Precios orientativos, a granel.", "No son una oferta de compra o venta ni una recomendación.",

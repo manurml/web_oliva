@@ -60,7 +60,7 @@ def elegir(candidatas: list[Noticia], n: int) -> list[Noticia]:
     )
     try:
         sel, _ = gemini.pedir(
-            f"""Estas son las noticias candidatas de hoy, recogidas de InfaOliva y Oleista:
+            f"""Estas son las noticias candidatas de hoy, recogidas de publicaciones del sector:
 
 {listado}
 

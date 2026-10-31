@@ -5,7 +5,7 @@ Web estática de precios y noticias del aceite de oliva. Python 3.12 + Jinja2 �
 ## Mapa
 - `diario.py`: punto de entrada (precios → noticias → artículos → web). `--solo-web` solo regenera `docs/`.
 - `config.py`: nombre, modelos de Gemini, límites, opción `PUBLICAR_PRECIOS_INFAOLIVA`.
-- `aove/fuentes/{oleista,infaoliva,mapa}.py`: scrapers (`mapa`: PDF semanal del Ministerio, reutilizable citando fuente y fecha; se valida y falla si cambia su estructura). `aove/red.py`: descargas (robots.txt, pausa de 2 s).
+- `aove/fuentes/{oleista,infaoliva,mapa,prensa}.py`: scrapers (`prensa`: Mercacei, Olimerca y Óleo Revista, sin permiso expreso por decisión del dueño: solo para artículos propios que citan y enlazan, nunca fichas; ``mapa`: PDF semanal del Ministerio, reutilizable citando fuente y fecha; se valida y falla si cambia su estructura). POOLred: sus precios son para suscriptores, no se usa. `aove/red.py`: descargas (robots.txt, pausa de 2 s).
 - `aove/redactor.py`: selección y redacción con Gemini (usa `services/agent_aove/gemini.py`; salida estructurada, y una cifra o fecha que no esté en la fuente impide publicar).
 - `aove/almacen.py`: lectura y escritura de `datos/`. `aove/web.py`: datos → plantillas.
 - `plantillas/`: Jinja2 (`_grafica`, `_precios` y `_tarjeta` son parciales). `estaticos/`: `estilo.css`, `precios.js` (Chart.js), logos, iconos y `manifest.webmanifest`.

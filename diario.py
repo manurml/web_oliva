@@ -13,7 +13,7 @@ from datetime import date, timedelta
 
 import config
 from aove import almacen, redactor, web
-from aove.fuentes import infaoliva, mapa, oleista
+from aove.fuentes import infaoliva, mapa, oleista, prensa
 from aove.red import BloqueadoPorRobots
 
 log = logging.getLogger("diario")
@@ -76,6 +76,24 @@ def recoger_noticias(vistas: dict) -> None:
     except Exception:
         log.exception("No se pudo leer el listado de InfaOliva")
 
+    for fuente, (enlaces, leer) in prensa.FUENTES.items():
+        try:
+            nuevas = [u for u in enlaces() if u not in vistas][: config.MAX_PAGINAS_NUEVAS_POR_FUENTE]
+        except Exception:
+            log.exception("No se pudo leer el listado de %s", fuente)
+            continue
+        for orden, url in enumerate(nuevas):
+            try:
+                if n := leer(url, orden):
+                    _clasificar(vistas, n, primera_vez)
+                else:
+                    vistas[url] = {"estado": "descartada", "noticia": {"url": url, "fuente": fuente, "titulo": "", "fecha": "",
+                                                                       "resumen": "", "texto": "", "orden": orden}}
+            except BloqueadoPorRobots:
+                log.warning("robots.txt no permite %s", url)
+            except Exception:
+                log.exception("Error leyendo %s", url)
+
 
 def slug(texto: str) -> str:
     t = unicodedata.normalize("NFKD", texto).encode("ascii", "ignore").decode().lower()
@@ -86,6 +104,8 @@ def _con_texto(noticia):
     """Descarga el texto de la fuente justo antes de redactar; no se guarda en datos/."""
     if noticia.fuente == infaoliva.FUENTE:
         leida = infaoliva.leer_noticia(noticia.url, noticia.titulo, noticia.fecha, noticia.orden)
+    elif noticia.fuente in prensa.FUENTES:
+        leida = prensa.FUENTES[noticia.fuente][1](noticia.url, noticia.orden)
     else:
         leida = oleista.leer_noticia(noticia.url, noticia.orden)
     if not leida:
@@ -102,11 +122,13 @@ def publicar_articulos(vistas: dict) -> None:
     desde =(date.today() - timedelta(days=config.DIAS_MAX_ANTIGUEDAD)).isoformat()
     pool = almacen.candidatas(vistas, desde)
     log.info("%d noticias candidatas", len(pool))
-    if not pool:
-        return
     con_ia = redactor.disponible()
     if not con_ia:
         log.warning("Sin GEMINI_API_KEY: se publican fichas breves en lugar de artículos redactados")
+        # Una ficha repite el resumen de la fuente: la prensa especializada solo se usa para artículos propios.
+        pool = [n for n in pool if n.fuente not in prensa.FUENTES]
+    if not pool:
+        return
     for noticia in redactor.elegir(pool, config.NOTICIAS_POR_DIA):
         try:
             noticia = _con_texto(noticia)
