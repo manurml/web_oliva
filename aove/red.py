@@ -4,8 +4,12 @@ import urllib.robotparser
 from urllib.parse import urlsplit, quote, urlunsplit
 
 import requests
+import truststore
 
 import config
+
+# Valida certificados con el almacén del sistema: el de Python no reconoce el del MAPA.
+truststore.inject_into_ssl()
 
 _sesion = requests.Session()
 _sesion.headers.update({"User-Agent": config.USER_AGENT, "Accept-Language": "es-ES,es;q=0.9"})
@@ -37,7 +41,7 @@ def _permitido(url: str) -> bool:
     return _robots[base].can_fetch(config.USER_AGENT, url)
 
 
-def descargar(url: str) -> str:
+def _pedir(url: str) -> requests.Response:
     global _ultima_peticion
     url = normalizar(url)
     if not _permitido(url):
@@ -48,5 +52,14 @@ def descargar(url: str) -> str:
     r = _sesion.get(url, timeout=config.TIMEOUT)
     _ultima_peticion = time.monotonic()
     r.raise_for_status()
+    return r
+
+
+def descargar_bytes(url: str) -> bytes:
+    return _pedir(url).content
+
+
+def descargar(url: str) -> str:
+    r = _pedir(url)
     r.encoding = r.apparent_encoding if not r.encoding or r.encoding.lower() == "iso-8859-1" else r.encoding
     return r.text

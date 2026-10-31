@@ -37,7 +37,7 @@ Sin `GEMINI_API_KEY` la web se genera igualmente, pero las noticias salen como f
 La web está en https://manurml.github.io/web_oliva/ (GitHub Pages, carpeta `docs/`). Oleista rechaza las peticiones desde los servidores de GitHub (error 403), así que la actualización corre en el PC:
 
 - `pc/actualizar.py` trae los últimos cambios, ejecuta `diario.py` y sube `datos/` y `docs/` si algo ha cambiado. Lo que hace queda en `pc/registro.log`.
-- `pc/programar_tareas.ps1` crea dos tareas de Windows: una comprobación cada 30 minutos de 07:00 a 22:00 y un cierre a las 22:30, que publica las noticias aunque no haya precios nuevos.
+- `pc/programar_tareas.ps1` crea una tarea de Windows que hace una ejecución completa al día: a las 09:00 o al iniciar sesión, lo que ocurra antes.
 
 El PC debe estar encendido y con la sesión iniciada. Si estaba apagado, la tarea se ejecuta al volver a encenderlo e iniciar sesión. Sin `GEMINI_API_KEY` en las variables de entorno, las noticias se publican como fichas breves.
 

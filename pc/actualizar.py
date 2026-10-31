@@ -5,6 +5,7 @@ Oleista bloquea las peticiones desde los servidores de GitHub, por eso la tarea 
 Uso:
     python pc/actualizar.py             # solo si Oleista ha publicado precios nuevos
     python pc/actualizar.py --completa  # también publica noticias aunque no haya precios nuevos
+    python pc/actualizar.py --forzar    # se ejecuta aunque ya se haya hecho hoy (si no, una vez al día)
 """
 import msvcrt
 import os
@@ -17,6 +18,7 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parent.parent
 REGISTRO = RAIZ / "pc" / "registro.log"
 BLOQUEO = RAIZ / "pc" / "actualizar.lock"
+ULTIMA = RAIZ / "pc" / "ultima_ejecucion.txt"
 ESPERA_TURNO_S = 600
 URL_WEB = "https://manurml.github.io/web_oliva"
 MAX_BYTES_REGISTRO = 500_000
@@ -55,10 +57,17 @@ def main() -> int:
 def actualizar() -> int:
     if REGISTRO.exists() and REGISTRO.stat().st_size > MAX_BYTES_REGISTRO:
         REGISTRO.unlink()
-    with REGISTRO.open("a", encoding="utf-8") as registro:
-        print(f"\n=== {datetime.now():%Y-%m-%d %H:%M} {' '.join(sys.argv[1:])}", file=registro, flush=True)
+    hoy = date.today().isoformat()
+    # Una sola ejecución al día. Si falla, no se marca: se reintenta en el siguiente inicio de sesión.
+    if "--forzar" not in sys.argv and ULTIMA.exists() and ULTIMA.read_text(encoding="utf-8").strip() == hoy:
+        return 0
+    # Línea a línea: la oficina de agentes lee este registro en directo.
+    with REGISTRO.open("a", encoding="utf-8", buffering=1) as registro:
+        print(f"\n=== {datetime.now():%Y-%m-%d %H:%M} {' '.join(sys.argv[1:])}", file=registro)
         python = sys.executable.replace("pythonw.exe", "python.exe")
         codigo = publicar_web(registro, python)
+        if not codigo:
+            ULTIMA.write_text(hoy, encoding="utf-8")
         # Después de publicar, para que el enlace de las historias ya funcione. Su fallo no afecta a la web.
         if not codigo and ejecutar(registro, python, "-m", "services.agent_instagram"):
             print("AVISO: no se pudo preparar el contenido de Instagram; se reintentará", file=registro)

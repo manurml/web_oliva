@@ -50,7 +50,7 @@ def preparar_precios() -> tuple[dict, list[dict], list[dict]]:
     resumen: list[dict] = []
     otras: list[dict] = []
     for s in series.values():
-        if s["fuente"] == "InfaOliva" and not config.PUBLICAR_PRECIOS_INFAOLIVA:
+        if s["fuente"] == "MAPA" or (s["fuente"] == "InfaOliva" and not config.PUBLICAR_PRECIOS_INFAOLIVA):
             continue
         puntos = sorted(s["puntos"].items())
         if s["fuente"] != "Oleista":
@@ -78,6 +78,33 @@ def preparar_precios() -> tuple[dict, list[dict], list[dict]]:
     resumen.sort(key=clave)
     grafica = {r: grafica[r] for r in sorted(grafica, key=lambda r: ORDEN_REGIONES.index(r) if r in ORDEN_REGIONES else 99)}
     return grafica, resumen, otras
+
+
+def preparar_mapa() -> dict | None:
+    """Referencia semanal del Ministerio: último dato de cada serie, con la variación semanal y a cuatro semanas."""
+    filas = []
+    for s in almacen.cargar_precios().values():
+        if s["fuente"] != "MAPA":
+            continue
+        puntos = sorted(s["puntos"].items())
+        fecha = max([*s["puntos"], *s["notas"]], default="")
+        if not fecha:
+            continue
+        valor = s["puntos"].get(fecha)
+        anteriores = [v for f, v in puntos if f < fecha]
+        filas.append({"region": s["region"], "tipo": s["tipo"], "fecha": fecha, "valor": valor,
+                      "semana": _variacion(valor, anteriores[-1]) if valor and anteriores else None,
+                      "cuatro": _variacion(valor, anteriores[-4]) if valor and len(anteriores) >= 4 else None})
+    if not filas:
+        return None
+    # Solo la última semana: un mercado sin datos nuevos no se muestra como si fuera actual.
+    ultima = max(f["fecha"] for f in filas)
+    filas = [f for f in filas if f["fecha"] == ultima]
+    orden = ["España", "Andalucía", "Castilla-La Mancha", "Cataluña", "Extremadura", "Italia", "Grecia", "Portugal", "Túnez"]
+    filas.sort(key=lambda f: (orden.index(f["region"]) if f["region"] in orden else 99, ORDEN_TIPOS.index(f["tipo"])))
+    d = date.fromisoformat(ultima)
+    return {"filas": filas, "semana": d.isocalendar().week, "anio": d.isocalendar().year,
+            "desde": (d - timedelta(days=6)).isoformat(), "hasta": ultima}
 
 
 def construir() -> None:
@@ -110,7 +137,7 @@ def construir() -> None:
     ctx_precios = dict(resumen=resumen, otras=otras, fecha_precios=fecha_precios, datos_grafica=datos_grafica,
                        regiones=list(grafica))
     pagina("index.html", "index.html", "", articulos=articulos[:7], **ctx_precios)
-    pagina("precios.html", "precios.html", "", **ctx_precios)
+    pagina("precios.html", "precios.html", "", mapa=preparar_mapa(), **ctx_precios)
     pagina("archivo.html", "articulos/index.html", "../", articulos=articulos)
     pagina("acerca.html", "acerca.html", "")
     for i, a in enumerate(articulos):

@@ -105,6 +105,14 @@ svg .valor { font-size: 40px; font-weight: 600; fill: #eef1ea; }
   </div>
   <div class="pie"><span>Artículo completo y fuentes en {{ web }}</span></div>
 
+{% elif vista == "lista" %}
+  <div class="centro">
+    <p class="antetitulo">{{ antetitulo }}</p>
+    <h2>{{ titulo }}</h2>
+    <ul class="puntos">{% for p in puntos %}<li>{{ p }}</li>{% endfor %}</ul>
+  </div>
+  <div class="pie"><span>{{ web }}</span>{% if desliza %}<span class="desliza">Desliza →</span>{% endif %}</div>
+
 {% elif vista == "encuesta" %}
   <p class="antetitulo">Tu opinión</p>
   <h2>{{ textos.encuesta_pregunta }}</h2>

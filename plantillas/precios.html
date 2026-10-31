@@ -25,6 +25,29 @@
     </div>
     <p class="nota">Precios en origen a granel. Cada variación compara con el último día hábil disponible.</p>
   </section>
+
+  {% if mapa %}
+  <section class="tarjeta tabla-completa" id="referencia-oficial">
+    <h2 class="seccion-titulo">Referencia oficial semanal <span>Semana {{ mapa.semana }}/{{ mapa.anio }}, del {{ mapa.desde|fecha_corta }} al {{ mapa.hasta|fecha_corta }}</span></h2>
+    <div class="tabla-scroll tabla-scroll--entera" tabindex="0" role="region" aria-label="Referencia oficial semanal">
+    <table class="tabla">
+      <thead><tr><th>Mercado</th><th>Aceite</th><th class="num">€/kg</th><th class="num">Semana</th><th class="num">4 semanas</th></tr></thead>
+      <tbody>
+      {% for p in mapa.filas %}
+        <tr>
+          <td>{{ p.region }}</td><td>{{ p.tipo }}</td>
+          <td class="num">{% if p.valor %}{{ p.valor|euros }}{% else %}sin cotización{% endif %}</td>
+          {% for v in [p.semana, p.cuatro] %}
+          <td class="num {{ 'var--' ~ v.signo if v }}">{% if v %}{{ '%+.1f'|format(v.pct)|replace('.', ',')|replace('-', '−') }}&nbsp;%{% else %}sin dato{% endif %}</td>
+          {% endfor %}
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+    </div>
+    <p class="nota">Fuente: Ministerio de Agricultura, Pesca y Alimentación, <a href="https://www.mapa.gob.es/es/agricultura/temas/producciones-agricolas/aceite-oliva-y-aceituna-mesa/evolucion_precios_ao_vegetales/rssboletinsemanaldepreciosdeaceitedeoliva" rel="noopener">boletín semanal de precios de aceite de oliva</a>, semana {{ mapa.semana }}/{{ mapa.anio }}. Precios internacionales según el boletín: DG AGRI e ISMEA. Es una media semanal: no coincide con las cotizaciones diarias de arriba, que proceden de otra fuente.</p>
+  </section>
+  {% endif %}
 {% endblock %}
 {% block scripts %}
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" defer></script>

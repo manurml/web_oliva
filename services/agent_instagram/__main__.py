@@ -7,6 +7,8 @@ Uso:
     python -m services.agent_instagram --forzar        # genera aunque no las haya
     python -m services.agent_instagram --solo-imagenes # repite las imágenes de hoy con los textos ya guardados
     python -m services.agent_instagram --seco          # muestra el contexto, sin llamar a Gemini
+    python -m services.agent_instagram --reenviar      # vuelve a mandar por correo el paquete de hoy
+    python -m services.agent_instagram --fijada        # prepara y envía la publicación fijada del perfil
 """
 import argparse
 import json
@@ -18,7 +20,7 @@ from pathlib import Path
 import config
 from aove import almacen, web
 from services.agent_aove import gemini
-from services.agent_instagram import contenido, imagenes
+from services.agent_instagram import contenido, correo, fijada, imagenes
 
 log = logging.getLogger("agente_instagram")
 ESTADO = config.INSTAGRAM / "estado.json"
@@ -26,6 +28,13 @@ ESTADO = config.INSTAGRAM / "estado.json"
 
 def _leer_estado() -> dict:
     return json.loads(ESTADO.read_text(encoding="utf-8")) if ESTADO.exists() else {"huella": "", "articulos": []}
+
+
+def _enviar_pendiente(estado: dict) -> None:
+    """El paquete sigue pendiente hasta que el envío funciona, aunque no haya novedades."""
+    if estado.get("correo_pendiente") and correo.enviar(config.INSTAGRAM / estado["correo_pendiente"]):
+        estado["correo_pendiente"] = ""
+        ESTADO.write_text(json.dumps(estado, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
 def _huella(resumen: list[dict], articulo: dict | None) -> str:
@@ -59,11 +68,24 @@ def main() -> int:
     ap.add_argument("--forzar", action="store_true")
     ap.add_argument("--solo-imagenes", action="store_true")
     ap.add_argument("--seco", action="store_true")
+    ap.add_argument("--reenviar", action="store_true")
+    ap.add_argument("--fijada", action="store_true")
     args = ap.parse_args()
+
+    if args.fijada:
+        carpeta = config.INSTAGRAM / "fijada"
+        fijada.generar(carpeta)
+        log.info("Publicación fijada lista en %s", carpeta)
+        return 0 if correo.enviar(carpeta, "AOVE al Día: publicación fijada para Instagram") else 1
 
     hoy = date.today()
     destino = config.INSTAGRAM / hoy.isoformat()
     estado = _leer_estado()
+    if args.reenviar:
+        if not (destino / "texto_publicacion.txt").exists():
+            log.error("Hoy no hay ningún paquete que enviar")
+            return 1
+        return 0 if correo.enviar(destino) else 1
     _, resumen, _ = web.preparar_precios()
     if not resumen:
         log.error("No hay precios guardados")
@@ -92,6 +114,7 @@ def main() -> int:
         return 0
     if huella == estado["huella"] and not args.forzar:
         log.info("Sin precios ni artículos nuevos: no se genera contenido")
+        _enviar_pendiente(estado)
         return 0
 
     try:
@@ -105,10 +128,11 @@ def main() -> int:
     _guardar_textos(destino, textos, piezas, articulo)
     (destino / "textos.json").write_text(json.dumps({"textos": textos, "articulo": articulo["slug"] if articulo else ""}, ensure_ascii=False, indent=1), encoding="utf-8")
     slug = articulo["slug"] if articulo else None
-    ESTADO.write_text(json.dumps({"huella": huella, "fecha": hoy.isoformat(), "articulo": slug,
-                                  "articulos": list(dict.fromkeys([*estado["articulos"], *([slug] if slug else [])]))},
-                                 ensure_ascii=False, indent=1), encoding="utf-8")
+    estado = {"huella": huella, "fecha": hoy.isoformat(), "articulo": slug, "correo_pendiente": hoy.isoformat(),
+              "articulos": list(dict.fromkeys([*estado["articulos"], *([slug] if slug else [])]))}
+    ESTADO.write_text(json.dumps(estado, ensure_ascii=False, indent=1), encoding="utf-8")
     log.info("Contenido de Instagram listo en %s (%d piezas)", destino, len(piezas))
+    _enviar_pendiente(estado)
     return 0
 
 

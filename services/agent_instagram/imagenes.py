@@ -93,11 +93,17 @@ def _piezas(textos: dict, articulo: dict | None) -> list[dict]:
 
 
 def generar(destino: Path, textos: dict, articulo: dict | None) -> list[dict]:
-    """Devuelve las piezas creadas. Comprueba cada PNG: un fallo del navegador no debe dejar una imagen a medias."""
+    """Devuelve las piezas creadas."""
+    piezas = _piezas(textos, articulo)
+    pintar(destino, piezas)
+    return piezas
+
+
+def pintar(destino: Path, piezas: list[dict]) -> None:
+    """Comprueba cada PNG: un fallo del navegador no debe dejar una imagen a medias."""
     navegador = _navegador()
     entorno = Environment(loader=FileSystemLoader(config.PLANTILLAS), autoescape=select_autoescape(["html"]))
     plantilla = entorno.get_template("instagram.html")
-    piezas = _piezas(textos, articulo)
     (destino / "publicacion").mkdir(parents=True, exist_ok=True)
     (destino / "historias").mkdir(parents=True, exist_ok=True)
     with tempfile.TemporaryDirectory() as tmp:
@@ -112,7 +118,6 @@ def generar(destino: Path, textos: dict, articulo: dict | None) -> list[dict]:
                            stderr=subprocess.DEVNULL, timeout=120, creationflags=SIN_VENTANA, check=False)
             if not salida.exists() or salida.stat().st_size < 10_000:
                 raise RuntimeError(f"No se pudo generar {p['archivo']}")
-    return piezas
 
 
 def borrar_piezas(destino: Path) -> None:

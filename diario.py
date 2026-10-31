@@ -13,7 +13,7 @@ from datetime import date, timedelta
 
 import config
 from aove import almacen, redactor, web
-from aove.fuentes import infaoliva, oleista
+from aove.fuentes import infaoliva, mapa, oleista
 from aove.red import BloqueadoPorRobots
 
 log = logging.getLogger("diario")
@@ -142,6 +142,7 @@ def main() -> None:
             log.info("Oleista no ha publicado precios nuevos: no se actualiza nada")
             return
         _actualizar_fuente("InfaOliva", infaoliva.precios)
+        _actualizar_fuente("MAPA", mapa.precios)
         vistas = almacen.cargar_vistas()
         recoger_noticias(vistas)
         almacen.guardar_vistas(vistas)

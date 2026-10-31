@@ -31,6 +31,13 @@ def recopilar(hoy: date) -> Contexto:
             f"semana {_pct(p['semana'])}, mes {_pct(p['mes'])}. Rango de 30 días: {web.euros(p['min30'])} a {web.euros(p['max30'])}."
         )
 
+    mapa = web.preparar_mapa()
+    if mapa:
+        lineas += ["", f"REFERENCIA OFICIAL SEMANAL, MEDIA EN €/KG (fuente: Ministerio de Agricultura, boletín de la semana {mapa['semana']}/{mapa['anio']}, "
+                       f"del {web.fecha_larga(mapa['desde'])} al {web.fecha_larga(mapa['hasta'])}). No es comparable día a día con los precios de Oleista."]
+        lineas += [f"- {p['region']}, {p['tipo']}: {web.euros(p['valor'])}. Variación: semana {_pct(p['semana'])}, cuatro semanas {_pct(p['cuatro'])}."
+                   for p in mapa["filas"] if p["valor"]]
+
     desde = (hoy - timedelta(days=config.DIAS_MAX_ANTIGUEDAD)).isoformat()
     noticias = sorted((v["noticia"] for v in almacen.cargar_vistas().values() if v["noticia"]["fecha"] >= desde),
                       key=lambda n: n["fecha"], reverse=True)[:config.AGENTE_MAX_NOTICIAS]
