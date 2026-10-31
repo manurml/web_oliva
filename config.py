@@ -34,6 +34,10 @@ AGENTE_INTENTOS = 4
 AGENTE_ESPERA_S = 20
 AGENTE_TIMEOUT_MS = 120_000
 
+# Agente de Instagram: deja aquí el contenido de cada día (no se sube a GitHub)
+INSTAGRAM = RAIZ / "instagram"
+INSTAGRAM_WEB = "manurml.github.io/web_oliva"
+
 # Precios. InfaOliva indica en su web: "Queda prohibida la publicación de la
 # información facilitada por INFAOLIVA ... utilizando el propio nombre de
 # INFAOLIVA sin autorización previa". Actívalo solo si tienes su autorización.

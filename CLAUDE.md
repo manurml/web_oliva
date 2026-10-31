@@ -13,7 +13,10 @@ Web estática de precios y noticias del aceite de oliva. Python 3.12 + Jinja2 �
 
 - `services/agent_aove/`: análisis diario con Gemini (`.github/workflows/daily_aove.yml`, 07:00 UTC). Lee precios y noticias guardados, sin descargar de las fuentes. Una cifra o fecha sin respaldo en los datos deja el artículo en `draft`.
 
+- `services/agent_instagram/`: tras cada ejecución de `pc/actualizar.py`, si hay precios o artículos nuevos, prepara en `instagram/AAAA-MM-DD/` (local, no se sube) carrusel, historias y textos para subirlos a mano. No publica nada. Cifras de las imágenes: de los datos. Textos: Gemini, con revisión de cifras y longitudes. Solo usa artículos redactados, nunca fichas breves. Plantilla: `plantillas/instagram.html`.
+
 ## Comandos
+- Contenido de Instagram: `python -m services.agent_instagram` (`--forzar` genera aunque no haya novedades, `--solo-imagenes` repite las imágenes con los textos guardados, `--seco` muestra el contexto)
 - Artículo de análisis: `python -m services.agent_aove` (`--seco` muestra el contexto, `--borrador` no lo publica)
 - Regenerar la web: `python diario.py --solo-web`
 - Ejecución completa (red; redacta con Gemini si hay `GEMINI_API_KEY`): `python diario.py`

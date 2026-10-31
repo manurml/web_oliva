@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,600..800&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; margin: 0; }
+html, body { width: {{ tam[0] }}px; height: {{ tam[1] }}px; overflow: hidden; }
+body { background: #121c0a; color: #eef1ea; font: 400 36px/1.35 Outfit, sans-serif; }
+/* En historias, la parte superior e inferior las tapa la interfaz de Instagram */
+.pieza { height: 100%; display: flex; flex-direction: column; padding: {% if tam[1] > 1400 %}270px 80px 340px{% else %}80px{% endif %}; }
+.cabeza { display: flex; justify-content: space-between; align-items: center; margin-bottom: 64px; }
+.logo { height: 76px; width: auto; display: block; }
+.antetitulo { color: #c0bc44; font-size: 30px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; }
+h1, h2 { font-family: "Bodoni Moda", Georgia, serif; font-optical-sizing: none; font-variation-settings: "opsz" 14; font-weight: 700; line-height: 1.12; text-wrap: balance; }
+h1 { font-size: 84px; margin-top: 24px; }
+h2 { font-size: 66px; margin: 16px 0 44px; }
+.centro { flex: 1; display: flex; flex-direction: column; justify-content: center; }
+.precio { display: flex; align-items: baseline; gap: 24px; margin-top: 56px; font: 800 176px/1 "Bodoni Moda", Georgia, serif; font-variation-settings: "opsz" 14; }
+.precio small { font: 500 48px Outfit, sans-serif; color: #c0c9bc; }
+.dato { margin-top: 20px; color: #c0c9bc; font-size: 32px; }
+.cambios { display: flex; gap: 72px; margin-top: 44px; }
+.cambios dt { color: #c0c9bc; font-size: 30px; }
+.cambios dd { margin: 0; font-size: 46px; font-weight: 600; }
+.sube { color: #63c98f; } .baja { color: #ef8480; }
+.pie { display: flex; justify-content: space-between; align-items: flex-end; gap: 32px; color: #a3aea0; font-size: 26px; }
+.desliza { color: #c0bc44; font-size: 34px; font-weight: 600; white-space: nowrap; }
+.tarjeta { background: #1b261a; border: 2px solid #2d372c; border-radius: 32px; padding: 36px; }
+svg { display: block; width: 100%; height: auto; }
+svg text { font-family: Outfit, sans-serif; font-size: 28px; fill: #c0c9bc; }
+svg .valor { font-size: 40px; font-weight: 600; fill: #eef1ea; }
+.fila { display: grid; grid-template-columns: 1fr auto; gap: 4px 24px; padding: 28px 0; border-bottom: 2px solid #2d372c; }
+.fila:last-child { border-bottom: 0; }
+.fila b { font-size: 42px; font-weight: 600; }
+.fila .num { font-size: 50px; font-weight: 600; text-align: right; font-variant-numeric: tabular-nums; }
+.fila .num small { font-size: 26px; font-weight: 400; color: #c0c9bc; }
+.fila span { color: #c0c9bc; font-size: 28px; }
+.fila .var { text-align: right; font-weight: 500; }
+.puntos { list-style: none; padding: 0; display: grid; gap: 28px; }
+.puntos li { padding-left: 36px; border-left: 6px solid #c0bc44; font-size: 40px; line-height: 1.3; }
+.cta { margin-top: 44px; font-size: 44px; line-height: 1.3; }
+.web { margin-top: 28px; color: #c0bc44; font-weight: 600; }
+.hueco { flex: 1; min-height: 340px; }
+</style>
+</head>
+<body>
+<div class="pieza">
+  <div class="cabeza"><img class="logo" src="{{ logo }}" alt=""></div>
+
+{% if vista == "portada" %}
+  <div class="centro">
+    <p class="antetitulo">Virgen extra · España</p>
+    <h1>{{ textos.gancho }}</h1>
+    <div class="precio">{{ principal.valor }} <small>€/kg</small></div>
+    <p class="dato">Precio en origen, a granel, del {{ principal.fecha }}</p>
+    <dl class="cambios">
+      <div><dt>Una semana</dt><dd class="{{ principal.signo_semana }}">{{ principal.semana }}</dd></div>
+      <div><dt>Un mes</dt><dd class="{{ principal.signo_mes }}">{{ principal.mes }}</dd></div>
+    </dl>
+  </div>
+  <div class="pie"><span>Fuente: Oleista</span>{% if tam[1] < 1400 %}<span class="desliza">Desliza →</span>{% endif %}</div>
+
+{% elif vista == "grafica" %}
+  <div class="centro">
+    <p class="antetitulo">Últimos tres meses</p>
+    <h2>Virgen extra en España, en €/kg</h2>
+    <div class="tarjeta">
+      <svg viewBox="0 0 {{ linea.ancho }} {{ linea.alto }}" role="img">
+        {% for m in linea.marcas %}
+        <line x1="{{ linea.izq }}" x2="{{ linea.der }}" y1="{{ m.y }}" y2="{{ m.y }}" stroke="#2d372c" stroke-width="2"/>
+        <text x="{{ linea.izq - 16 }}" y="{{ m.y + 10 }}" text-anchor="end">{{ m.texto }}</text>
+        {% endfor %}
+        <polyline points="{{ linea.linea }}" fill="none" stroke="#199e70" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+        <circle cx="{{ linea.fin.x }}" cy="{{ linea.fin.y }}" r="12" fill="#199e70" stroke="#1b261a" stroke-width="4"/>
+        <text class="valor" x="{{ linea.fin.x + 24 }}" y="{{ linea.fin.y + 14 }}">{{ linea.fin.texto }}</text>
+        <text x="{{ linea.izq }}" y="{{ linea.base + 44 }}">{{ linea.desde }}</text>
+        <text x="{{ linea.der }}" y="{{ linea.base + 44 }}" text-anchor="end">{{ linea.hasta }}</text>
+      </svg>
+    </div>
+    <p class="dato">Sin sábados ni domingos: no hay mercado.</p>
+  </div>
+  <div class="pie"><span>Fuente: Oleista. Precios orientativos en origen, a granel.</span></div>
+
+{% elif vista == "tabla" %}
+  <div class="centro">
+    <p class="antetitulo">Último dato de cada uno</p>
+    <h2>{{ titulo }}</h2>
+    <div class="tarjeta">
+      {% for f in filas %}
+      <div class="fila">
+        <b>{{ f[columna] }}</b><div class="num">{{ f.valor }} <small>€/kg</small></div>
+        <span>Dato del {{ f.fecha }}</span><span class="var {{ f.signo }}">{{ f.semana }}{% if f.semana not in ("sin dato", "sin cambios") %} en una semana{% endif %}</span>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="pie"><span>Fuente: Oleista. Precios orientativos en origen, a granel.</span></div>
+
+{% elif vista == "noticia" %}
+  <div class="centro">
+    <p class="antetitulo">La noticia</p>
+    <h2>{{ textos.noticia_titulo }}</h2>
+    <ul class="puntos">{% for p in textos.noticia_puntos %}<li>{{ p }}</li>{% endfor %}</ul>
+    {% if tam[1] > 1400 %}<div class="hueco"></div>{% endif %}
+  </div>
+  <div class="pie"><span>Artículo completo y fuentes en {{ web }}</span></div>
+
+{% elif vista == "encuesta" %}
+  <p class="antetitulo">Tu opinión</p>
+  <h2>{{ textos.encuesta_pregunta }}</h2>
+  <div class="hueco"></div>
+  <div class="pie"><span>AOVE al Día</span></div>
+
+{% else %}
+  <div class="centro">
+    <h1>Los precios y noticias del aceite de oliva, cada día.</h1>
+    <p class="cta">Síguenos y guarda este resumen para comparar con el de mañana.</p>
+    <p class="cta web">Enlace en la biografía</p>
+  </div>
+  <div class="pie"><span>Precios orientativos: no son una oferta de compra o venta. Textos elaborados con ayuda de inteligencia artificial.</span></div>
+{% endif %}
+</div>
+</body>
+</html>

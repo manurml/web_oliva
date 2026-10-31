@@ -57,25 +57,33 @@ def actualizar() -> int:
         REGISTRO.unlink()
     with REGISTRO.open("a", encoding="utf-8") as registro:
         print(f"\n=== {datetime.now():%Y-%m-%d %H:%M} {' '.join(sys.argv[1:])}", file=registro, flush=True)
-        if ejecutar(registro, "git", "pull", "--ff-only", "--quiet"):
-            print("ERROR: no se pudo sincronizar con GitHub; no se actualiza nada", file=registro)
-            return 1
         python = sys.executable.replace("pythonw.exe", "python.exe")
-        orden = [python, "diario.py"] + ([] if "--completa" in sys.argv else ["--si-hay-cambios"])
-        if ejecutar(registro, *orden):
-            print("ERROR: falló diario.py; no se publica nada", file=registro)
-            return 1
-        ejecutar(registro, "git", "add", "datos", "docs")
-        if not ejecutar(registro, "git", "diff", "--cached", "--quiet"):
-            print("Sin cambios que publicar", file=registro)
-            return 0
-        if ejecutar(registro, "git", "commit", "--quiet", "-m", f"Actualización diaria {date.today()}"):
-            print("ERROR: no se pudo crear el commit", file=registro)
-            return 1
-        if ejecutar(registro, "git", "push", "--quiet"):
-            print("ERROR: no se pudo subir a GitHub", file=registro)
-            return 1
-        print("Publicado", file=registro)
+        codigo = publicar_web(registro, python)
+        # Después de publicar, para que el enlace de las historias ya funcione. Su fallo no afecta a la web.
+        if not codigo and ejecutar(registro, python, "-m", "services.agent_instagram"):
+            print("AVISO: no se pudo preparar el contenido de Instagram; se reintentará", file=registro)
+    return codigo
+
+
+def publicar_web(registro, python: str) -> int:
+    if ejecutar(registro, "git", "pull", "--ff-only", "--quiet"):
+        print("ERROR: no se pudo sincronizar con GitHub; no se actualiza nada", file=registro)
+        return 1
+    orden = [python, "diario.py"] + ([] if "--completa" in sys.argv else ["--si-hay-cambios"])
+    if ejecutar(registro, *orden):
+        print("ERROR: falló diario.py; no se publica nada", file=registro)
+        return 1
+    ejecutar(registro, "git", "add", "datos", "docs")
+    if not ejecutar(registro, "git", "diff", "--cached", "--quiet"):
+        print("Sin cambios que publicar", file=registro)
+        return 0
+    if ejecutar(registro, "git", "commit", "--quiet", "-m", f"Actualización diaria {date.today()}"):
+        print("ERROR: no se pudo crear el commit", file=registro)
+        return 1
+    if ejecutar(registro, "git", "push", "--quiet"):
+        print("ERROR: no se pudo subir a GitHub", file=registro)
+        return 1
+    print("Publicado", file=registro)
     return 0
 
 

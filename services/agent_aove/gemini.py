@@ -132,7 +132,7 @@ def pedir(instrucciones: str, sistema: str, formato: type[BaseModel], comprobar=
             sin_respaldo = comprobar(articulo)
             if not sin_respaldo:
                 return articulo, set()
-            log.warning("Intento %d: cifras sin respaldo: %s", intento, sin_respaldo)
+            log.warning("Intento %d: la revisión encontró: %s", intento, sin_respaldo)
         if intento < config.AGENTE_INTENTOS:
             time.sleep(config.AGENTE_ESPERA_S * intento)
     if articulo is None:

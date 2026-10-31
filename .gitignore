@@ -5,3 +5,4 @@ __pycache__/
 .claude/settings.local.json
 pc/registro.log
 pc/actualizar.lock
+instagram/
