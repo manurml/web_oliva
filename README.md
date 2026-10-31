@@ -3,7 +3,7 @@
 Web estática de noticias y precios del aceite de oliva virgen extra que se actualiza sola cada mañana:
 
 1. **Precios**: lee las cotizaciones diarias en origen de Oleista (AOVE, virgen y lampante en España, Andalucía, Italia y Grecia), las guarda en `datos/precios.json` (el histórico crece cada día) y dibuja la gráfica de evolución.
-2. **Noticias**: revisa las publicaciones nuevas de InfaOliva y Oleista, pide a Claude que elija las 2 más relevantes y que redacte con ellas artículos propios que citan y enlazan la fuente original.
+2. **Noticias**: revisa las publicaciones nuevas de InfaOliva y Oleista, pide a Gemini que elija las 2 más relevantes y que redacte con ellas artículos propios que citan y enlazan la fuente original.
 3. **Web**: genera las páginas en `docs/`, listas para publicar con GitHub Pages.
 
 ## Estructura
@@ -12,7 +12,7 @@ Web estática de noticias y precios del aceite de oliva virgen extra que se actu
 diario.py              Tarea diaria (punto de entrada)
 config.py              Nombre de la web, modelo, límites y opciones
 aove/fuentes/          Lectura de Oleista e InfaOliva
-aove/redactor.py       Selección y redacción con Claude
+aove/redactor.py       Selección y redacción con Gemini
 aove/web.py            Generación de la web
 plantillas/            HTML (Jinja2)
 estaticos/             CSS, gráfica (Chart.js) e icono
@@ -30,7 +30,7 @@ pip install -r requirements.txt
 python diario.py
 ```
 
-Sin `ANTHROPIC_API_KEY` la web se genera igualmente, pero las noticias salen como fichas breves con enlace en lugar de artículos redactados. Para ver la web: abre `docs/index.html` o lanza `python -m http.server 8765 --directory docs`.
+Sin `GEMINI_API_KEY` la web se genera igualmente, pero las noticias salen como fichas breves con enlace en lugar de artículos redactados. Para ver la web: abre `docs/index.html` o lanza `python -m http.server 8765 --directory docs`.
 
 ## Publicación y actualización automática
 
@@ -39,7 +39,7 @@ La web está en https://manurml.github.io/web_oliva/ (GitHub Pages, carpeta `doc
 - `pc/actualizar.py` trae los últimos cambios, ejecuta `diario.py` y sube `datos/` y `docs/` si algo ha cambiado. Lo que hace queda en `pc/registro.log`.
 - `pc/programar_tareas.ps1` crea dos tareas de Windows: una comprobación cada 30 minutos de 07:00 a 22:00 y un cierre a las 22:30, que publica las noticias aunque no haya precios nuevos.
 
-El PC debe estar encendido y con la sesión iniciada. Si estaba apagado, la tarea se ejecuta al volver a encenderlo. Sin `ANTHROPIC_API_KEY` en las variables de entorno, las noticias se publican como fichas breves.
+El PC debe estar encendido y con la sesión iniciada. Si estaba apagado, la tarea se ejecuta al volver a encenderlo e iniciar sesión. Sin `GEMINI_API_KEY` en las variables de entorno, las noticias se publican como fichas breves.
 
 ## Ajustes útiles (`config.py`)
 

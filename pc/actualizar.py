@@ -6,14 +6,18 @@ Uso:
     python pc/actualizar.py             # solo si Oleista ha publicado precios nuevos
     python pc/actualizar.py --completa  # también publica noticias aunque no haya precios nuevos
 """
+import msvcrt
 import os
 import subprocess
 import sys
+import time
 from datetime import date, datetime
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
 REGISTRO = RAIZ / "pc" / "registro.log"
+BLOQUEO = RAIZ / "pc" / "actualizar.lock"
+ESPERA_TURNO_S = 600
 URL_WEB = "https://manurml.github.io/web_oliva"
 MAX_BYTES_REGISTRO = 500_000
 SIN_VENTANA = getattr(subprocess, "CREATE_NO_WINDOW", 0)
@@ -26,7 +30,29 @@ def ejecutar(registro, *orden: str) -> int:
     return r.returncode
 
 
+def esperar_turno(bloqueo, segundos: int = ESPERA_TURNO_S) -> bool:
+    """Evita dos ejecuciones a la vez (al encender pueden coincidir varias tareas). Windows libera el bloqueo si el proceso muere."""
+    fin = time.monotonic() + segundos
+    while True:
+        try:
+            msvcrt.locking(bloqueo.fileno(), msvcrt.LK_NBLCK, 1)
+            return True
+        except OSError:
+            if time.monotonic() >= fin:
+                return False
+            time.sleep(min(5, segundos))
+
+
 def main() -> int:
+    with BLOQUEO.open("a") as bloqueo:
+        if not esperar_turno(bloqueo):
+            with REGISTRO.open("a", encoding="utf-8") as registro:
+                print(f"\n=== {datetime.now():%Y-%m-%d %H:%M} Otra actualización sigue en curso; se omite esta", file=registro)
+            return 1
+        return actualizar()
+
+
+def actualizar() -> int:
     if REGISTRO.exists() and REGISTRO.stat().st_size > MAX_BYTES_REGISTRO:
         REGISTRO.unlink()
     with REGISTRO.open("a", encoding="utf-8") as registro:

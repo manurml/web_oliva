@@ -12,8 +12,10 @@ $diario.Repetition = $comprobar.Repetition
 Register-ScheduledTask -TaskName "AOVE al Dia - comprobar precios" -Force -Settings $ajustes -Trigger $diario `
     -Action (New-ScheduledTaskAction -Execute $pythonw -Argument "`"$script`"" -WorkingDirectory $raiz) | Out-Null
 
-# A las 22:30: publica las noticias aunque hoy no haya precios nuevos.
-Register-ScheduledTask -TaskName "AOVE al Dia - cierre del dia" -Force -Settings $ajustes -Trigger (New-ScheduledTaskTrigger -Daily -At "22:30") `
+# Al iniciar sesión (con 2 minutos para que haya red) y a las 22:30: publica las noticias aunque hoy no haya precios nuevos.
+$alEntrar = New-ScheduledTaskTrigger -AtLogOn -User "$env:USERDOMAIN\$env:USERNAME"
+$alEntrar.Delay = "PT2M"
+Register-ScheduledTask -TaskName "AOVE al Dia - cierre del dia" -Force -Settings $ajustes -Trigger @($alEntrar, (New-ScheduledTaskTrigger -Daily -At "22:30")) `
     -Action (New-ScheduledTaskAction -Execute $pythonw -Argument "`"$script`" --completa" -WorkingDirectory $raiz) | Out-Null
 
 Get-ScheduledTask -TaskName "AOVE al Dia*" | ForEach-Object { "$($_.TaskName): $($_.State)" }

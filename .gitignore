@@ -4,3 +4,4 @@ __pycache__/
 .env
 .claude/settings.local.json
 pc/registro.log
+pc/actualizar.lock

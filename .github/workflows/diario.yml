@@ -30,7 +30,7 @@ jobs:
         run: python diario.py
         env:
           TZ: Europe/Madrid
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           SITIO_URL: ${{ vars.SITIO_URL }}
           CONTACTO_BOT: ${{ vars.CONTACTO_BOT }}
           PUBLICAR_PRECIOS_INFAOLIVA: ${{ vars.PUBLICAR_PRECIOS_INFAOLIVA }}

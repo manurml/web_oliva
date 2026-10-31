@@ -106,7 +106,7 @@ def publicar_articulos(vistas: dict) -> None:
         return
     con_ia = redactor.disponible()
     if not con_ia:
-        log.warning("Sin ANTHROPIC_API_KEY: se publican fichas breves en lugar de artículos redactados")
+        log.warning("Sin GEMINI_API_KEY: se publican fichas breves en lugar de artículos redactados")
     for noticia in redactor.elegir(pool, config.NOTICIAS_POR_DIA):
         try:
             noticia = _con_texto(noticia)

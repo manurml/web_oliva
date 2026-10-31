@@ -78,26 +78,34 @@ def _fechas(texto: str) -> set[str]:
             | set(re.findall(r"\b\d{1,4}[-/]\d{1,2}[-/]\d{1,4}\b", texto)))
 
 
-def cifras_sin_respaldo(articulo: ArticuloGemini, contexto: str) -> set[str]:
+def sin_respaldo_en(salida: str, contexto: str) -> set[str]:
     permitidas = _numeros(contexto)
     # Un precio redondeado a menos decimales también es válido: 3,138 -> 3,14 y 3,1.
     for n in [x for x in permitidas if "%" not in x]:
         valor = float(n.replace(",", "."))
         permitidas |= {f"{valor:.2f}".replace(".", ","), f"{valor:.1f}".replace(".", ",")}
-    salida = f"{articulo.titulo} {articulo.resumen} {articulo.contenido_markdown}"
     return (_numeros(salida) - permitidas) | (_fechas(salida) - _fechas(contexto))
+
+
+def cifras_sin_respaldo(articulo: ArticuloGemini, contexto: str) -> set[str]:
+    return sin_respaldo_en(f"{articulo.titulo} {articulo.resumen} {articulo.contenido_markdown}", contexto)
 
 
 def redactar(datos: Contexto, hoy: date) -> tuple[ArticuloGemini, set[str]]:
     """Devuelve el artículo y las cifras sin respaldo que queden tras los reintentos."""
-    cliente = _cliente()
     enfoque = ENFOQUES[hoy.toordinal() % len(ENFOQUES)]
     log.info("Enfoque de hoy: %s", enfoque)
     instrucciones = f"Enfoque de hoy: {enfoque}.\n\nContexto:\n<<<\n{datos.texto}\n>>>"
+    return pedir(instrucciones, SISTEMA, ArticuloGemini, lambda a: cifras_sin_respaldo(a, datos.texto))
+
+
+def pedir(instrucciones: str, sistema: str, formato: type[BaseModel], comprobar=lambda _: set()) -> tuple:
+    """Devuelve la respuesta validada y los problemas de `comprobar` que queden tras los reintentos."""
+    cliente = _cliente()
     ajustes = types.GenerateContentConfig(
-        system_instruction=SISTEMA,
+        system_instruction=sistema,
         response_mime_type="application/json",
-        response_schema=ArticuloGemini,
+        response_schema=formato,
         automatic_function_calling=types.AutomaticFunctionCallingConfig(disable=True),
     )
     articulo = None
@@ -107,7 +115,7 @@ def redactar(datos: Contexto, hoy: date) -> tuple[ArticuloGemini, set[str]]:
         log.info("Intento %d con %s", intento, modelo)
         try:
             r = cliente.models.generate_content(model=modelo, contents=instrucciones, config=ajustes)
-            articulo = ArticuloGemini.model_validate_json(r.text or "")
+            articulo = formato.model_validate_json(r.text or "")
         except ValidationError:
             log.warning("Intento %d: el JSON no es válido", intento)
         except errors.ClientError as e:
@@ -121,12 +129,12 @@ def redactar(datos: Contexto, hoy: date) -> tuple[ArticuloGemini, set[str]]:
                 raise
             log.warning("Intento %d: tiempo de espera agotado", intento)
         else:
-            sin_respaldo = cifras_sin_respaldo(articulo, datos.texto)
+            sin_respaldo = comprobar(articulo)
             if not sin_respaldo:
                 return articulo, set()
             log.warning("Intento %d: cifras sin respaldo: %s", intento, sin_respaldo)
         if intento < config.AGENTE_INTENTOS:
             time.sleep(config.AGENTE_ESPERA_S * intento)
     if articulo is None:
-        raise ErrorGemini(f"Gemini no devolvió un artículo válido tras {config.AGENTE_INTENTOS} intentos")
+        raise ErrorGemini(f"Gemini no devolvió una respuesta válida tras {config.AGENTE_INTENTOS} intentos")
     return articulo, sin_respaldo

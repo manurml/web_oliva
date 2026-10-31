@@ -24,10 +24,7 @@ NOTICIAS_POR_DIA = 2
 DIAS_MAX_ANTIGUEDAD = 30         # no se reescriben noticias más antiguas (las fuentes publican pocas al mes)
 MAX_PAGINAS_NUEVAS_POR_FUENTE = 25
 
-# Redacción con Claude (necesita la variable de entorno ANTHROPIC_API_KEY)
-MODELO_CLAUDE = "claude-opus-5-5"
-
-# Agente de análisis diario con Gemini (necesita GEMINI_API_KEY)
+# Redacción de noticias y análisis diario con Gemini (necesita GEMINI_API_KEY)
 GEMINI_MODELO = os.environ.get("GEMINI_MODELO", "gemini-3.8-flash")
 GEMINI_MODELO_RESERVA = os.environ.get("GEMINI_MODELO_RESERVA", "gemini-3.5-flash-lite")  # si el principal está saturado
 AGENTE_ESTADO = os.environ.get("AGENTE_ESTADO", "published")  # "published" o "draft"

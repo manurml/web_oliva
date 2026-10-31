@@ -1,13 +1,13 @@
-"""Selección de las mejores noticias y redacción de artículos originales con Claude."""
+"""Selección de las mejores noticias y redacción de artículos originales con Gemini."""
 import logging
 import os
 from typing import Literal
 
-import anthropic
 from pydantic import BaseModel
 
-import config
 from aove.modelos import Noticia
+from aove.web import fecha_larga
+from services.agent_aove import gemini
 
 log = logging.getLogger(__name__)
 
@@ -44,31 +44,11 @@ class Articulo(BaseModel):
 
 
 def disponible() -> bool:
-    return bool(os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("ANTHROPIC_AUTH_TOKEN"))
-
-
-def _cliente() -> anthropic.Anthropic:
-    return anthropic.Anthropic(max_retries=4)
-
-
-def _pedir(contenido: str, formato: type[BaseModel], esfuerzo: str):
-    r = _cliente().beta.messages.parse(
-        model=config.MODELO_CLAUDE,
-        max_tokens=16000,
-        system=SISTEMA,
-        messages=[{"role": "user", "content": contenido}],
-        output_config={"effort": esfuerzo},
-        output_format=formato,
-        betas=["server-side-fallback-2026-07-01"],
-        fallbacks="default",
-    )
-    if r.stop_reason == "refusal" or r.parsed_output is None:
-        raise RuntimeError(f"Claude no devolvió resultado (stop_reason={r.stop_reason})")
-    return r.parsed_output
+    return bool(os.environ.get("GEMINI_API_KEY"))
 
 
 def elegir(candidatas: list[Noticia], n: int) -> list[Noticia]:
-    """Pide a Claude las n noticias más relevantes. Sin clave de API, elige las más recientes."""
+    """Pide a Gemini las n noticias más relevantes. Sin clave de API o si falla, elige las más recientes."""
     if len(candidatas) <= n:
         return candidatas
     por_fecha = sorted(candidatas, key=lambda c: (c.fecha, -c.orden), reverse=True)
@@ -78,36 +58,44 @@ def elegir(candidatas: list[Noticia], n: int) -> list[Noticia]:
         f"[{i}] {c.fuente} · {c.fecha}\nTítulo: {c.titulo}\nResumen: {c.resumen or 'no disponible'}"
         for i, c in enumerate(por_fecha)
     )
-    sel = _pedir(
-        f"""Estas son las noticias candidatas de hoy, recogidas de InfaOliva y Oleista:
+    try:
+        sel, _ = gemini.pedir(
+            f"""Estas son las noticias candidatas de hoy, recogidas de InfaOliva y Oleista:
 
 {listado}
 
 Elige las {n} noticias más valiosas para publicar hoy. Prioriza: actualidad e impacto en el mercado y los precios del AOVE, novedad (no contenido atemporal tipo guía o receta), utilidad para el profesional del sector, y variedad (si hay dos de calidad parecida, mejor de fuentes o temas distintos).
 Devuelve sus números en "ids" (exactamente {n}) y en "motivo" una frase breve.""",
-        Seleccion,
-        "low",
-    )
+            SISTEMA,
+            Seleccion,
+        )
+    except gemini.ErrorGemini as e:
+        log.warning("No se pudo seleccionar con Gemini; se usan las más recientes: %s", e)
+        return por_fecha[:n]
     elegidas = [por_fecha[i] for i in dict.fromkeys(sel.ids) if 0 <= i < len(por_fecha)][:n]
-    log.info("Selección de Claude: %s (%s)", [e.titulo for e in elegidas], sel.motivo)
+    log.info("Selección de Gemini: %s (%s)", [e.titulo for e in elegidas], sel.motivo)
     return elegidas or por_fecha[:n]
 
 
 def redactar(noticia: Noticia) -> Articulo:
-    return _pedir(
-        f"""{REGLAS_REDACCION.format(fuente=noticia.fuente)}
-
-Fuente: {noticia.fuente}
-Fecha de la noticia original: {noticia.fecha}
+    """Si quedan cifras o fechas que no están en la fuente, falla: la noticia sigue candidata y no se publica."""
+    fuente = f"""Fuente: {noticia.fuente}
+Fecha de la noticia original: {fecha_larga(noticia.fecha)}
 Título original: {noticia.titulo}
 
 Texto original:
 <<<
 {noticia.texto}
->>>""",
-        Articulo,
-        "high",
-    )
+>>>"""
+
+    def comprobar(a: Articulo) -> set[str]:
+        salida = " ".join([a.titulo, a.entradilla, *a.claves, *(b.texto for b in a.bloques)])
+        return gemini.sin_respaldo_en(salida, fuente)
+
+    articulo, sin_respaldo = gemini.pedir(f"{REGLAS_REDACCION.format(fuente=noticia.fuente)}\n\n{fuente}", SISTEMA, Articulo, comprobar)
+    if sin_respaldo:
+        raise gemini.ErrorGemini(f"Cifras o fechas que no están en la fuente: {sin_respaldo}")
+    return articulo
 
 
 def breve_sin_ia(noticia: Noticia) -> Articulo:
