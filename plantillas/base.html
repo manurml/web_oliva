@@ -8,7 +8,9 @@
   <meta name="theme-color" content="#121812" media="(prefers-color-scheme: dark)">
   <title>{% block titulo %}{{ sitio.nombre }}{% endblock %}</title>
   <meta name="description" content="{% block descripcion %}{{ sitio.lema }}{% endblock %}">
-  <link rel="icon" href="{{ raiz }}estaticos/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="{{ raiz }}estaticos/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="{{ raiz }}estaticos/apple-touch-icon.png">
+  <link rel="manifest" href="{{ raiz }}estaticos/manifest.webmanifest">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
@@ -18,17 +20,13 @@
 </head>
 <body>
   <a class="saltar" href="#contenido">Saltar al contenido</a>
-  {% set partes = sitio.nombre.split(' ', 1) %}
   <header class="contenedor cabecera">
     <div class="cabecera__barra">
       <a class="marca" href="{{ raiz }}index.html">
-        <span class="marca__icono">
-          <svg class="logo" width="20" height="20" viewBox="0 0 48 48" aria-hidden="true">
-            <path d="M26 17Q38.2 17.2 43 6Q30.8 5.8 26 17Z"/>
-            <ellipse cx="21" cy="31.5" rx="10.5" ry="14" transform="rotate(28 21 31.5)"/>
-          </svg>
-        </span>
-        <span translate="no">{{ partes[0] }}{% if partes|length > 1 %} <i>{{ partes[1] }}</i>{% endif %}</span>
+        <picture>
+          <source srcset="{{ raiz }}estaticos/logo-oscuro.png" media="(prefers-color-scheme: dark)">
+          <img class="marca__logo" src="{{ raiz }}estaticos/logo-claro.png" width="848" height="176" alt="{{ sitio.nombre }}">
+        </picture>
       </a>
       <nav class="menu" aria-label="Principal">
         <a href="{{ raiz }}precios.html">Cotizaciones</a>

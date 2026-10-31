@@ -67,10 +67,8 @@ main:focus:not(:focus-visible) { outline: none; }
   background: color-mix(in srgb, var(--superficie) 85%, transparent); backdrop-filter: blur(12px);
   box-shadow: 0 1px 2px rgb(30 42 30 / .06);
 }
-.marca { display: inline-flex; align-items: center; gap: .7rem; text-decoration: none; font: 700 1.45rem/1.1 "Bodoni Moda", Georgia, serif; letter-spacing: -.01em; }
-.marca i { font-weight: 400; color: var(--tenue); }
-.marca__icono { width: 36px; height: 36px; flex: none; display: grid; place-items: center; border-radius: 50%; background: color-mix(in srgb, var(--oro) 20%, transparent); }
-.logo { fill: var(--oro-texto); }
+.marca { display: inline-flex; text-decoration: none; }
+.marca__logo { display: block; width: auto; height: 44px; }
 .menu { display: flex; flex-wrap: wrap; gap: .25rem 1.75rem; font-size: .9rem; font-weight: 500; }
 .menu a { color: var(--texto-2); text-decoration: none; padding: .35rem 0; }
 .menu a:hover { color: var(--texto); }

@@ -1,57 +1,61 @@
 <!doctype html>
 <html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Marca AOVE al Día</title>
-<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,700&family=Outfit:wght@400;500&display=swap" rel="stylesheet">
 <style>
-body{margin:0;background:#fff;color:#171a14;font:400 16px/1.6 "Schibsted Grotesk",system-ui,sans-serif}
+body{margin:0;background:#f4f6f2;color:#1e2a1e;font:400 16px/1.6 Outfit,system-ui,sans-serif}
 main{width:min(1040px,100% - 32px);margin:48px auto 80px}
-h1{font-size:28px;margin:0 0 4px;letter-spacing:-.01em}
-p{margin:0;color:#5c6157}
-.rejilla{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:32px}
-.panel{border:1px solid #e7e8e3;border-radius:14px;padding:28px;display:flex;flex-direction:column;justify-content:space-between;gap:24px;min-height:240px}
-.panel--ancho{grid-column:span 2}
-.panel--oscuro{background:#111310;border-color:#111310}
-.panel--oscuro p{color:#9ea398}
+h1{font:700 32px/1.2 "Bodoni Moda",Georgia,serif;margin:0 0 4px}
+p{margin:0;color:#5c6e5a}
+img{display:block;max-width:100%;height:auto}
+.rejilla{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:32px}
+.panel{background:#fff;border:1px solid #e2e8df;border-radius:24px;padding:28px;display:flex;flex-direction:column;justify-content:space-between;gap:24px;min-height:240px}
+.panel--oscuro{background:#121c0a;border-color:#121c0a}
+.panel--oscuro p{color:#c0c9bc}
 .centro{flex:1;display:flex;align-items:center;justify-content:center;gap:28px}
-.firma{display:inline-flex;align-items:center;font-weight:700;letter-spacing:-.02em}
-.colores{display:flex;gap:12px}
-.color{flex:1;border-radius:10px;height:72px;padding:10px;box-sizing:border-box;font-size:13px;display:flex;align-items:flex-end}
-@media (max-width:760px){.rejilla{grid-template-columns:1fr}.panel--ancho{grid-column:auto}}
+.iconos{align-items:flex-end}
+.colores{display:flex;flex-wrap:wrap;gap:12px}
+.color{flex:1 1 120px;border-radius:10px;height:72px;padding:10px;box-sizing:border-box;font-size:13px;display:flex;align-items:flex-end}
+.fuentes{flex-direction:column;gap:8px}
+.bodoni{font:700 40px/1.2 "Bodoni Moda",Georgia,serif}
+.outfit{font:400 22px/1.2 Outfit,sans-serif}
+@media (max-width:760px){.rejilla{grid-template-columns:1fr}}
 </style></head><body><main>
 <h1>AOVE al Día</h1>
-<p>Una aceituna y una hoja de olivo, en un solo color.</p>
+<p>Una aceituna y una hoja de olivo trazadas en un solo gesto.</p>
 <div class="rejilla">
-  <div class="panel panel--ancho">
-    <div class="centro"><img src="simbolo.svg" width="180" height="180" alt="Símbolo de AOVE al Día"></div>
-    <p>Símbolo</p>
+  <div class="panel">
+    <div class="centro"><img src="../estaticos/logo-claro.png" width="424" height="88" alt="Logo de AOVE al Día para fondo claro"></div>
+    <p>Logo sobre fondo claro</p>
   </div>
   <div class="panel panel--oscuro">
-    <div class="centro"><img src="simbolo-oscuro.svg" width="120" height="120" alt="Símbolo sobre fondo oscuro"></div>
-    <p>Sobre fondo oscuro</p>
-  </div>
-  <div class="panel panel--ancho">
-    <div class="centro" style="flex-direction:column;align-items:flex-start;gap:36px">
-      <span class="firma" style="font-size:44px;gap:14px"><img src="simbolo.svg" width="52" height="52" alt="">AOVE al Día</span>
-      <span class="firma" style="font-size:17px;gap:8px"><img src="simbolo.svg" width="22" height="22" alt="">AOVE al Día</span>
-    </div>
-    <p>Logotipo completo, en grande y al tamaño de la cabecera</p>
+    <div class="centro"><img src="../estaticos/logo-oscuro.png" width="424" height="88" alt="Logo de AOVE al Día para fondo oscuro"></div>
+    <p>Logo sobre fondo oscuro</p>
   </div>
   <div class="panel">
-    <div class="centro" style="align-items:flex-end">
-      <img src="icono-app.svg" width="96" height="96" alt="Icono de aplicación">
-      <img src="simbolo.svg" width="32" height="32" alt="">
-      <img src="simbolo.svg" width="16" height="16" alt="">
+    <div class="centro iconos">
+      <img src="../estaticos/icono-192.png" width="96" height="96" alt="Icono de aplicación">
+      <img src="../estaticos/favicon-32.png" width="32" height="32" alt="Favicon">
+      <img src="../estaticos/favicon-32.png" width="16" height="16" alt="Favicon a 16 px">
     </div>
     <p>Icono de app y favicon a 96, 32 y 16 px</p>
   </div>
-  <div class="panel panel--ancho">
-    <div class="colores">
-      <div class="color" style="background:#6e7d12;color:#fff">Oliva #6E7D12</div>
-      <div class="color" style="background:#c2d25a;color:#171a14">Oliva claro #C2D25A</div>
-      <div class="color" style="background:#171a14;color:#fff">Tinta #171A14</div>
-      <div class="color" style="background:#f4f5f1;color:#171a14">Niebla #F4F5F1</div>
+  <div class="panel">
+    <div class="centro fuentes">
+      <span class="bodoni">Bodoni Moda</span>
+      <span class="outfit">Outfit</span>
     </div>
-    <p>Colores. Tipografía: Schibsted Grotesk Bold</p>
+    <p>Tipografías de la web: títulos y texto</p>
+  </div>
+  <div class="panel" style="grid-column:1/-1;min-height:0">
+    <div class="colores">
+      <div class="color" style="background:#121c0a;color:#fff">Fondo del logo #121C0A</div>
+      <div class="color" style="background:#c0bc44;color:#1e2a1e">Oliva del símbolo #C0BC44</div>
+      <div class="color" style="background:#a0a830;color:#1e2a1e">"al Día" en oscuro #A0A830</div>
+      <div class="color" style="background:#5f6b12;color:#fff">"al Día" en claro #5F6B12</div>
+      <div class="color" style="background:#1e2a1e;color:#fff">"AOVE" en claro #1E2A1E</div>
+    </div>
+    <p>Colores aproximados, medidos sobre el logo</p>
   </div>
 </div>
 </main></body></html>
