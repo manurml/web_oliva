@@ -1,0 +1,61 @@
+{
+ "bloques": [
+  {
+   "texto": "Situación en España y Andalucía",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "El mercado del aceite de oliva registra diversos movimientos en sus cotizaciones a granel en origen, según los datos facilitados por la fuente Oleista. En España, el precio del aceite de oliva virgen extra se situó en 3,180 euros por kilogramo el 27 de octubre de 2026. Esta cifra refleja una variación del +0,0 % en la sesión anterior y en la semana, mientras que en el mes acumula una caída del 6,5 %, con un rango de 30 días comprendido entre 3,120 y 3,665 euros por kilogramo.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Por su parte, el virgen en España marcó 2,950 euros por kilogramo el 26 de octubre de 2026, con descensos del 1,7 % en la sesión anterior, del 0,7 % en la semana y del 9,2 % en el mes, situándose en un rango mensual de 2,950 a 3,177 euros por kilogramo. El lampante en España cotizó a 2,800 euros por kilogramo el 28 de octubre de 2026, registrando una caída del 1,8 % en la sesión anterior, del 5,2 % en la semana y del 4,8 % en el mes, con un rango de 30 días entre 2,800 y 3,000 euros por kilogramo.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "En el ámbito territorial de Andalucía, el virgen extra se fijó en 3,090 euros por kilogramo el 21 de octubre de 2026, con una variación del +0,0 % en la sesión anterior, una bajada del 1,6 % en la semana y del 11,0 % en el mes, con un rango de 30 días de 3,090 a 3,470 euros por kilogramo. El virgen andaluz marcó 2,940 euros por kilogramo en la misma fecha, con una variación del +0,0 % en la sesión anterior, un retroceso del 2,3 % en la semana y del 10,6 % en el mes, mientras que el lampante andaluz se situó en 2,900 euros por kilogramo con variaciones del +0,0 % en la sesión anterior, del -0,7 % en la semana y del -8,5 % en el mes.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Comportamiento en Italia y Grecia",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "Fuera de las fronteras españolas, el mercado internacional muestra diferencias notables en las principales categorías. En Italia, el aceite de oliva virgen extra alcanzó los 4,780 euros por kilogramo el 21 de octubre de 2026, registrando un +0,0 % en la sesión anterior, un incremento del 0,7 % en la semana y del 0,7 % en el mes, con un rango de 30 días de 4,370 a 4,780 euros por kilogramo. El virgen italiano cotizó a 3,000 euros por kilogramo el 21 de octubre de 2026, sin cambios en la sesión anterior ni en la semana, pero con una caída del 6,3 % en el mes.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "En Grecia, el aceite de oliva virgen extra se situó en 3,410 euros por kilogramo el 27 de octubre de 2026, lo que representa una bajada del 3,4 % tanto en la sesión anterior como en la semana, y del 8,8 % en el mes, con un rango de 30 días de 3,410 a 3,680 euros por kilogramo. El virgen griego marcó 2,800 euros por kilogramo el 27 de octubre de 2026, con descensos del 3,4 % en la sesión anterior y en la semana, y una variación del +0,0 % en el mes. Por el contrario, el lampante en Grecia subió hasta los 2,350 euros por kilogramo el 27 de octubre de 2026, con incrementos del 6,8 % en la sesión anterior y en la semana, y del 8,3 % en el mes.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Contexto de producción y recolección",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "El sector agrario maneja estos datos de precios en paralelo a las previsiones de la campaña 2026/27. Según la información difundida por Oleista el 28 de octubre de 2026 sobre la producción país por país, España aforará 1.602.596 toneladas y Turquía se posicionará como el segundo productor, mientras que Túnez sufrirá una caída del 40 % y Marruecos del 30 % en sus volúmenes. Asimismo, respecto a las decisiones agronómicas en campo, una publicación de Oleista del 8 de octubre de 2026 planteaba los cálculos necesarios sobre si compensa recoger la aceituna temprano, señalando que adelantar la recolección incrementa los costes y reduce los kilos de aceite obtenidos.",
+   "tipo": "parrafo"
+  }
+ ],
+ "claves": [],
+ "contenido_markdown": "## Situación en España y Andalucía\n\nEl mercado del aceite de oliva registra diversos movimientos en sus cotizaciones a granel en origen, según los datos facilitados por la fuente Oleista. En España, el precio del aceite de oliva virgen extra se situó en 3,180 euros por kilogramo el 27 de octubre de 2026. Esta cifra refleja una variación del +0,0 % en la sesión anterior y en la semana, mientras que en el mes acumula una caída del 6,5 %, con un rango de 30 días comprendido entre 3,120 y 3,665 euros por kilogramo.\n\nPor su parte, el virgen en España marcó 2,950 euros por kilogramo el 26 de octubre de 2026, con descensos del 1,7 % en la sesión anterior, del 0,7 % en la semana y del 9,2 % en el mes, situándose en un rango mensual de 2,950 a 3,177 euros por kilogramo. El lampante en España cotizó a 2,800 euros por kilogramo el 28 de octubre de 2026, registrando una caída del 1,8 % en la sesión anterior, del 5,2 % en la semana y del 4,8 % en el mes, con un rango de 30 días entre 2,800 y 3,000 euros por kilogramo.\n\nEn el ámbito territorial de Andalucía, el virgen extra se fijó en 3,090 euros por kilogramo el 21 de octubre de 2026, con una variación del +0,0 % en la sesión anterior, una bajada del 1,6 % en la semana y del 11,0 % en el mes, con un rango de 30 días de 3,090 a 3,470 euros por kilogramo. El virgen andaluz marcó 2,940 euros por kilogramo en la misma fecha, con una variación del +0,0 % en la sesión anterior, un retroceso del 2,3 % en la semana y del 10,6 % en el mes, mientras que el lampante andaluz se situó en 2,900 euros por kilogramo con variaciones del +0,0 % en la sesión anterior, del -0,7 % en la semana y del -8,5 % en el mes.\n\n## Comportamiento en Italia y Grecia\n\nFuera de las fronteras españolas, el mercado internacional muestra diferencias notables en las principales categorías. En Italia, el aceite de oliva virgen extra alcanzó los 4,780 euros por kilogramo el 21 de octubre de 2026, registrando un +0,0 % en la sesión anterior, un incremento del 0,7 % en la semana y del 0,7 % en el mes, con un rango de 30 días de 4,370 a 4,780 euros por kilogramo. El virgen italiano cotizó a 3,000 euros por kilogramo el 21 de octubre de 2026, sin cambios en la sesión anterior ni en la semana, pero con una caída del 6,3 % en el mes.\n\nEn Grecia, el aceite de oliva virgen extra se situó en 3,410 euros por kilogramo el 27 de octubre de 2026, lo que representa una bajada del 3,4 % tanto en la sesión anterior como en la semana, y del 8,8 % en el mes, con un rango de 30 días de 3,410 a 3,680 euros por kilogramo. El virgen griego marcó 2,800 euros por kilogramo el 27 de octubre de 2026, con descensos del 3,4 % en la sesión anterior y en la semana, y una variación del +0,0 % en el mes. Por el contrario, el lampante en Grecia subió hasta los 2,350 euros por kilogramo el 27 de octubre de 2026, con incrementos del 6,8 % en la sesión anterior y en la semana, y del 8,3 % en el mes.\n\n## Contexto de producción y recolección\n\nEl sector agrario maneja estos datos de precios en paralelo a las previsiones de la campaña 2026/27. Según la información difundida por Oleista el 28 de octubre de 2026 sobre la producción país por país, España aforará 1.602.596 toneladas y Turquía se posicionará como el segundo productor, mientras que Túnez sufrirá una caída del 40 % y Marruecos del 30 % en sus volúmenes. Asimismo, respecto a las decisiones agronómicas en campo, una publicación de Oleista del 8 de octubre de 2026 planteaba los cálculos necesarios sobre si compensa recoger la aceituna temprano, señalando que adelantar la recolección incrementa los costes y reduce los kilos de aceite obtenidos.",
+ "entradilla": "Repaso a las cotizaciones recientes del aceite de oliva virgen extra y otras categorías en origen según los datos de Oleista.",
+ "estado": "published",
+ "etiquetas": [
+  "precios",
+  "aove",
+  "oleista"
+ ],
+ "fecha_publicacion": "2026-10-31",
+ "fuente": {
+  "fecha": "2026-10-28",
+  "nombre": "Oleista",
+  "titulo": "Cotizaciones del aceite de oliva",
+  "url": "https://oleista.com/es/precios"
+ },
+ "meta_descripcion": "Analizamos la tendencia reciente de los precios del aceite de oliva virgen extra y otras categorías en origen según los datos de Oleista.",
+ "redactado_con_ia": true,
+ "slug": "2026-10-31-evolucion-precios-aceite-oliva-virgen-extra",
+ "tipo": "analisis",
+ "titulo": "Evolución de los precios del aceite de oliva virgen extra"
+}

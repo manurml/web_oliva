@@ -133,6 +133,8 @@ summary:hover { color: var(--texto); }
 .num { text-align: right !important; }
 .tabla-completa { margin-top: 2rem; padding: 2rem; }
 .tabla-completa .nota { margin-top: 1rem; }
+.tabla-completa .seccion-titulo span { display: block; margin-top: .25rem; font: 400 .95rem/1.4 Outfit, system-ui, sans-serif; color: var(--tenue); }
+.tabla-scroll--entera { max-height: none; }
 
 /* Secciones y noticias */
 .seccion-cabeza { display: flex; justify-content: space-between; align-items: flex-end; gap: .75rem 1.5rem; flex-wrap: wrap; padding-bottom: 1rem; margin-bottom: 2rem; border-bottom: 1px solid var(--linea); }
