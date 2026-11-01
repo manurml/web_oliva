@@ -1,0 +1,62 @@
+{
+ "bloques": [
+  {
+   "texto": "El mercado ibérico y los registros andaluces",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "Las cotizaciones en origen del aceite de oliva virgen extra en la península ibérica mostraron descensos en el balance mensual de octubre. De acuerdo con los datos de mercado de Oleista, el AOVE en España se situó en 3,180 euros por kilo el 27 de octubre de 2026. Esta cifra supuso estabilidad respecto a la semana precedente, pero reflejó una caída mensual del 6,5 %.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "En Andalucía, el precio en origen de esta categoría se situó en 3,090 euros por kilo el 21 de octubre de 2026. Dicho valor vino acompañado por un retroceso del 11,0 % en el cómputo del mes y una bajada semanal del 1,6 %. En esa misma fecha del 21 de octubre, el aceite virgen andaluz marcó 2,940 euros por kilo. Estas referencias coinciden con la publicación de las previsiones para la campaña 2026/27 recogidas por Oleista el 28 de octubre de 2026, donde se estima una producción de 1.602.596 toneladas para España.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "La posición de Italia y Grecia en el mercado mediterráneo",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "Fuera de España, la situación del virgen extra presenta contrastes notables entre los principales países productores del sur de Europa. El mercado italiano registró para su AOVE una cotización de 4,780 euros por kilo el 21 de octubre de 2026. A diferencia de las bajadas observadas en las plazas españolas, el producto italiano reflejó un incremento del 0,7 % tanto en la comparativa semanal como en la mensual.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Por su parte, el mercado griego se situó en una posición intermedia. El 27 de octubre de 2026, el AOVE en origen en Grecia se pagó a 3,410 euros por kilo, según los datos de Oleista. Este registro supuso una caída del 3,4 % en la última semana y un retroceso del 8,8 % en el balance de los últimos treinta días.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Variaciones entre las principales zonas productoras",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "La comparativa entre estos orígenes evidencia que el AOVE en Italia conservó el 21 de octubre una distancia relevante frente a los valores anotados en España y Andalucía. Mientras que en territorio andaluz el virgen extra descendió hasta los 3,090 euros el 21 de octubre, la cotización italiana se mantuvo en 4,780 euros por kilo en esa misma fecha.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Grecia, con sus 3,410 euros por kilo el 27 de octubre, registró un precio superior a los 3,180 euros constatados en el conjunto de España ese mismo día, coincidiendo ambos mercados en una senda descendente a lo largo del último mes.",
+   "tipo": "parrafo"
+  }
+ ],
+ "claves": [],
+ "contenido_markdown": "## El mercado ibérico y los registros andaluces\n\nLas cotizaciones en origen del aceite de oliva virgen extra en la península ibérica mostraron descensos en el balance mensual de octubre. De acuerdo con los datos de mercado de Oleista, el AOVE en España se situó en 3,180 euros por kilo el 27 de octubre de 2026. Esta cifra supuso estabilidad respecto a la semana precedente, pero reflejó una caída mensual del 6,5 %.\n\nEn Andalucía, el precio en origen de esta categoría se situó en 3,090 euros por kilo el 21 de octubre de 2026. Dicho valor vino acompañado por un retroceso del 11,0 % en el cómputo del mes y una bajada semanal del 1,6 %. En esa misma fecha del 21 de octubre, el aceite virgen andaluz marcó 2,940 euros por kilo. Estas referencias coinciden con la publicación de las previsiones para la campaña 2026/27 recogidas por Oleista el 28 de octubre de 2026, donde se estima una producción de 1.602.596 toneladas para España.\n\n## La posición de Italia y Grecia en el mercado mediterráneo\n\nFuera de España, la situación del virgen extra presenta contrastes notables entre los principales países productores del sur de Europa. El mercado italiano registró para su AOVE una cotización de 4,780 euros por kilo el 21 de octubre de 2026. A diferencia de las bajadas observadas en las plazas españolas, el producto italiano reflejó un incremento del 0,7 % tanto en la comparativa semanal como en la mensual.\n\nPor su parte, el mercado griego se situó en una posición intermedia. El 27 de octubre de 2026, el AOVE en origen en Grecia se pagó a 3,410 euros por kilo, según los datos de Oleista. Este registro supuso una caída del 3,4 % en la última semana y un retroceso del 8,8 % en el balance de los últimos treinta días.\n\n## Variaciones entre las principales zonas productoras\n\nLa comparativa entre estos orígenes evidencia que el AOVE en Italia conservó el 21 de octubre una distancia relevante frente a los valores anotados en España y Andalucía. Mientras que en territorio andaluz el virgen extra descendió hasta los 3,090 euros el 21 de octubre, la cotización italiana se mantuvo en 4,780 euros por kilo en esa misma fecha.\n\nGrecia, con sus 3,410 euros por kilo el 27 de octubre, registró un precio superior a los 3,180 euros constatados en el conjunto de España ese mismo día, coincidiendo ambos mercados en una senda descendente a lo largo del último mes.",
+ "entradilla": "Las cotizaciones en origen de finales de octubre muestran diferencias marcadas entre los productores mediterráneos, con Italia en el nivel más alto y Andalucía en el inferior.",
+ "estado": "published",
+ "etiquetas": [
+  "aove",
+  "precios en origen",
+  "mercado",
+  "mediterraneo"
+ ],
+ "fecha_publicacion": "2026-11-01",
+ "fuente": {
+  "fecha": "2026-10-28",
+  "nombre": "Oleista",
+  "titulo": "Cotizaciones del aceite de oliva",
+  "url": "https://oleista.com/es/precios"
+ },
+ "meta_descripcion": "Comparativa de precios en origen del AOVE a finales de octubre de 2026 entre España, Andalucía, Italia y Grecia.",
+ "redactado_con_ia": true,
+ "slug": "2026-11-01-precios-aove-comparativa-espana-andalucia-italia-grecia",
+ "tipo": "analisis",
+ "titulo": "Precios del AOVE: disparidad entre España, Andalucía, Italia y Grecia"
+}
