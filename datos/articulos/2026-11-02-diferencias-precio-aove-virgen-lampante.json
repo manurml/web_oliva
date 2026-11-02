@@ -1,0 +1,58 @@
+{
+ "bloques": [
+  {
+   "texto": "Análisis de las cotizaciones en origen",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "El mercado del aceite de oliva en origen muestra distintas evoluciones entre las categorías de calidad superior y los aceites destinados a refino. Según los datos facilitados por Oleista, el mercado nacional registra cotizaciones específicas para cada categoría a granel que marcan la pauta en las operaciones entre agricultores, almazaras y cooperativas.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "En España, el aceite de oliva virgen extra se situó en 3,180 euros por kilogramo el 27 de octubre de 2026, con una variación mensual del -6,5 %. Por su parte, la categoría virgen marcó un precio de 2,950 euros por kilogramo el 26 de octubre de 2026, registrando una caída del 1,7 % en la sesión anterior y del 9,2 % en el mes. Finalmente, el aceite lampante cotizó a 2,800 euros por kilogramo el 28 de octubre de 2026, tras descender un 1,8 % en la sesión anterior y un 5,2 % en la semana.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Comparativa en el ámbito internacional",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "En otros mercados productores como Grecia, las diferencias entre categorías también son notables. El aceite de oliva virgen extra griego se fijó en 3,410 euros por kilogramo el 27 de octubre de 2026, con un descenso del 3,4 % en la sesión. En ese mismo país y fecha, el virgen se situó en 2,800 euros por kilogramo y el lampante en 2,350 euros por kilogramo, este último con un incremento del 6,8 % en la sesión.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Por otro lado, en Italia se observan horquillas más amplias entre calidades. El virgen extra italiano alcanzó los 4,780 euros por kilogramo el 21 de octubre de 2026, mientras que el virgen se situó en 3,000 euros por kilogramo y el lampante marcó 2,658 euros por kilogramo en la misma fecha.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Contexto de producción y campaña",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "Estos movimientos de precios se desarrollan en un escenario marcado por las previsiones de la campaña 2026/27. Según la información difundida por Oleista el 28 de octubre de 2026, España aforará 1.602.596 toneladas, situándose como principal productor, con variaciones significativas en otros países como la caída del 40 % en Túnez o del 30 % en Marruecos. Asimismo, el sector valora los costes y rendimientos de la recolección temprana, tal como apuntaba el análisis publicado por Oleista el 8 de octubre de 2026 sobre la rentabilidad de adelantar la recogida de la aceituna.",
+   "tipo": "parrafo"
+  }
+ ],
+ "claves": [],
+ "contenido_markdown": "## Análisis de las cotizaciones en origen\n\nEl mercado del aceite de oliva en origen muestra distintas evoluciones entre las categorías de calidad superior y los aceites destinados a refino. Según los datos facilitados por Oleista, el mercado nacional registra cotizaciones específicas para cada categoría a granel que marcan la pauta en las operaciones entre agricultores, almazaras y cooperativas.\n\nEn España, el aceite de oliva virgen extra se situó en 3,180 euros por kilogramo el 27 de octubre de 2026, con una variación mensual del -6,5 %. Por su parte, la categoría virgen marcó un precio de 2,950 euros por kilogramo el 26 de octubre de 2026, registrando una caída del 1,7 % en la sesión anterior y del 9,2 % en el mes. Finalmente, el aceite lampante cotizó a 2,800 euros por kilogramo el 28 de octubre de 2026, tras descender un 1,8 % en la sesión anterior y un 5,2 % en la semana.\n\n## Comparativa en el ámbito internacional\n\nEn otros mercados productores como Grecia, las diferencias entre categorías también son notables. El aceite de oliva virgen extra griego se fijó en 3,410 euros por kilogramo el 27 de octubre de 2026, con un descenso del 3,4 % en la sesión. En ese mismo país y fecha, el virgen se situó en 2,800 euros por kilogramo y el lampante en 2,350 euros por kilogramo, este último con un incremento del 6,8 % en la sesión.\n\nPor otro lado, en Italia se observan horquillas más amplias entre calidades. El virgen extra italiano alcanzó los 4,780 euros por kilogramo el 21 de octubre de 2026, mientras que el virgen se situó en 3,000 euros por kilogramo y el lampante marcó 2,658 euros por kilogramo en la misma fecha.\n\n## Contexto de producción y campaña\n\nEstos movimientos de precios se desarrollan en un escenario marcado por las previsiones de la campaña 2026/27. Según la información difundida por Oleista el 28 de octubre de 2026, España aforará 1.602.596 toneladas, situándose como principal productor, con variaciones significativas en otros países como la caída del 40 % en Túnez o del 30 % en Marruecos. Asimismo, el sector valora los costes y rendimientos de la recolección temprana, tal como apuntaba el análisis publicado por Oleista el 8 de octubre de 2026 sobre la rentabilidad de adelantar la recogida de la aceituna.",
+ "entradilla": "Analizamos la situación de las cotizaciones en origen para el aceite de oliva virgen extra, virgen y lampante según los últimos datos de Oleista.",
+ "estado": "published",
+ "etiquetas": [
+  "aove",
+  "precios",
+  "aceite de oliva",
+  "mercado"
+ ],
+ "fecha_publicacion": "2026-11-02",
+ "fuente": {
+  "fecha": "2026-10-28",
+  "nombre": "Oleista",
+  "titulo": "Cotizaciones del aceite de oliva",
+  "url": "https://oleista.com/es/precios"
+ },
+ "meta_descripcion": "Consulta las diferencias de precio entre el AOVE, el aceite virgen y el lampante en España, Italia y Grecia según los datos de Oleista.",
+ "redactado_con_ia": true,
+ "slug": "2026-11-02-diferencias-precio-aove-virgen-lampante",
+ "tipo": "analisis",
+ "titulo": "Diferencias de precio entre AOVE, virgen y lampante"
+}
