@@ -1,0 +1,50 @@
+{
+ "bloques": [
+  {
+   "texto": "Panorama productivo internacional",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "El sector del aceite de oliva afronta la campaña con previsiones detalladas por países publicadas el 28 de octubre de 2026 en Oleista. Las estimaciones para los siete grandes productores sitúan a España con un aforo de 1.602.596 t, mientras que Turquía se posiciona como el segundo productor. No obstante, el informe también apunta descensos significativos en otros territorios clave, registrando Túnez una caída del 40 % y Marruecos un 30 %.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Análisis sobre la recolección temprana",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "Las publicaciones recientes de Oleista del 8 de octubre de 2026 invitan a los agricultores a valorar si compensa recoger la aceituna temprano mediante un análisis detallado. Según se expone, adelantar la recolección implica unos costes mayores y un menor rendimiento en kilos de aceite, lo que exige calcular con precisión cuánto se debería cobrar de más por kilo para garantizar la rentabilidad antes de fijar una fecha para la cosecha.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Evolución de los precios en origen",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "En cuanto a las cotizaciones registradas por Oleista, el aceite de oliva virgen extra en España se situó en 3,180 euros por kilo el 27 de octubre de 2026, con una variación mensual del -6,5 %. Por su parte, el virgen en España marcó 2,950 euros por kilo el 26 de octubre de 2026, con caídas del 1,7 % en la sesión anterior y del 9,2 % en el mes. En el caso del lampante en España, el precio se fijó en 2,800 euros por kilo el 28 de octubre de 2026, registrando descensos del 1,8 % en la sesión anterior y del 5,2 % en la semana. Fuera de nuestras fronteras, el AOVE en Grecia se situó en 3,410 euros por kilo el 27 de octubre de 2026, con una caída del 3,4 % en la sesión y en la semana, mientras que el AOVE en Italia alcanzó los 4,780 euros por kilo el 21 de octubre de 2026, manteniendo una variación positiva del 0,7 % tanto semanal como mensual.",
+   "tipo": "parrafo"
+  }
+ ],
+ "claves": [],
+ "contenido_markdown": "## Panorama productivo internacional\n\nEl sector del aceite de oliva afronta la campaña con previsiones detalladas por países publicadas el 28 de octubre de 2026 en Oleista. Las estimaciones para los siete grandes productores sitúan a España con un aforo de 1.602.596 t, mientras que Turquía se posiciona como el segundo productor. No obstante, el informe también apunta descensos significativos en otros territorios clave, registrando Túnez una caída del 40 % y Marruecos un 30 %.\n\n## Análisis sobre la recolección temprana\n\nLas publicaciones recientes de Oleista del 8 de octubre de 2026 invitan a los agricultores a valorar si compensa recoger la aceituna temprano mediante un análisis detallado. Según se expone, adelantar la recolección implica unos costes mayores y un menor rendimiento en kilos de aceite, lo que exige calcular con precisión cuánto se debería cobrar de más por kilo para garantizar la rentabilidad antes de fijar una fecha para la cosecha.\n\n## Evolución de los precios en origen\n\nEn cuanto a las cotizaciones registradas por Oleista, el aceite de oliva virgen extra en España se situó en 3,180 euros por kilo el 27 de octubre de 2026, con una variación mensual del -6,5 %. Por su parte, el virgen en España marcó 2,950 euros por kilo el 26 de octubre de 2026, con caídas del 1,7 % en la sesión anterior y del 9,2 % en el mes. En el caso del lampante en España, el precio se fijó en 2,800 euros por kilo el 28 de octubre de 2026, registrando descensos del 1,8 % en la sesión anterior y del 5,2 % en la semana. Fuera de nuestras fronteras, el AOVE en Grecia se situó en 3,410 euros por kilo el 27 de octubre de 2026, con una caída del 3,4 % en la sesión y en la semana, mientras que el AOVE en Italia alcanzó los 4,780 euros por kilo el 21 de octubre de 2026, manteniendo una variación positiva del 0,7 % tanto semanal como mensual.",
+ "entradilla": "Repaso a la actualidad del sector del aceite de oliva con las últimas previsiones de producción internacional y la evolución de los precios en origen según Oleista.",
+ "estado": "published",
+ "etiquetas": [
+  "aove",
+  "precios",
+  "produccion",
+  "oleista"
+ ],
+ "fecha_publicacion": "2026-11-03",
+ "fuente": {
+  "fecha": "2026-10-28",
+  "nombre": "Oleista",
+  "titulo": "Cotizaciones del aceite de oliva",
+  "url": "https://oleista.com/es/precios"
+ },
+ "meta_descripcion": "Consulta las últimas noticias sobre producción internacional y la evolución de los precios en origen del aceite de oliva según Oleista.",
+ "redactado_con_ia": true,
+ "slug": "2026-11-03-lectura-noticias-precios-sector-oleicola",
+ "tipo": "analisis",
+ "titulo": "Lectura de noticias y precios recientes del sector oleícola"
+}
