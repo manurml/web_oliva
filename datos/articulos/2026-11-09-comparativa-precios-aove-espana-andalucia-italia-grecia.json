@@ -1,0 +1,62 @@
+{
+ "bloques": [
+  {
+   "texto": "Situación del mercado en España y Andalucía",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "El mercado del aceite de oliva en España registra movimientos en los precios en origen a granel según los datos de Oleista para el 9 de noviembre de 2026. El precio del AOVE en España se sitúa en 3,240 euros por kilo, lo que representa una variación del +2,0 % en la sesión anterior, del +0,0 % en la semana y del +3,8 % en el mes, con un rango de 30 días que oscila entre los 3,070 y los 3,240 euros por kilo. Por su parte, el aceite virgen en España cotiza a 2,877 euros por kilo el 9 de noviembre de 2026, con una variación del +1,8 % en la sesión anterior, del -1,8 % en la semana y del -3,8 % en el mes, moviéndose en un rango de 30 días de 2,813 a 3,020 euros por kilo. En cuanto al aceite lampante en España, el precio es de 2,795 euros por kilo en la misma fecha, con una variación del +0,4 % en la sesión anterior, del +0,0 % en la semana y del -3,0 % en el mes, y un rango de 30 días entre 2,763 y 2,954 euros por kilo.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "En el ámbito territorial andaluz, los datos de Oleista referidos al 4 de noviembre de 2026 muestran que el AOVE en Andalucía alcanza los 3,030 euros por kilo, con variaciones del +0,0 % en la sesión anterior, del +0,0 % en la semana y del -4,7 % en el mes, situándose su rango de 30 días entre 3,030 y 3,180 euros por kilo. El aceite virgen en Andalucía se fija en 2,930 euros por kilo el 4 de noviembre de 2026, registrando variaciones del +0,0 % en la sesión anterior, del +0,0 % en la semana y del -3,6 % en el mes, con un rango de 30 días de 2,930 a 3,040 euros por kilo. Finalmente, el lampante en Andalucía cotiza a 2,720 euros por kilo en esa misma fecha, con variaciones del +0,0 % en la sesión anterior, del -4,2 % en la semana y del -8,4 % en el mes, con un rango de 30 días de 2,720 a 2,970 euros por kilo.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Comportamiento del mercado en Italia",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "El mercado italiano muestra diferencias notables en sus categorías de aceites a granel según las cotizaciones registradas por Oleista el 28 de octubre de 2026. El AOVE en Italia se posiciona significativamente por encima de otros mercados europeos, situándose en 5,182 euros por kilo el 28 de octubre de 2026. Este valor refleja una variación del +0,0 % en la sesión anterior, del +8,4 % en la semana y del +11,6 % en el mes, con un rango de 30 días que se mueve entre los 4,370 y los 5,182 euros por kilo.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Por el contrario, las categorías de menor calidad en Italia muestran precios más moderados en la misma fecha del 28 de octubre de 2026. El aceite virgen en Italia se paga a 3,000 euros por kilo, con una variación del +0,0 % en la sesión anterior, del +0,0 % en la semana y del -6,3 % en el mes, con un rango de 30 días que va de 3,000 a 3,200 euros por kilo. El aceite lampante en Italia se sitúa en 2,686 euros por kilo el 28 de octubre de 2026, con una variación del +0,0 % en la sesión anterior, del +1,1 % en la semana y del -3,0 % en el mes, y un rango de 30 días entre 2,658 y 2,770 euros por kilo.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Evolución de los precios en Grecia",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "Por su parte, el mercado griego presenta sus propias cotizaciones en origen a granel según los datos de Oleista recogidos el 3 de noviembre de 2026. El AOVE en Grecia se sitúa en 3,300 euros por kilo en dicha fecha, registrando una variación del -3,2 % en la sesión anterior, del -3,2 % en la semana y del -10,3 % en el mes, con un rango de 30 días que abarca desde los 3,300 hasta los 3,660 euros por kilo.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "En cuanto a las categorías secundarias en Grecia el 3 de noviembre de 2026, el aceite virgen cotiza a 2,800 euros por kilo, con variaciones del +0,0 % en la sesión anterior, del +0,0 % en la semana y del +7,7 % en el mes, con un rango de 30 días entre 2,800 y 3,000 euros por kilo. El aceite lampante en Grecia se sitúa en 2,350 euros por kilo el 3 de noviembre de 2026, registrando una variación del +0,0 % en la sesión anterior, del +0,0 % en la semana y del +8,3 % en el mes, con un rango de 30 días que oscila entre los 2,000 y los 2,350 euros por kilo.",
+   "tipo": "parrafo"
+  }
+ ],
+ "claves": [],
+ "contenido_markdown": "## Situación del mercado en España y Andalucía\n\nEl mercado del aceite de oliva en España registra movimientos en los precios en origen a granel según los datos de Oleista para el 9 de noviembre de 2026. El precio del AOVE en España se sitúa en 3,240 euros por kilo, lo que representa una variación del +2,0 % en la sesión anterior, del +0,0 % en la semana y del +3,8 % en el mes, con un rango de 30 días que oscila entre los 3,070 y los 3,240 euros por kilo. Por su parte, el aceite virgen en España cotiza a 2,877 euros por kilo el 9 de noviembre de 2026, con una variación del +1,8 % en la sesión anterior, del -1,8 % en la semana y del -3,8 % en el mes, moviéndose en un rango de 30 días de 2,813 a 3,020 euros por kilo. En cuanto al aceite lampante en España, el precio es de 2,795 euros por kilo en la misma fecha, con una variación del +0,4 % en la sesión anterior, del +0,0 % en la semana y del -3,0 % en el mes, y un rango de 30 días entre 2,763 y 2,954 euros por kilo.\n\nEn el ámbito territorial andaluz, los datos de Oleista referidos al 4 de noviembre de 2026 muestran que el AOVE en Andalucía alcanza los 3,030 euros por kilo, con variaciones del +0,0 % en la sesión anterior, del +0,0 % en la semana y del -4,7 % en el mes, situándose su rango de 30 días entre 3,030 y 3,180 euros por kilo. El aceite virgen en Andalucía se fija en 2,930 euros por kilo el 4 de noviembre de 2026, registrando variaciones del +0,0 % en la sesión anterior, del +0,0 % en la semana y del -3,6 % en el mes, con un rango de 30 días de 2,930 a 3,040 euros por kilo. Finalmente, el lampante en Andalucía cotiza a 2,720 euros por kilo en esa misma fecha, con variaciones del +0,0 % en la sesión anterior, del -4,2 % en la semana y del -8,4 % en el mes, con un rango de 30 días de 2,720 a 2,970 euros por kilo.\n\n## Comportamiento del mercado en Italia\n\nEl mercado italiano muestra diferencias notables en sus categorías de aceites a granel según las cotizaciones registradas por Oleista el 28 de octubre de 2026. El AOVE en Italia se posiciona significativamente por encima de otros mercados europeos, situándose en 5,182 euros por kilo el 28 de octubre de 2026. Este valor refleja una variación del +0,0 % en la sesión anterior, del +8,4 % en la semana y del +11,6 % en el mes, con un rango de 30 días que se mueve entre los 4,370 y los 5,182 euros por kilo.\n\nPor el contrario, las categorías de menor calidad en Italia muestran precios más moderados en la misma fecha del 28 de octubre de 2026. El aceite virgen en Italia se paga a 3,000 euros por kilo, con una variación del +0,0 % en la sesión anterior, del +0,0 % en la semana y del -6,3 % en el mes, con un rango de 30 días que va de 3,000 a 3,200 euros por kilo. El aceite lampante en Italia se sitúa en 2,686 euros por kilo el 28 de octubre de 2026, con una variación del +0,0 % en la sesión anterior, del +1,1 % en la semana y del -3,0 % en el mes, y un rango de 30 días entre 2,658 y 2,770 euros por kilo.\n\n## Evolución de los precios en Grecia\n\nPor su parte, el mercado griego presenta sus propias cotizaciones en origen a granel según los datos de Oleista recogidos el 3 de noviembre de 2026. El AOVE en Grecia se sitúa en 3,300 euros por kilo en dicha fecha, registrando una variación del -3,2 % en la sesión anterior, del -3,2 % en la semana y del -10,3 % en el mes, con un rango de 30 días que abarca desde los 3,300 hasta los 3,660 euros por kilo.\n\nEn cuanto a las categorías secundarias en Grecia el 3 de noviembre de 2026, el aceite virgen cotiza a 2,800 euros por kilo, con variaciones del +0,0 % en la sesión anterior, del +0,0 % en la semana y del +7,7 % en el mes, con un rango de 30 días entre 2,800 y 3,000 euros por kilo. El aceite lampante en Grecia se sitúa en 2,350 euros por kilo el 3 de noviembre de 2026, registrando una variación del +0,0 % en la sesión anterior, del +0,0 % en la semana y del +8,3 % en el mes, con un rango de 30 días que oscila entre los 2,000 y los 2,350 euros por kilo.",
+ "entradilla": "Analizamos la situación de los precios del aceite de oliva virgen extra en origen a granel en España, Andalucía, Italia y Grecia según los datos de Oleista.",
+ "estado": "published",
+ "etiquetas": [
+  "aove",
+  "precios",
+  "mercados",
+  "aceite de oliva"
+ ],
+ "fecha_publicacion": "2026-11-09",
+ "fuente": {
+  "fecha": "2026-11-09",
+  "nombre": "Oleista",
+  "titulo": "Cotizaciones del aceite de oliva",
+  "url": "https://oleista.com/es/precios"
+ },
+ "meta_descripcion": "Consulta la comparativa de precios del aceite de oliva virgen extra en España, Andalucía, Italia y Grecia según los datos de Oleista.",
+ "redactado_con_ia": true,
+ "slug": "2026-11-09-comparativa-precios-aove-espana-andalucia-italia-grecia",
+ "tipo": "analisis",
+ "titulo": "Comparativa de precios de AOVE entre España, Andalucía, Italia y Grecia"
+}
