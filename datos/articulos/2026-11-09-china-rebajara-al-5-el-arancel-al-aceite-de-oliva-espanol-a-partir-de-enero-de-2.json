@@ -1,0 +1,66 @@
+{
+ "bloques": [
+  {
+   "texto": "Un alivio arancelario estratégico para el comercio exterior",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "El comercio exterior del aceite de oliva español recibirá un importante impulso en el continente asiático a medio plazo. A partir del 1 de enero de 2027, las aduanas de China recortarán a la mitad los gravámenes aplicados a las compras de aceite de oliva procedentes de la Unión Europea, de modo que el arancel descenderá del 10 % al 5 %. Esta rebaja impositiva supondrá una notable mejora de la competitividad para las cooperativas, almazaras y empresas envasadoras españolas que operan en un destino de alto valor añadido, según recoge una información publicada por Óleo Revista.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Los balances comerciales más recientes confirman la solidez de este destino para el producto nacional. Durante la campaña 2025/2026, las ventas españolas con destino a China se situaron en torno a las 32.500 toneladas, lo que consolidó al país asiático como el sexto comprador mundial de nuestros aceites y el segundo más relevante fuera del marco comunitario, superado únicamente por Estados Unidos. El precio medio de entrada en las fronteras chinas se situó en 4,40 euros por kilo. Estas cifras ratifican la progresiva recuperación de un mercado que ya superó las 40.000 toneladas anuales entre 2019 y 2022, habiendo alcanzado un techo histórico cercano a las 46.000 toneladas en la campaña 2021/2022.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Salida comercial prioritaria ante campañas de gran producción",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "La flexibilización impositiva coincide con un momento productivo en el que el sector necesita potenciar la comercialización exterior. La gerente de la Interprofesional del Aceite de Oliva Español, Teresa Pérez, ha destacado la gran oportunidad que representa el gigante asiático ante las perspectivas de cosecha, señalando que la previsión de una gran producción obliga a mirar fuera de los mercados habituales y que China se perfila como un destino estratégico gracias a la reducción arancelaria.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Para afianzar esta posición en los lineales y cocinas del país, la propia organización interprofesional mantiene activa la campaña de promoción «Una gota de España para mejorar tu día a día», con la que persigue divulgar las cualidades del producto y elevar los índices de consumo entre los consumidores chinos.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Formación culinaria y técnica para prescriptores chinos",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "En paralelo al marco normativo, la estrategia promocional española está haciendo hincapié en la formación técnica de profesionales. En este contexto, un grupo compuesto por cinco especialistas chinos en gastronomía, docencia, cata y medios de comunicación ha participado recientemente en una estancia formativa de una semana en España, con el objetivo de ejercer como embajadores del aceite de oliva español en su país de origen.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "El programa incluyó un taller enfocado a las aplicaciones del AOVE en la restauración, impartido por el cocinero Periko Ortega, del restaurante ReComiendo (con una estrella Michelin), además de una sesión académica sobre propiedades saludables y usos culinarios en caliente dirigida por Rosa María Lamuela, catedrática de la Universidad de Barcelona.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "El itinerario formativo se completó con un recorrido sobre el terreno por olivares, almazaras y plantas envasadoras de Córdoba, Lleida y Tarragona, así como paradas técnicas en las denominaciones de origen protegidas Baena, Les Garrigues y Siurana. Esta inmersión permitió a los especialistas asiáticos profundizar en el funcionamiento del modelo cooperativo nacional y valorar el patrimonio olivarero tradicional, incluidos los olivos milenarios de Ulldecona, sentando las bases técnicas para trasladar este conocimiento a otros profesionales en China ante la apertura comercial de 2027.",
+   "tipo": "parrafo"
+  }
+ ],
+ "claves": [
+  "El arancel de aduana en China pasará del 10 % actual al 5 % el 1 de enero de 2027.",
+  "España exportó unas 32.500 toneladas al gigante asiático en 2025/2026 a un precio medio de 4,40 euros por kilo.",
+  "La Interprofesional impulsa la formación de prescriptores chinos ante las previsiones de cosechas abundantes."
+ ],
+ "entradilla": "El gravamen a las importaciones procedentes de la Unión Europea se reducirá a la mitad a comienzos de 2027. La medida mejorará la posición competitiva del sector olivarero español en su segundo mayor mercado extracomunitario.",
+ "etiquetas": [
+  "china",
+  "aranceles",
+  "exportaciones",
+  "mercados"
+ ],
+ "fecha_publicacion": "2026-11-09",
+ "fuente": {
+  "fecha": "2026-11-04",
+  "nombre": "Óleo Revista",
+  "titulo": "China reducirá al 5 % los aranceles al aceite de oliva español a partir de enero de 2027",
+  "url": "https://www.oleorevista.com/texto-diario/mostrar/6078400/china-reducira-5-aranceles-aceite-oliva-espanol-partir-enero-2027"
+ },
+ "redactado_con_ia": true,
+ "slug": "2026-11-09-china-rebajara-al-5-el-arancel-al-aceite-de-oliva-espanol-a-partir-de-enero-de-2",
+ "titulo": "China rebajará al 5 % el arancel al aceite de oliva español a partir de enero de 2027"
+}
