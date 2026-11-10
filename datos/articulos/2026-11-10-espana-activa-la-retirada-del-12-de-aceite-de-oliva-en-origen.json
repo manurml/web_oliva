@@ -1,0 +1,50 @@
+{
+ "bloques": [
+  {
+   "texto": "Un mecanismo inédito ante el exceso de oferta",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "Tal y como informa Oleista, la publicación en el BOE de una resolución ministerial ha puesto en marcha por primera vez en España la retirada obligatoria de una parte de la producción. La medida afecta a cada almazara, que debe inmovilizar el 12 % del aceite que declare a partir del mes de noviembre, quedando exenta la producción de octubre. En total, se calcula que unas 188.000 toneladas quedarán fuera del mercado hasta el 30 de septiembre de 2027. Esta intervención se activa de forma técnica al superar el aforo y las existencias de enlace el 120 % de la producción media de las seis campañas anteriores.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Impacto desigual en los precios y en la tesorería",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "La reacción de las cotizaciones tras el anuncio ha sido heterogénea. Según los datos recopilados por Oleista, el virgen extra ha protagonizado un rebote del 3,6 % desde sus mínimos de octubre, si bien este movimiento comenzó a gestarse antes de la publicación oficial. Por el contrario, las categorías de virgen y lampante no han acompañado esta subida y siguen perdiendo valor. Para los profesionales y las cooperativas, esta inmovilización supone un reto financiero, ya que implica retrasar la comercialización y asumir costes de almacenamiento a cambio de buscar una mejora de los precios en los próximos meses.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Próximas revisiones y límites de la medida",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "Los analistas recuerdan que esta retirada excepcional no soluciona de forma estructural los costes de producción que soportan los agricultores. No obstante, el calendario prevé hitos importantes, como la primera ventana de revisión del 31 de diciembre de 2026, fecha en la que se evaluará si la producción real —muy condicionada por el rendimiento graso— justifica recortar el porcentaje exigido, tal y como señala Oleista.",
+   "tipo": "parrafo"
+  }
+ ],
+ "claves": [
+  "Obligación de apartar el 12 % de la producción declarada desde noviembre hasta septiembre de 2027.",
+  "El aceite inmovilizado suma unas 188.000 toneladas valoradas en unos 609 millones de euros.",
+  "El virgen extra registra un rebote del 3,6 %, mientras que el virgen y el lampante continúan a la baja."
+ ],
+ "entradilla": "El sector del aceite de oliva afronta una medida inédita de inmovilización de 188.000 toneladas para equilibrar la oferta y la demanda, según recoge Oleista.",
+ "etiquetas": [
+  "mercado",
+  "precios",
+  "campaña",
+  "almazaras"
+ ],
+ "fecha_publicacion": "2026-11-10",
+ "fuente": {
+  "fecha": "2026-11-09",
+  "nombre": "Oleista",
+  "titulo": "Retirada del 12 % del aceite de oliva: qué cambia en 2026/27",
+  "url": "https://oleista.com/es/blog/retirada-12-por-ciento-aceite-oliva-2026-27"
+ },
+ "redactado_con_ia": true,
+ "slug": "2026-11-10-espana-activa-la-retirada-del-12-de-aceite-de-oliva-en-origen",
+ "titulo": "España activa la retirada del 12 % de aceite de oliva en origen"
+}

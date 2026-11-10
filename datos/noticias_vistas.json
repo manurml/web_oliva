@@ -431,6 +431,18 @@
    "url": "https://oleista.com/es/blog/receta-de-mermelada-de-aceite-de-oliva-virgen-extra"
   }
  },
+ "https://oleista.com/es/blog/retirada-12-por-ciento-aceite-oliva-2026-27": {
+  "estado": "publicada",
+  "noticia": {
+   "fecha": "2026-11-09",
+   "fuente": "Oleista",
+   "orden": 0,
+   "resumen": "España inmoviliza 188.000 t de aceite hasta septiembre de 2027. Qué tiene que retirar cada almazara, cuánto dinero paraliza y cómo ha reaccionado el precio.",
+   "texto": "",
+   "titulo": "Retirada del 12 % del aceite de oliva: qué cambia en 2026/27",
+   "url": "https://oleista.com/es/blog/retirada-12-por-ciento-aceite-oliva-2026-27"
+  }
+ },
  "https://oleista.com/es/mercado/situacion-del-mercado-del-aceite-de-oliva-espanol-diciembre-2025": {
   "estado": "antigua",
   "noticia": {
@@ -1631,6 +1643,306 @@
    "url": "https://www.mercacei.com/noticia/66109/editoriales-/deoleo-un-culebron-con-final-espanol.html"
   }
  },
+ "https://www.mercacei.com/noticia/66115/actualidad/los-stocks-de-aceite-de-oliva-en-italia-se-situan-en-194.539-toneladas-un-40-mas.html": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-10",
+   "fuente": "Mercacei",
+   "orden": 0,
+   "resumen": "El total de aceite de oliva almacenado en Italia a 31 de octubre se sitúa en 194.139 toneladas, lo que supone un 40% más respecto a la misma fecha del año anterior, según el último informe de la Inspección Italiana de Prevención del Fraude (ICQRF) publicado por el Ministerio de Agricultura del país transalpino .",
+   "texto": "",
+   "titulo": "Los stocks de aceite de oliva en Italia se sitúan en 194.539 toneladas, un 40% más",
+   "url": "https://www.mercacei.com/noticia/66115/actualidad/los-stocks-de-aceite-de-oliva-en-italia-se-situan-en-194.539-toneladas-un-40-mas.html"
+  }
+ },
+ "https://www.mercacei.com/noticia/66116/actualidad/grupo-operativo-optipac-impulsar-la-digitalizacion-y-optimizar-la-gestion-de-las-ayudas-de-la-pac.html": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-10",
+   "fuente": "Mercacei",
+   "orden": 1,
+   "resumen": "La Escuela Técnica Superior de Ingeniería Agronómica, Alimentaria y de Biosistemas (ETSIAAB) está presente en el Grupo Operativo OPTIPAC (Optimización de las Ayudas PAC), que permite a los profesionales del sector agroalimentario simular escenarios para favorecer la toma de decisiones y un mejor rendimiento de sus explotaciones.",
+   "texto": "",
+   "titulo": "Grupo Operativo OPTIPAC: impulsar la digitalización y optimizar la gestión de las ayudas de la PAC",
+   "url": "https://www.mercacei.com/noticia/66116/actualidad/grupo-operativo-optipac-impulsar-la-digitalizacion-y-optimizar-la-gestion-de-las-ayudas-de-la-pac.html"
+  }
+ },
+ "https://www.mercacei.com/noticia/66117/actualidad/agricultores-hacen-un-llamamiento-a-acelerar-la-transformacion-tecnologica-del-campo-en-expo-agritech-2026.html": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-10",
+   "fuente": "Mercacei",
+   "orden": 4,
+   "resumen": "Expo AgriTech 2026 cerró el pasado 5 de noviembre las puertas de su tercera edición en Málaga haciendo un llamamiento a acelerar la transformación tecnológica del campo para reforzar la competitividad del sector ante 8.207 profesionales y agricultores procedentes del conjunto del territorio nacional.",
+   "texto": "",
+   "titulo": "Agricultores hacen un llamamiento a acelerar la transformación tecnológica del campo en Expo AgriTech 2026",
+   "url": "https://www.mercacei.com/noticia/66117/actualidad/agricultores-hacen-un-llamamiento-a-acelerar-la-transformacion-tecnologica-del-campo-en-expo-agritech-2026.html"
+  }
+ },
+ "https://www.mercacei.com/noticia/66118/actualidad/la-gran-afluencia-de-publico-y-las-elevadas-ventas-de-aove-marcan-la-fiesta-del-primer-aceite-de-jaen.html": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-10",
+   "fuente": "Mercacei",
+   "orden": 2,
+   "resumen": "La décimo tercera edición de la Fiesta del Primer Aceite de Jaén, organizada por la Diputación Provincial en colaboración con el Ayuntamiento de Úbeda y celebrada el pasado fin de semana en esta ciudad, estuvo marcada tanto por la gran afluencia de público presente en el Parque Norte y en todas las actividades programadas, como también por las elevadas ventas que lograron el centenar de empresas oleícolas participantes en este evento.",
+   "texto": "",
+   "titulo": "La gran afluencia de público y las elevadas ventas de AOVE marcan la Fiesta del Primer Aceite de Jaén",
+   "url": "https://www.mercacei.com/noticia/66118/actualidad/la-gran-afluencia-de-publico-y-las-elevadas-ventas-de-aove-marcan-la-fiesta-del-primer-aceite-de-jaen.html"
+  }
+ },
+ "https://www.mercacei.com/noticia/66119/actualidad/grupo-jaencoop-reconocido-por-el-instituto-europeo-de-sostenibilidad-en-gestion-iesg.html": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-10",
+   "fuente": "Mercacei",
+   "orden": 3,
+   "resumen": "El Grupo Jaencoop ha sido reconocido por el Instituto Europeo de Sostenibilidad en Gestión (iESG) debido a su trayectoria en sostenibilidad, dentro de la categoría \"Gran Empresa\". Esta distinción se ha producido en el marco de la jornada \"Puentes para una Transición Sostenible: Estrategia, Gobernanza y Transferencia de Conocimiento\" , coordinada por el instituto y celebrada en la Universidad de Granada.",
+   "texto": "",
+   "titulo": "Grupo Jaencoop, reconocido por el Instituto Europeo de Sostenibilidad en Gestión (iESG)",
+   "url": "https://www.mercacei.com/noticia/66119/actualidad/grupo-jaencoop-reconocido-por-el-instituto-europeo-de-sostenibilidad-en-gestion-iesg.html"
+  }
+ },
+ "https://www.mercacei.com/noticia/66121/ultima-hora/la-ue-financia-80-nuevas-campanas-para-promover-productos-agricolas-europeos-como-el-aceite-de-oliva-en-todo-el-mundo.html": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-10",
+   "fuente": "Mercacei",
+   "orden": 5,
+   "resumen": "La Comisión Europea (CE) cofinancia campañas promocionales para fortalecer la reputación de los productos agroalimentarios de la UE, tanto dentro del territorio comunitario como en terceros países, en línea con la política de promoción europea. En concreto, la Agencia Ejecutiva Europea de Investigación (REA) ha completado ahora la evaluación y selección de nuevas campañas de promoción agroalimentaria financiadas bajo las convocatorias de propuestas de 2026.",
+   "texto": "",
+   "titulo": "La UE financia 80 nuevas campañas para promover productos agrícolas europeos como el aceite de oliva en todo el mundo",
+   "url": "https://www.mercacei.com/noticia/66121/ultima-hora/la-ue-financia-80-nuevas-campanas-para-promover-productos-agricolas-europeos-como-el-aceite-de-oliva-en-todo-el-mundo.html"
+  }
+ },
+ "https://www.oleorevista.com/texto-diario/mostrar/6069058/oro-bailen-preve-batir-record-produccion-aove-premium-campana-2026-2027": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-10-28",
+   "fuente": "Óleo Revista",
+   "orden": 24,
+   "resumen": "Con un sistema de producción integrada y una gestión orientada a preservar la calidad del aceite en todas las fases del proceso",
+   "texto": "",
+   "titulo": "Oro Bailén prevé batir su récord de producción de AOVE premium en la campaña 2026/2027",
+   "url": "https://www.oleorevista.com/texto-diario/mostrar/6069058/oro-bailen-preve-batir-record-produccion-aove-premium-campana-2026-2027"
+  }
+ },
+ "https://www.oleorevista.com/texto-diario/mostrar/6069311/planas-anuncia-primera-semana-noviembre-decision-sobre-norma-comercializacion-aceite-oliva": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-10-28",
+   "fuente": "Óleo Revista",
+   "orden": 23,
+   "resumen": "El Ministerio mantiene su compromiso de publicar el documento definitivo de la campaña antes de que concluya el presente mes",
+   "texto": "",
+   "titulo": "La activación de la norma de comercialización de aceite de oliva se despejará a inicios de noviembre",
+   "url": "https://www.oleorevista.com/texto-diario/mostrar/6069311/planas-anuncia-primera-semana-noviembre-decision-sobre-norma-comercializacion-aceite-oliva"
+  }
+ },
+ "https://www.oleorevista.com/texto-diario/mostrar/6071107/biocultura-madrid-2026-reunira-16-almazaras-ecologicas-mejores-aove": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-10-29",
+   "fuente": "Óleo Revista",
+   "orden": 22,
+   "resumen": "Del 26 al 29 de noviembre en Ifema",
+   "texto": "",
+   "titulo": "BioCultura Madrid 2026 reunirá a 16 almazaras ecológicas y sus mejores AOVE",
+   "url": "https://www.oleorevista.com/texto-diario/mostrar/6071107/biocultura-madrid-2026-reunira-16-almazaras-ecologicas-mejores-aove"
+  }
+ },
+ "https://www.oleorevista.com/texto-diario/mostrar/6071127/marango-drones-incorpora-olivar-aceite-impulsar-agricultura-precision-jaen": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-10-29",
+   "fuente": "Óleo Revista",
+   "orden": 21,
+   "resumen": "Colaboración en torno a la digitalización, la formación y la modernización del olivar",
+   "texto": "",
+   "titulo": "Marango Drones se incorpora a Olivar y Aceite para impulsar la agricultura de precisión en Jaén",
+   "url": "https://www.oleorevista.com/texto-diario/mostrar/6071127/marango-drones-incorpora-olivar-aceite-impulsar-agricultura-precision-jaen"
+  }
+ },
+ "https://www.oleorevista.com/texto-diario/mostrar/6071221/deoleo-revalida-platino-ecovadis-92-puntos-mejora-evaluacion-sostenibilidad": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-10-29",
+   "fuente": "Óleo Revista",
+   "orden": 20,
+   "resumen": "La compañía mejora en cinco puntos su calificación respecto a 2025 y acumula un incremento de 15 puntos desde 2024",
+   "texto": "",
+   "titulo": "Deoleo revalida el Platino de EcoVadis con 92 puntos y mejora su evaluación en sostenibilidad",
+   "url": "https://www.oleorevista.com/texto-diario/mostrar/6071221/deoleo-revalida-platino-ecovadis-92-puntos-mejora-evaluacion-sostenibilidad"
+  }
+ },
+ "https://www.oleorevista.com/texto-diario/mostrar/6071236/dop-estepa-preve-producir-40-millones-kilos-aceite-campana-2026-2027": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-10-29",
+   "fuente": "Óleo Revista",
+   "orden": 19,
+   "resumen": "14 municipios, más de 50.000 hectáreas y 8 millones de olivos",
+   "texto": "",
+   "titulo": "La D.O.P. Estepa prevé producir 40 millones de kilos de aceite en la campaña 2026/2027",
+   "url": "https://www.oleorevista.com/texto-diario/mostrar/6071236/dop-estepa-preve-producir-40-millones-kilos-aceite-campana-2026-2027"
+  }
+ },
+ "https://www.oleorevista.com/texto-diario/mostrar/6071258/revision-cientifica-destaca-papel-dieta-mediterranea-obesidad-infantil": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-10-29",
+   "fuente": "Óleo Revista",
+   "orden": 18,
+   "resumen": "Nutrición personalizada",
+   "texto": "",
+   "titulo": "Una revisión científica destaca el papel de la dieta mediterránea en la obesidad infantil",
+   "url": "https://www.oleorevista.com/texto-diario/mostrar/6071258/revision-cientifica-destaca-papel-dieta-mediterranea-obesidad-infantil"
+  }
+ },
+ "https://www.oleorevista.com/texto-diario/mostrar/6072386/agq-labs-obtiene-acreditacion-enac-panel-cata-aceite-oliva": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-01",
+   "fuente": "Óleo Revista",
+   "orden": 17,
+   "resumen": "Reafirma su compromiso con la calidad y la competitividad del sector oleícola.",
+   "texto": "",
+   "titulo": "AGQ Labs obtiene la acreditación ENAC para su panel de cata de aceite de oliva",
+   "url": "https://www.oleorevista.com/texto-diario/mostrar/6072386/agq-labs-obtiene-acreditacion-enac-panel-cata-aceite-oliva"
+  }
+ },
+ "https://www.oleorevista.com/texto-diario/mostrar/6072530/manuel-granado-nuevo-gerente-operaciones-riesgos-john-deere-financial-espana-portugal": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-01",
+   "fuente": "Óleo Revista",
+   "orden": 16,
+   "resumen": "El nombramiento será efectivo el 1 de noviembre de 2026",
+   "texto": "",
+   "titulo": "Manuel Granado, nuevo gerente de Operaciones y Riesgos de John Deere Financial para España y Portugal",
+   "url": "https://www.oleorevista.com/texto-diario/mostrar/6072530/manuel-granado-nuevo-gerente-operaciones-riesgos-john-deere-financial-espana-portugal"
+  }
+ },
+ "https://www.oleorevista.com/texto-diario/mostrar/6072547/aceituna-manzanilla-sevilla-avanza-hacia-reconocimiento-como-igp-europa": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-01",
+   "fuente": "Óleo Revista",
+   "orden": 15,
+   "resumen": "Los promotores han invertido más de 1,5 millones de euros desde 2014",
+   "texto": "",
+   "titulo": "La Aceituna Manzanilla de Sevilla avanza hacia su reconocimiento como IGP en Europa",
+   "url": "https://www.oleorevista.com/texto-diario/mostrar/6072547/aceituna-manzanilla-sevilla-avanza-hacia-reconocimiento-como-igp-europa"
+  }
+ },
+ "https://www.oleorevista.com/texto-diario/mostrar/6072578/aceites-oliva-espana-lleva-diversidad-aove-masterchef-celebrity-legends": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-01",
+   "fuente": "Óleo Revista",
+   "orden": 14,
+   "resumen": "La propuesta ganadora, de María Escoté, fue un helado de aceituna negra elaborado con AOVE Empeltre",
+   "texto": "",
+   "titulo": "Aceites de Oliva de España lleva la diversidad del AOVE a MasterChef Celebrity Legends",
+   "url": "https://www.oleorevista.com/texto-diario/mostrar/6072578/aceites-oliva-espana-lleva-diversidad-aove-masterchef-celebrity-legends"
+  }
+ },
+ "https://www.oleorevista.com/texto-diario/mostrar/6072648/agricultura-publica-norma-comercializacion-aceite-oliva-campana-2026-2027": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-01",
+   "fuente": "Óleo Revista",
+   "orden": 13,
+   "resumen": "El Ministerio determinará antes del 15 de noviembre el porcentaje de aceite que deberá retirarse",
+   "texto": "",
+   "titulo": "Agricultura publica la norma de comercialización del aceite de oliva para la campaña 2026/2027",
+   "url": "https://www.oleorevista.com/texto-diario/mostrar/6072648/agricultura-publica-norma-comercializacion-aceite-oliva-campana-2026-2027"
+  }
+ },
+ "https://www.oleorevista.com/texto-diario/mostrar/6072744/italia-suma-nueva-dop-aceituna-alta-daunia-ligada-variedad-peranzana": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-02",
+   "fuente": "Óleo Revista",
+   "orden": 12,
+   "resumen": "La nueva indicación geográfica protege una tradición centenaria de la región italiana de Apulia",
+   "texto": "",
+   "titulo": "Italia suma una nueva DOP, la aceituna Alta Daunia, ligada a la variedad Peranzana",
+   "url": "https://www.oleorevista.com/texto-diario/mostrar/6072744/italia-suma-nueva-dop-aceituna-alta-daunia-ligada-variedad-peranzana"
+  }
+ },
+ "https://www.oleorevista.com/texto-diario/mostrar/6072762/progreso-preve-recoger-10-millones-kilos-aceituna-adelanta-inicio-campana": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-02",
+   "fuente": "Óleo Revista",
+   "orden": 11,
+   "resumen": "Entre los primeros trabajos previstos figura la recogida en verde de las variedades Arbequina y Cornicabra",
+   "texto": "",
+   "titulo": "El Progreso prevé recoger 10 millones de kilos de aceituna y adelanta el inicio de la campaña",
+   "url": "https://www.oleorevista.com/texto-diario/mostrar/6072762/progreso-preve-recoger-10-millones-kilos-aceituna-adelanta-inicio-campana"
+  }
+ },
+ "https://www.oleorevista.com/texto-diario/mostrar/6072774/nueva-bodega-2083-toneladas-refuerza-capacidad-almacenamiento-puricon-sca": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-02",
+   "fuente": "Óleo Revista",
+   "orden": 10,
+   "resumen": "816 metros cuadrados de superficie, distribuidos en una planta rectangular de 34 por 24 metros",
+   "texto": "",
+   "titulo": "Una nueva bodega de 2.083 toneladas refuerza la capacidad de almacenamiento de Puricon S.C.A.",
+   "url": "https://www.oleorevista.com/texto-diario/mostrar/6072774/nueva-bodega-2083-toneladas-refuerza-capacidad-almacenamiento-puricon-sca"
+  }
+ },
+ "https://www.oleorevista.com/texto-diario/mostrar/6072790/comite-asesor-coi-aborda-previsiones-oleicolas-presenta-calculadora-balance-carbono": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-02",
+   "fuente": "Óleo Revista",
+   "orden": 9,
+   "resumen": "67.ª reunión del Comité Consultivo del Consejo Oleícola Internacional (COI)",
+   "texto": "",
+   "titulo": "El Comité Asesor del COI aborda las previsiones oleícolas y presenta su calculadora de balance de carbono",
+   "url": "https://www.oleorevista.com/texto-diario/mostrar/6072790/comite-asesor-coi-aborda-previsiones-oleicolas-presenta-calculadora-balance-carbono"
+  }
+ },
+ "https://www.oleorevista.com/texto-diario/mostrar/6072805/ue-eleva-superavit-agroalimentario-hasta-34700-millones-euros": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-02",
+   "fuente": "Óleo Revista",
+   "orden": 8,
+   "resumen": "Las exportaciones de aceitunas y aceite de oliva disminuyeron un 10%",
+   "texto": "",
+   "titulo": "La UE eleva su superávit agroalimentario hasta los 34.700 millones de euros",
+   "url": "https://www.oleorevista.com/texto-diario/mostrar/6072805/ue-eleva-superavit-agroalimentario-hasta-34700-millones-euros"
+  }
+ },
+ "https://www.oleorevista.com/texto-diario/mostrar/6075552/krones-mejora-hasta-3-rendimiento-extraccion-aceite-oliva-tecnologia-olivance": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-03",
+   "fuente": "Óleo Revista",
+   "orden": 7,
+   "resumen": "El nuevo decantador UniPure S incorpora un transportador helicoidal optimizado",
+   "texto": "",
+   "titulo": "Krones mejora hasta un 3 % el rendimiento de extracción de aceite de oliva con su tecnología Olivance",
+   "url": "https://www.oleorevista.com/texto-diario/mostrar/6075552/krones-mejora-hasta-3-rendimiento-extraccion-aceite-oliva-tecnologia-olivance"
+  }
+ },
+ "https://www.oleorevista.com/texto-diario/mostrar/6075579/fundacion-jav-dop-sierra-cazorla-impulsan-innovacion-digitalizacion-olivar-tradicional": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-03",
+   "fuente": "Óleo Revista",
+   "orden": 6,
+   "resumen": "Ambas entidades firman un convenio para acercar la formación especializada, la tecnología y la modernización de las explotaciones oleícolas de la comarca",
+   "texto": "",
+   "titulo": "La Fundación JAV y la DOP Sierra de Cazorla impulsan la innovación y digitalización del olivar tradicional",
+   "url": "https://www.oleorevista.com/texto-diario/mostrar/6075579/fundacion-jav-dop-sierra-cazorla-impulsan-innovacion-digitalizacion-olivar-tradicional"
+  }
+ },
  "https://www.oleorevista.com/texto-diario/mostrar/6075606/oleoestepa-alcanza-20-cooperativas-incorporacion-purisima-puente-genil": {
   "estado": "candidata",
   "noticia": {
@@ -1931,6 +2243,78 @@
    "url": "https://www.oleorevista.com/texto-diario/mostrar/6082032/agricultura-ordena-retirar-12-aceite-oliva-campana-2026-2027-unas-188000-toneladas"
   }
  },
+ "https://www.oleorevista.com/texto-diario/mostrar/6085612/jaencoop-reconocida-iesg-compromiso-sostenibilidad": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-10",
+   "fuente": "Óleo Revista",
+   "orden": 4,
+   "resumen": "La cooperativa ha extendido su protocolo de sostenibilidad a 22 centros de producción",
+   "texto": "",
+   "titulo": "JAENCOOP, reconocida por el iESG por su compromiso con la sostenibilidad",
+   "url": "https://www.oleorevista.com/texto-diario/mostrar/6085612/jaencoop-reconocida-iesg-compromiso-sostenibilidad"
+  }
+ },
+ "https://www.oleorevista.com/texto-diario/mostrar/6085662/antonio-jesus-jimenez-hidalgo-nuevo-presidente-oleand-manzanilla-olive": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-10",
+   "fuente": "Óleo Revista",
+   "orden": 3,
+   "resumen": "OMO incorpora a cuatro mujeres a su Consejo Rector por primera vez, y prepara su Plan Estratégico 2027-2030",
+   "texto": "",
+   "titulo": "Antonio Jesús Jiménez Hidalgo, nuevo presidente de Oleand Manzanilla Olive",
+   "url": "https://www.oleorevista.com/texto-diario/mostrar/6085662/antonio-jesus-jimenez-hidalgo-nuevo-presidente-oleand-manzanilla-olive"
+  }
+ },
+ "https://www.oleorevista.com/texto-diario/mostrar/6085695/citoliva-impulsa-corea-sur-proyecto-inteligencia-artificial-optimizar-riego-olivar": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-10",
+   "fuente": "Óleo Revista",
+   "orden": 2,
+   "resumen": "Proyecto SF-OLIVE",
+   "texto": "",
+   "titulo": "CITOLIVA impulsa con Corea del Sur un proyecto de inteligencia artificial para optimizar el riego del olivar",
+   "url": "https://www.oleorevista.com/texto-diario/mostrar/6085695/citoliva-impulsa-corea-sur-proyecto-inteligencia-artificial-optimizar-riego-olivar"
+  }
+ },
+ "https://www.oleorevista.com/texto-diario/mostrar/6085721/fiesta-primer-aceite-jaen-reune-miles-visitantes-dispara-ventas-aove-ubeda": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-10",
+   "fuente": "Óleo Revista",
+   "orden": 1,
+   "resumen": "La cita se trasladará a La Coruña del 20 al 22 de noviembre con 35 empresas del sector",
+   "texto": "",
+   "titulo": "La Fiesta del Primer Aceite de Jaén reúne miles de visitantes y dispara las ventas de AOVE en Úbeda",
+   "url": "https://www.oleorevista.com/texto-diario/mostrar/6085721/fiesta-primer-aceite-jaen-reune-miles-visitantes-dispara-ventas-aove-ubeda"
+  }
+ },
+ "https://www.oleorevista.com/texto-diario/mostrar/6085790/subproductos-almazaras-biorrefineria-circular": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-10",
+   "fuente": "Óleo Revista",
+   "orden": 0,
+   "resumen": "Texto de Vincenzo Lionetti, profesor de Fisiología Vegetal y Biotecnología, coordinador del proyecto OLinWASTE",
+   "texto": "",
+   "titulo": "De los subproductos de las almazaras a una biorrefinería circular",
+   "url": "https://www.oleorevista.com/texto-diario/mostrar/6085790/subproductos-almazaras-biorrefineria-circular"
+  }
+ },
+ "https://www.oleorevista.com/texto-diario/mostrar/6085841/expo-agritech-2026-reune-8207-profesionales-acelerar-digitalizacion-campo": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-10",
+   "fuente": "Óleo Revista",
+   "orden": 5,
+   "resumen": "Luis Planas reivindica la innovación y el conocimiento para afrontar los desafíos del sector",
+   "texto": "",
+   "titulo": "Expo AgriTech 2026 reúne a 8.207 profesionales para acelerar la digitalización del campo",
+   "url": "https://www.oleorevista.com/texto-diario/mostrar/6085841/expo-agritech-2026-reune-8207-profesionales-acelerar-digitalizacion-campo"
+  }
+ },
  "https://www.olimerca.com/noticiadet/300000-euros-mas-para-la-produccion-ecologica-valenciana/723545d96080d36baa3c8b77a2bbd176": {
   "estado": "candidata",
   "noticia": {
@@ -1941,6 +2325,54 @@
    "texto": "",
    "titulo": "300.000 euros más para la producción ecológica valenciana",
    "url": "https://www.olimerca.com/noticiadet/300000-euros-mas-para-la-produccion-ecologica-valenciana/723545d96080d36baa3c8b77a2bbd176"
+  }
+ },
+ "https://www.olimerca.com/noticiadet/almazaras-tunecinas-crean-una-marca-para-visibilizar-el-aceite-de-olivaen-el-exterior/6f0c8d0a4ea6d7ff9a19cdf5e58cea35": {
+  "estado": "antigua",
+  "noticia": {
+   "fecha": "2026-07-03",
+   "fuente": "Olimerca",
+   "orden": 11,
+   "resumen": "",
+   "texto": "",
+   "titulo": "Almazaras tunecinas crean una marca para visibilizar el aceite de oliva en el exterior",
+   "url": "https://www.olimerca.com/noticiadet/almazaras-tunecinas-crean-una-marca-para-visibilizar-el-aceite-de-olivaen-el-exterior/6f0c8d0a4ea6d7ff9a19cdf5e58cea35"
+  }
+ },
+ "https://www.olimerca.com/noticiadet/andalucia-sanciona-con-cerca-de-872000--el-fraude-en-el-aceite-de-oliva/c5eaff379024905f17441a1b6d9187bb": {
+  "estado": "antigua",
+  "noticia": {
+   "fecha": "2026-09-15",
+   "fuente": "Olimerca",
+   "orden": 7,
+   "resumen": "",
+   "texto": "",
+   "titulo": "Andalucía sanciona con cerca de 872.000 € el fraude en el aceite de oliva",
+   "url": "https://www.olimerca.com/noticiadet/andalucia-sanciona-con-cerca-de-872000--el-fraude-en-el-aceite-de-oliva/c5eaff379024905f17441a1b6d9187bb"
+  }
+ },
+ "https://www.olimerca.com/noticiadet/aragon-compensa-el-aumento-de-los-costes-de-fertilizantes-y-energia-en-el-sector-agrario/ac0f406ea7ae052ded571fd358c1322f": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-10",
+   "fuente": "Olimerca",
+   "orden": 3,
+   "resumen": "",
+   "texto": "",
+   "titulo": "Aragón compensa el aumento de los costes de fertilizantes y energía en el sector agrario",
+   "url": "https://www.olimerca.com/noticiadet/aragon-compensa-el-aumento-de-los-costes-de-fertilizantes-y-energia-en-el-sector-agrario/ac0f406ea7ae052ded571fd358c1322f"
+  }
+ },
+ "https://www.olimerca.com/noticiadet/badajoz-convoca-su-x-cata-concurso-de-aceites-de-oliva-virgen-extra-/15797cbd3428917208db4505f0b5b65d": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-10",
+   "fuente": "Olimerca",
+   "orden": 1,
+   "resumen": "",
+   "texto": "",
+   "titulo": "Badajoz convoca su X Cata-Concurso de Aceites de Oliva Virgen Extra",
+   "url": "https://www.olimerca.com/noticiadet/badajoz-convoca-su-x-cata-concurso-de-aceites-de-oliva-virgen-extra-/15797cbd3428917208db4505f0b5b65d"
   }
  },
  "https://www.olimerca.com/noticiadet/baleares-pide-su-exclusion-de-la-retirada-obligatoria-delaceite-/bbfdbc6cccf479c21941478cffcbc6d6": {
@@ -1967,6 +2399,18 @@
    "url": "https://www.olimerca.com/noticiadet/biom-desarrolla-soluciones-biotecnologicas-contra-enfermedades-del-olivar/e0149da8a673a7152d265bf7ed73d6fe"
   }
  },
+ "https://www.olimerca.com/noticiadet/buen-comportamiento-de-las-salidas-de-aceite-de-oliva-en-julio/aa5a4ef51bedd84a6a42365880a6b15d": {
+  "estado": "antigua",
+  "noticia": {
+   "fecha": "2026-08-11",
+   "fuente": "Olimerca",
+   "orden": 15,
+   "resumen": "",
+   "texto": "",
+   "titulo": "Buen comportamiento de las salidas de aceite de oliva en julio",
+   "url": "https://www.olimerca.com/noticiadet/buen-comportamiento-de-las-salidas-de-aceite-de-oliva-en-julio/aa5a4ef51bedd84a6a42365880a6b15d"
+  }
+ },
  "https://www.olimerca.com/noticiadet/cataluna-aprueba-una-ley-para-proteger-la-agricultura-profesional-/7754b808cea1810670f8c2896ae2c913": {
   "estado": "candidata",
   "noticia": {
@@ -1991,6 +2435,18 @@
    "url": "https://www.olimerca.com/noticiadet/citoliva-presenta-un-proyecto-para-optimizar-el-riego-del-olivar-con-ia/2501c965fd765fa65d2905b050b77a24"
   }
  },
+ "https://www.olimerca.com/noticiadet/clm-plantea-transformar-hasta-9000-ha-de-olivar-en-regadio-en-el-campo-de-montiel/8db0374b6f9453807ff9436cd284358a": {
+  "estado": "antigua",
+  "noticia": {
+   "fecha": "2026-07-10",
+   "fuente": "Olimerca",
+   "orden": 10,
+   "resumen": "",
+   "texto": "",
+   "titulo": "CLM plantea transformar hasta 9.000 ha de olivar en regadío en el Campo de Montiel",
+   "url": "https://www.olimerca.com/noticiadet/clm-plantea-transformar-hasta-9000-ha-de-olivar-en-regadio-en-el-campo-de-montiel/8db0374b6f9453807ff9436cd284358a"
+  }
+ },
  "https://www.olimerca.com/noticiadet/cooperativas-celebra-la-activacion-de-la-retirada-de-aceite-de-oliva/943d440b27c94c6e5544eb8ac3217f54": {
   "estado": "candidata",
   "noticia": {
@@ -2001,6 +2457,30 @@
    "texto": "",
    "titulo": "Cooperativas celebra la activación de la retirada de aceite de oliva",
    "url": "https://www.olimerca.com/noticiadet/cooperativas-celebra-la-activacion-de-la-retirada-de-aceite-de-oliva/943d440b27c94c6e5544eb8ac3217f54"
+  }
+ },
+ "https://www.olimerca.com/noticiadet/crisis-del-aceite-de-oliva-en-italia-cierran-las-almazaras-en-senal-de-protesta/b377840855ae1e9e9ded48713bb4957e": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-10-16",
+   "fuente": "Olimerca",
+   "orden": 13,
+   "resumen": "",
+   "texto": "",
+   "titulo": "Crisis del aceite de oliva en Italia: cierran las almazaras en señal de protesta",
+   "url": "https://www.olimerca.com/noticiadet/crisis-del-aceite-de-oliva-en-italia-cierran-las-almazaras-en-senal-de-protesta/b377840855ae1e9e9ded48713bb4957e"
+  }
+ },
+ "https://www.olimerca.com/noticiadet/dcoop-premiada-por-su-modelo-de-gestion-sostenible-del-olivar/548d37b064ec8472e320a77990535aa8": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-10",
+   "fuente": "Olimerca",
+   "orden": 6,
+   "resumen": "",
+   "texto": "",
+   "titulo": "Dcoop, premiada por su modelo de gestión sostenible del olivar",
+   "url": "https://www.olimerca.com/noticiadet/dcoop-premiada-por-su-modelo-de-gestion-sostenible-del-olivar/548d37b064ec8472e320a77990535aa8"
   }
  },
  "https://www.olimerca.com/noticiadet/deoleo-estaria-estudiando-ofertas-dupla-vii/4013b72c64c59c906b2289f58607e182": {
@@ -2016,7 +2496,7 @@
   }
  },
  "https://www.olimerca.com/noticiadet/deoleofirma-su-venta-con-acesur-y-dcoop/e0071b3b81ba9a30376724dcd4aa04d9": {
-  "estado": "candidata",
+  "estado": "publicada",
   "noticia": {
    "fecha": "2026-11-05",
    "fuente": "Olimerca",
@@ -2049,6 +2529,18 @@
    "texto": "",
    "titulo": "El AOVE de Monterrubio, en la #OrigenBadajoz Gastroruta",
    "url": "https://www.olimerca.com/noticiadet/el-aove-de-monterrubio-en-la-origenbadajoz-gastroruta/95ae70ccfc22768557602b5e79b83670"
+  }
+ },
+ "https://www.olimerca.com/noticiadet/el-gobierno-de-brasil-denuncia-fraude-en-las-importaciones-de-aceite-de-oliva/70063e1ecc4ef26409760b9074f9c579": {
+  "estado": "antigua",
+  "noticia": {
+   "fecha": "2026-08-10",
+   "fuente": "Olimerca",
+   "orden": 9,
+   "resumen": "",
+   "texto": "",
+   "titulo": "El gobierno de Brasil denuncia fraude en las importaciones de aceite de oliva",
+   "url": "https://www.olimerca.com/noticiadet/el-gobierno-de-brasil-denuncia-fraude-en-las-importaciones-de-aceite-de-oliva/70063e1ecc4ef26409760b9074f9c579"
   }
  },
  "https://www.olimerca.com/noticiadet/el-mapa-activa-la-retirada-obligatoria-del-12-de-la-produccion-de-aceite-de-oliva/62aedf72b1f9aef8a93e611ad13b7acd": {
@@ -2147,6 +2639,18 @@
    "url": "https://www.olimerca.com/noticiadet/hacienda-aprueba-una-reduccion-fiscal-del-10-para-agricultores-en-modulos-2027/95f18f63a0ac712ee0ecb3e5bcfbf5ed"
   }
  },
+ "https://www.olimerca.com/noticiadet/italia-continua-almacenando-altos-volumenes-de-aceite-de-oliva/cfe8d16b06ce89db8fe659897ff74428": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-10",
+   "fuente": "Olimerca",
+   "orden": 0,
+   "resumen": "",
+   "texto": "",
+   "titulo": "Italia continúa almacenando altos volúmenes de aceite de oliva",
+   "url": "https://www.olimerca.com/noticiadet/italia-continua-almacenando-altos-volumenes-de-aceite-de-oliva/cfe8d16b06ce89db8fe659897ff74428"
+  }
+ },
  "https://www.olimerca.com/noticiadet/italia-destinara-300-m-al-plan-olivicola-nacional-2026-2030/b0e8ee88c61acc4dcefbb2f122346d3b": {
   "estado": "candidata",
   "noticia": {
@@ -2157,6 +2661,30 @@
    "texto": "",
    "titulo": "Italia destinará 300 M€ al Plan Olivícola Nacional 2026-2030",
    "url": "https://www.olimerca.com/noticiadet/italia-destinara-300-m-al-plan-olivicola-nacional-2026-2030/b0e8ee88c61acc4dcefbb2f122346d3b"
+  }
+ },
+ "https://www.olimerca.com/noticiadet/italia-pierde-un-tercio-de-su-produccion-de-aceite-de-oliva/39e8726f2b666b1736974de51e9d9962": {
+  "estado": "antigua",
+  "noticia": {
+   "fecha": "2026-09-10",
+   "fuente": "Olimerca",
+   "orden": 8,
+   "resumen": "",
+   "texto": "",
+   "titulo": "Italia pierde un tercio de su producción de aceite de oliva",
+   "url": "https://www.olimerca.com/noticiadet/italia-pierde-un-tercio-de-su-produccion-de-aceite-de-oliva/39e8726f2b666b1736974de51e9d9962"
+  }
+ },
+ "https://www.olimerca.com/noticiadet/jaen-incorporara-dos-nuevos-proyectos-a-su-oferta-oleoturistica/57d1cc4ce897488a4e1cef94ef44d813": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-10",
+   "fuente": "Olimerca",
+   "orden": 5,
+   "resumen": "",
+   "texto": "",
+   "titulo": "Jaén incorporará dos nuevos proyectos a su oferta oleoturística",
+   "url": "https://www.olimerca.com/noticiadet/jaen-incorporara-dos-nuevos-proyectos-a-su-oferta-oleoturistica/57d1cc4ce897488a4e1cef94ef44d813"
   }
  },
  "https://www.olimerca.com/noticiadet/juan-vilar-embajador-de-la-xiii-fiesta-del-primer-aceite-de-jaen/491e1bee1d0752e0118c683b4f24f6c2": {
@@ -2181,6 +2709,18 @@
    "texto": "",
    "titulo": "\"La alianza Acesur y Dcoop refuerza de manera decisiva el liderazgo de Deoleo”",
    "url": "https://www.olimerca.com/noticiadet/la-alianza-acesur-y-dcoop-refuerza-de-manera-decisiva-el-liderazgo-de-deoleo/299193909462cc83fa6510258b1ccbea"
+  }
+ },
+ "https://www.olimerca.com/noticiadet/la-comunidad-valenciana--tambien-reclama-quedarse-fuera-de-la-retirada-de-aceite/9ff47a81c0d78afd25ba819ae4fe2dce": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-10",
+   "fuente": "Olimerca",
+   "orden": 2,
+   "resumen": "",
+   "texto": "",
+   "titulo": "La Comunidad Valenciana  también reclama quedarse fuera de la retirada de aceite",
+   "url": "https://www.olimerca.com/noticiadet/la-comunidad-valenciana--tambien-reclama-quedarse-fuera-de-la-retirada-de-aceite/9ff47a81c0d78afd25ba819ae4fe2dce"
   }
  },
  "https://www.olimerca.com/noticiadet/la-dop-poniente-de-granada-producira-29000-t-de-aceite-de-oliva/d678f3bb14babcb19da898bfa59a9127": {
@@ -2229,6 +2769,42 @@
    "texto": "",
    "titulo": "Puerta de Las Villas cumple 60 años",
    "url": "https://www.olimerca.com/noticiadet/puerta-de-las-villas-cumple-60-anos-/e2dd2aef1a396e55ef1687f02765c187"
+  }
+ },
+ "https://www.olimerca.com/noticiadet/se-confirman-las-menores-salidas-de-aceite-de-oliva-en-agosto/2d17d8700eaeb018c86f37350bb7e385": {
+  "estado": "antigua",
+  "noticia": {
+   "fecha": "2026-09-11",
+   "fuente": "Olimerca",
+   "orden": 14,
+   "resumen": "",
+   "texto": "",
+   "titulo": "Se confirman las menores salidas de aceite de oliva en agosto",
+   "url": "https://www.olimerca.com/noticiadet/se-confirman-las-menores-salidas-de-aceite-de-oliva-en-agosto/2d17d8700eaeb018c86f37350bb7e385"
+  }
+ },
+ "https://www.olimerca.com/noticiadet/se-frenan-las-compras-de-aceite-de-oliva-en-origen/60fa8899e536fc35445a54e004b6614d": {
+  "estado": "antigua",
+  "noticia": {
+   "fecha": "2026-10-02",
+   "fuente": "Olimerca",
+   "orden": 12,
+   "resumen": "",
+   "texto": "",
+   "titulo": "Se frenan las compras de aceite de oliva en origen",
+   "url": "https://www.olimerca.com/noticiadet/se-frenan-las-compras-de-aceite-de-oliva-en-origen/60fa8899e536fc35445a54e004b6614d"
+  }
+ },
+ "https://www.olimerca.com/noticiadet/vega-capital-inaugura-en-osuna-una-nueva-almazara-/a5ec95ee566b25e3cff143d6ad66e95f": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-10",
+   "fuente": "Olimerca",
+   "orden": 4,
+   "resumen": "",
+   "texto": "",
+   "titulo": "Vega Capital inaugura en Osuna una nueva almazara",
+   "url": "https://www.olimerca.com/noticiadet/vega-capital-inaugura-en-osuna-una-nueva-almazara-/a5ec95ee566b25e3cff143d6ad66e95f"
   }
  }
 }

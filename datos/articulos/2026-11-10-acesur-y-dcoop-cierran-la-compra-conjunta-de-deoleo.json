@@ -1,0 +1,50 @@
+{
+ "bloques": [
+  {
+   "texto": "Un acuerdo estratégico a partes iguales",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "El largo proceso de venta de Deoleo Holding ha llegado a su conclusión. Tal y como recoge Olimerca en su información del 5 de noviembre de 2026, los grupos españoles Acesur y Dcoop han anunciado oficialmente que adquirirán de forma conjunta el gigante aceitero, repartiéndose la propiedad con una participación del 50% cada uno. La comunicación remitida a la CNMV detalla que el acuerdo suscrito inicialmente contempla la transmisión del 91,99% del capital social, aunque se espera que otros accionistas se sumen al contrato para alcanzar el 100% de la compañía.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Valoración económica y estimaciones",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "En cuanto a los aspectos financieros de la operación, el valor de empresa se ha fijado en 520 millones de euros tomando como referencia la totalidad del capital. Como estimación orientativa recogida por Olimerca, la contraprestación que percibirá la sociedad vendedora por su 50,99% se sitúa provisionalmente entre 190 y 200 millones de euros, antes de aplicar las deducciones de la cuenta de garantía y los ajustes correspondientes. Desde la compañía advierten que el importe definitivo dependerá de la deuda financiera neta en la fecha de cierre y de las variaciones habituales en el capital circulante.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Objetivos internacionales y próximos pasos",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "El proyecto conjunto pretende fusionar las capacidades industriales y comerciales de Acesur y Dcoop con la proyección internacional de las marcas de Deoleo, protegiendo al mismo tiempo su identidad y su arraigo italiano. Según destaca Olimerca, esta solución deja el control en manos españolas, si bien la operación aún queda pendiente de obtener las autorizaciones regulatorias pertinentes, resolver la contingencia de Carapelli y clarificar el contrato de uso de la marca Bertolli antes de dar el proceso por totalmente concluido.",
+   "tipo": "parrafo"
+  }
+ ],
+ "claves": [
+  "Acesur y Dcoop adquieren Deoleo al 50% con un valor de empresa de 520 millones.",
+  "La operación contempla la transmisión inicial del 91,99% del capital social.",
+  "El proyecto busca potenciar la expansión internacional y el consumo de aceite."
+ ],
+ "entradilla": "Los dos conocidos grupos españoles adquieren el gigante aceitero a partes iguales tras un complejo proceso de venta que fija el valor de empresa en 520 millones de euros.",
+ "etiquetas": [
+  "deoleo",
+  "acesur",
+  "dcoop",
+  "mercado"
+ ],
+ "fecha_publicacion": "2026-11-10",
+ "fuente": {
+  "fecha": "2026-11-05",
+  "nombre": "Olimerca",
+  "titulo": "Deoleo firma su venta con Acesur y Dcoop",
+  "url": "https://www.olimerca.com/noticiadet/deoleofirma-su-venta-con-acesur-y-dcoop/e0071b3b81ba9a30376724dcd4aa04d9"
+ },
+ "redactado_con_ia": true,
+ "slug": "2026-11-10-acesur-y-dcoop-cierran-la-compra-conjunta-de-deoleo",
+ "titulo": "Acesur y Dcoop cierran la compra conjunta de Deoleo"
+}
