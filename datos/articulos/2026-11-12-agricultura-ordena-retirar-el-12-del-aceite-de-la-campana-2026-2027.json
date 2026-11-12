@@ -1,0 +1,46 @@
+{
+ "bloques": [
+  {
+   "texto": "El Ministerio de Agricultura, Pesca y Alimentación ha puesto en marcha la retirada temporal del 12% del aceite de oliva producido durante la campaña 2026/2027, lo que equivale a unas 188.000 toneladas, según recoge Óleo Revista. Publicada en el Boletín Oficial del Estado (BOE), la resolución obliga a las almazaras a mantener este volumen almacenado en instalaciones propias o de terceros hasta el próximo 30 de septiembre de 2027 con el fin de evitar desequilibrios en el mercado.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Un aforo elevado y el cálculo de la retirada",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "La activación de este mecanismo responde a las previsiones del aforo oficial, que sitúa la producción española en 1.602.596 toneladas, un 23% más que en la campaña anterior, a lo que se suman unas existencias iniciales de 357.040 toneladas. Como detalla Óleo Revista, cada almazara deberá aplicar el porcentaje obligatorio sobre su producción mensual acumulada a partir de noviembre —excluyendo el aceite de octubre—, conservando la libertad de elegir la categoría retirada y el lugar de almacenamiento, aunque el Ministerio podrá revisar la decisión a partir del 31 de diciembre.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Valoración y demandas del sector productor",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "Desde Cooperativas Agro-alimentarias se valora positivamente la medida como una herramienta histórica para ordenar la oferta y recuperar las cotizaciones, aunque reclaman controles que garanticen la trazabilidad al excluir el mes de octubre. Por su parte, tal como informa Óleo Revista, ASAJA considera la retirada un paso necesario pero advierte que su éxito dependerá de que se frene la entrada de importaciones para proteger al olivar tradicional y asegurar precios que cubran los costes de producción.",
+   "tipo": "parrafo"
+  }
+ ],
+ "claves": [
+  "Obligación de almacenar el 12% de la producción hasta septiembre de 2027.",
+  "El aforo nacional alcanza los 1,6 millones de toneladas, un 23% más.",
+  "Cooperativas y ASAJA respaldan la medida pero exigen control a las importaciones."
+ ],
+ "entradilla": "El Ministerio de Agricultura establece la retirada temporal de unas 188.000 toneladas de aceite de oliva para regular la oferta y garantizar la estabilidad del mercado oleícola.",
+ "etiquetas": [
+  "mercado",
+  "campaña 2026/27",
+  "precios",
+  "aceite de oliva"
+ ],
+ "fecha_publicacion": "2026-11-12",
+ "fuente": {
+  "fecha": "2026-11-06",
+  "nombre": "Óleo Revista",
+  "titulo": "Agricultura ordena retirar el 12% del aceite de oliva de la campaña 2026/2027, unas 188.000 toneladas",
+  "url": "https://www.oleorevista.com/texto-diario/mostrar/6082032/agricultura-ordena-retirar-12-aceite-oliva-campana-2026-2027-unas-188000-toneladas"
+ },
+ "redactado_con_ia": true,
+ "slug": "2026-11-12-agricultura-ordena-retirar-el-12-del-aceite-de-la-campana-2026-2027",
+ "titulo": "Agricultura ordena retirar el 12% del aceite de la campaña 2026/2027"
+}

@@ -1,0 +1,50 @@
+{
+ "bloques": [
+  {
+   "texto": "Un inicio de campaña con cifras históricas de comercialización",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "El mercado del aceite de oliva ha iniciado la campaña de comercialización 2026/2027 con un notable dinamismo. Según recoge Óleo Revista basándose en el avance de la Agencia de Información y Control Alimentarios (AICA), las salidas durante el mes de octubre se estiman en 134.600 toneladas, lo que supone unas 19.000 toneladas más que en el mismo periodo de la campaña anterior. De confirmarse este volumen provisional, que incluye unas importaciones estimadas de 14.000 toneladas, representaría la mayor cifra mensual de comercialización de las últimas seis campañas. Este fuerte ritmo también se ha dejado notar en las existencias totales, que han caído hasta las 306.966 toneladas a fecha de 31 de octubre.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Valoración de ASAJA-Jaén y la medida de retirada del 12%",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "Ante estos datos, las organizaciones agrarias han analizado la situación actual del mercado. Desde ASAJA-Jaén, su gerente y portavoz Luis Carlos Valero valoran positivamente el volumen de producción y comercialización. Según los datos de la entidad, los aceites tempranos alcanzan las 70.530 toneladas, frente a las cerca de 40.000 toneladas del año pasado. Desde la organización confían en que este incremento de producción de aceites verdes, sumado a la activación de la retirada del 12% del aceite de oliva prevista para el 15 de noviembre, contribuya a dinamizar el mercado y mejorar las cotizaciones en origen, en una campaña de recolección ya en marcha a pesar de las interrupciones puntuales por las lluvias.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "UPA Andalucía denuncia precios ruinosos para los productores",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "Por su parte, UPA Andalucía denuncia que, a pesar de la fortaleza de la demanda, las cotizaciones en origen se mantienen en torno a los 3 euros por kilo, un nivel que consideran ruinoso e insuficiente para cubrir los costes de producción del olivar tradicional. Su secretario general, Jesús Cózar Pérez, reclama que los precios se estabilicen en torno a los 5 euros por kilo para garantizar la rentabilidad. Aunque valoran positivamente la retirada del 12%, UPA exige mayores controles en frontera para evitar que el aceite nacional retenido sea sustituido por importaciones, y apunta a que las menores cosechas previstas en países como Túnez, Marruecos y Turquía podrían reducir la producción mundial.",
+   "tipo": "parrafo"
+  }
+ ],
+ "claves": [
+  "Salidas récord de 134.600 toneladas en el primer mes de campaña.",
+  "Las existencias totales se reducen hasta las 306.966 toneladas.",
+  "El sector agrario debate sobre los precios y la medida de retirada del 12%."
+ ],
+ "entradilla": "El sector del aceite de oliva arranca la campaña 2026/2027 con un dinamismo comercial récord, aunque persisten la preocupación por los precios en origen y las demandas de mayor control en frontera.",
+ "etiquetas": [
+  "mercado",
+  "precios",
+  "campaña 2026/27",
+  "aica"
+ ],
+ "fecha_publicacion": "2026-11-12",
+ "fuente": {
+  "fecha": "2026-11-12",
+  "nombre": "Óleo Revista",
+  "titulo": "Las ventas de aceite de oliva superan las 134.000 toneladas en el inicio de la campaña 2026/2027",
+  "url": "https://www.oleorevista.com/texto-diario/mostrar/6089363/ventas-aceite-oliva-superan-134000-toneladas-inicio-campana-2026-2027"
+ },
+ "redactado_con_ia": true,
+ "slug": "2026-11-12-las-ventas-de-aove-superan-las-134-000-toneladas-en-octubre",
+ "titulo": "Las ventas de AOVE superan las 134.000 toneladas en octubre"
+}
