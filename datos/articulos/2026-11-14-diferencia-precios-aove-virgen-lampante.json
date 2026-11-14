@@ -1,0 +1,58 @@
+{
+ "bloques": [
+  {
+   "texto": "Análisis de las cotizaciones por categorías",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "El mercado del aceite de oliva en origen registra diferentes comportamientos entre las distintas categorías comerciales. Según los datos de Oleista correspondientes al 13 de noviembre de 2026, el aceite de oliva virgen extra en España se sitúa en 3,180 euros por kilogramo, registrando una variación del 0,3 % respecto a la sesión anterior, un incremento del 0,2 % en la semana y una caída del 0,6 % en el mes, con un rango de treinta días que oscila entre 3,100 y 3,240 euros por kilogramo.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Por su parte, el aceite virgen en España cotiza a 2,900 euros por kilogramo el 13 de noviembre de 2026, lo que representa un aumento del 1,4 % en la sesión anterior y del 2,7 % en la semana, aunque experimenta un descenso del 4,0 % en el mes, con un rango de treinta días situado entre 2,813 y 3,020 euros por kilogramo. En cuanto al aceite lampante, este registra un precio de 2,800 euros por kilogramo en la misma fecha, sin variación en la sesión anterior, con un incremento semanal del 0,6 % y una bajada del 4,3 % en el mes, tras moverse en un rango de treinta días entre 2,763 y 2,954 euros por kilogramo.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Referencias oficiales y territoriales",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "Las referencias oficiales del Ministerio de Agricultura, correspondientes al boletín de la semana 45 de 2026, que abarca del 2 de noviembre de 2026 al 8 de noviembre de 2026, muestran medias semanales diferenciadas por comunidades autónomas que no son comparables día a día con los datos de Oleista. En este periodo, la media nacional de España se sitúa en 3,098 euros por kilogramo para el AOVE, 2,876 euros por kilogramo para el virgen y 2,740 euros por kilogramo para el lampante.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "A nivel regional, Andalucía anota precios medios de 3,051 euros por kilogramo para el AOVE, 2,853 euros por kilogramo para el virgen y 2,750 euros por kilogramo para el lampante. En Castilla-La Mancha, las cotizaciones medias oficiales alcanzan los 3,279 euros por kilogramo para el AOVE, 3,250 euros por kilogramo para el virgen y 3,070 euros por kilogramo para el lampante. En Cataluña, los registros marcan 3,400 euros por kilogramo para el AOVE, 3,100 euros por kilogramo para el virgen y 2,650 euros por kilogramo para el lampante. Finalmente, en Extremadura, el AOVE se sitúa en una media de 3,280 euros por kilogramo y el virgen en 2,900 euros por kilogramo.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Contexto internacional del mercado",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "En el ámbito internacional, las cotizaciones en origen muestran realidades diversas. En Italia, los datos de Oleista del 28 de octubre de 2026 sitúan el AOVE en 5,181 euros por kilogramo, con un incremento semanal del 8,4 % y mensual del 11,6 %, mientras que el virgen cotiza a 3,000 euros por kilogramo y el lampante a 2,688 euros por kilogramo. En Grecia, los datos del 10 de noviembre de 2026 reflejan un precio de 3,325 euros por kilogramo para el AOVE, con una bajada mensual del 9,2 %; 2,730 euros por kilogramo para el virgen, con una caída del 2,5 % en la sesión, semana y mes; y 2,120 euros por kilogramo para el lampante, que registra una disminución del 9,8 % en la sesión y en la semana.",
+   "tipo": "parrafo"
+  }
+ ],
+ "claves": [],
+ "contenido_markdown": "## Análisis de las cotizaciones por categorías\n\nEl mercado del aceite de oliva en origen registra diferentes comportamientos entre las distintas categorías comerciales. Según los datos de Oleista correspondientes al 13 de noviembre de 2026, el aceite de oliva virgen extra en España se sitúa en 3,180 euros por kilogramo, registrando una variación del 0,3 % respecto a la sesión anterior, un incremento del 0,2 % en la semana y una caída del 0,6 % en el mes, con un rango de treinta días que oscila entre 3,100 y 3,240 euros por kilogramo.\n\nPor su parte, el aceite virgen en España cotiza a 2,900 euros por kilogramo el 13 de noviembre de 2026, lo que representa un aumento del 1,4 % en la sesión anterior y del 2,7 % en la semana, aunque experimenta un descenso del 4,0 % en el mes, con un rango de treinta días situado entre 2,813 y 3,020 euros por kilogramo. En cuanto al aceite lampante, este registra un precio de 2,800 euros por kilogramo en la misma fecha, sin variación en la sesión anterior, con un incremento semanal del 0,6 % y una bajada del 4,3 % en el mes, tras moverse en un rango de treinta días entre 2,763 y 2,954 euros por kilogramo.\n\n## Referencias oficiales y territoriales\n\nLas referencias oficiales del Ministerio de Agricultura, correspondientes al boletín de la semana 45 de 2026, que abarca del 2 de noviembre de 2026 al 8 de noviembre de 2026, muestran medias semanales diferenciadas por comunidades autónomas que no son comparables día a día con los datos de Oleista. En este periodo, la media nacional de España se sitúa en 3,098 euros por kilogramo para el AOVE, 2,876 euros por kilogramo para el virgen y 2,740 euros por kilogramo para el lampante.\n\nA nivel regional, Andalucía anota precios medios de 3,051 euros por kilogramo para el AOVE, 2,853 euros por kilogramo para el virgen y 2,750 euros por kilogramo para el lampante. En Castilla-La Mancha, las cotizaciones medias oficiales alcanzan los 3,279 euros por kilogramo para el AOVE, 3,250 euros por kilogramo para el virgen y 3,070 euros por kilogramo para el lampante. En Cataluña, los registros marcan 3,400 euros por kilogramo para el AOVE, 3,100 euros por kilogramo para el virgen y 2,650 euros por kilogramo para el lampante. Finalmente, en Extremadura, el AOVE se sitúa en una media de 3,280 euros por kilogramo y el virgen en 2,900 euros por kilogramo.\n\n## Contexto internacional del mercado\n\nEn el ámbito internacional, las cotizaciones en origen muestran realidades diversas. En Italia, los datos de Oleista del 28 de octubre de 2026 sitúan el AOVE en 5,181 euros por kilogramo, con un incremento semanal del 8,4 % y mensual del 11,6 %, mientras que el virgen cotiza a 3,000 euros por kilogramo y el lampante a 2,688 euros por kilogramo. En Grecia, los datos del 10 de noviembre de 2026 reflejan un precio de 3,325 euros por kilogramo para el AOVE, con una bajada mensual del 9,2 %; 2,730 euros por kilogramo para el virgen, con una caída del 2,5 % en la sesión, semana y mes; y 2,120 euros por kilogramo para el lampante, que registra una disminución del 9,8 % en la sesión y en la semana.",
+ "entradilla": "Análisis de las cotizaciones en origen para el aceite de oliva virgen extra, virgen y lampante según los datos más recientes del mercado.",
+ "estado": "published",
+ "etiquetas": [
+  "aove",
+  "precios",
+  "mercado",
+  "aceite de oliva"
+ ],
+ "fecha_publicacion": "2026-11-14",
+ "fuente": {
+  "fecha": "2026-11-13",
+  "nombre": "Oleista",
+  "titulo": "Cotizaciones del aceite de oliva",
+  "url": "https://oleista.com/es/precios"
+ },
+ "meta_descripcion": "Consulta la diferencia de precio entre AOVE, virgen y lampante con los últimos datos de cotizaciones en origen y referencias oficiales.",
+ "redactado_con_ia": true,
+ "slug": "2026-11-14-diferencia-precios-aove-virgen-lampante",
+ "tipo": "analisis",
+ "titulo": "Evolución de precios entre AOVE, virgen y lampante"
+}
