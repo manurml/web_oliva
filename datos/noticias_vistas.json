@@ -1740,7 +1740,7 @@
   }
  },
  "https://www.mercacei.com/noticia/66130/actualidad/hagas-huelga-o-no-seguro-que-encuentras-un-momento-para-inscribirte-en-evooleum.html": {
-  "estado": "candidata",
+  "estado": "publicada",
   "noticia": {
    "fecha": "2026-11-11",
    "fuente": "Mercacei",
@@ -1821,6 +1821,102 @@
    "texto": "",
    "titulo": "Casi la mitad de los consumidores muestra conciencia medioambiental, pero no la traslada a sus decisiones de compra",
    "url": "https://www.mercacei.com/noticia/66139/ultima-hora/casi-la-mitad-de-los-consumidores-muestra-conciencia-medioambiental-pero-no-la-traslada-a-sus-decisiones-de-compra.html"
+  }
+ },
+ "https://www.mercacei.com/noticia/66140/empresas/tres-bases-para-estar-mas-cerca-esta-campana.html": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-13",
+   "fuente": "Mercacei",
+   "orden": 7,
+   "resumen": "La campaña de aceite 2026/27 ya está aquí. Y cuando aumenta el ritmo de producción y envasado, contar con un proveedor cercano y preparado para responder también forma parte de una buena planificación. En Envases y Botellas Ayrtac afrontamos esta campaña apoyándonos en tres bases logísticas estratégicas: Calahorra, para reforzar nuestro servicio en la zona norte; Martos, desde uno de los principales núcleos del sector oleícola, para atender la zona sur; y Barcelona, para dar servicio principalmente a Cataluña y Comunidad Valenciana.",
+   "texto": "",
+   "titulo": "Tres bases para estar más cerca esta campaña",
+   "url": "https://www.mercacei.com/noticia/66140/empresas/tres-bases-para-estar-mas-cerca-esta-campana.html"
+  }
+ },
+ "https://www.mercacei.com/noticia/66141/actualidad/retirar-aceite-de-oliva-o-conquistar-mercados-el-sector-analiza-la-nueva-medida-de-regulacion-del-mercado.html": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-13",
+   "fuente": "Mercacei",
+   "orden": 0,
+   "resumen": "El Ministerio de Agricultura, Pesca y Alimentación (MAPA) determinó el pasado 6 de noviembre la retirada del 12% del aceite de oliva producido en España durante la campaña 2026/27 con el objetivo, según subrayó el Ministro Luis Planas, de garantizar una adecuada retribución a los olivicultores y dar estabilidad a los consumidores, al evitar variaciones bruscas en los precios. Mercacei ha querido recabar la opinión de representantes de cooperativas, almazaras, empresas y organizaciones agrarias sobre esta medida que genera apoyos, críticas y dudas acerca de su eficacia para estabilizar el mercado.",
+   "texto": "",
+   "titulo": "¿Retirar aceite de oliva o conquistar mercados? El sector analiza la nueva medida de regulación del mercado",
+   "url": "https://www.mercacei.com/noticia/66141/actualidad/retirar-aceite-de-oliva-o-conquistar-mercados-el-sector-analiza-la-nueva-medida-de-regulacion-del-mercado.html"
+  }
+ },
+ "https://www.mercacei.com/noticia/66142/actualidad/aceites-de-oliva-de-espana-pone-el-foco-en-los-chefs-de-todo-el-mundopara-llegar-al-consumidor-global.html": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-13",
+   "fuente": "Mercacei",
+   "orden": 2,
+   "resumen": "La Interprofesional del Aceite de Oliva Español patrocina la décima edición del Campeonato Mundial de Tapas Ciudad de Valladolid, donde ha puesto el foco en chefs de todo el mundo para que el aceite de oliva llegue al consumidor global.",
+   "texto": "",
+   "titulo": "Aceites de Oliva de España pone el foco en los chefs de todo el mundo para llegar al consumidor global",
+   "url": "https://www.mercacei.com/noticia/66142/actualidad/aceites-de-oliva-de-espana-pone-el-foco-en-los-chefs-de-todo-el-mundopara-llegar-al-consumidor-global.html"
+  }
+ },
+ "https://www.mercacei.com/noticia/66143/actualidad/empresas-andaluzas-de-aove-y-aceitunas-presentan-sus-productos-en-japon-y-definen-estrategias-comerciales.html": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-13",
+   "fuente": "Mercacei",
+   "orden": 3,
+   "resumen": "Andalucía TRADE , entidad dependiente de la Consejería de Universidad, Industria, Energía e Innovación, organizó el pasado 28 de octubre la participación de 48 marcas andaluzas de alimentos y bebidas -entre ellas de AOVE y aceitunas- en un showroom agroalimentario celebrado en el hotel Hilton de Osaka, que reunió a 180 profesionales japoneses de la hostelería, la restauración y el canal gourmet.",
+   "texto": "",
+   "titulo": "Empresas andaluzas de AOVE y aceitunas presentan sus productos en Japón y definen estrategias comerciales",
+   "url": "https://www.mercacei.com/noticia/66143/actualidad/empresas-andaluzas-de-aove-y-aceitunas-presentan-sus-productos-en-japon-y-definen-estrategias-comerciales.html"
+  }
+ },
+ "https://www.mercacei.com/noticia/66144/actualidad/firmado-un-protocolo-en-italia-para-poner-en-valor-el-aceite-de-oliva-virgen-extra-en-el-sector-de-la-restauracion.html": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-13",
+   "fuente": "Mercacei",
+   "orden": 1,
+   "resumen": "El ministro de Agricultura, Soberanía Alimentaria y Forestal de Italia , Francesco Lollobrigida, y asociaciones empresariales han firmado un protocolo para la valorización del aceite de oliva virgen extra en el sector de la restauración. Se trata de una iniciativa destinada a fortalecer el mercado interno del aceite de oliva virgen extra 100% italiano, creando un vínculo más directo entre la producción nacional y el sector de la restauración.",
+   "texto": "",
+   "titulo": "Firmado un protocolo en Italia para poner en valor el aceite de oliva virgen extra en el sector de la restauración",
+   "url": "https://www.mercacei.com/noticia/66144/actualidad/firmado-un-protocolo-en-italia-para-poner-en-valor-el-aceite-de-oliva-virgen-extra-en-el-sector-de-la-restauracion.html"
+  }
+ },
+ "https://www.mercacei.com/noticia/66146/actualidad/la-dieta-mediterranea-aliada-de-la-longevidad-y-la-prevencion-de-enfermedades-cronicas.html": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-13",
+   "fuente": "Mercacei",
+   "orden": 5,
+   "resumen": "Con motivo del Día Mundial de la Dieta Mediterránea, la Sociedad Española de Arteriosclerosis (SEA) ha destacado que \"la investigación relaciona una mayor adherencia a la Dieta Mediterránea con una vida más larga y un menor riesgo de distintas enfermedades crónicas\".",
+   "texto": "",
+   "titulo": "La Dieta Mediterránea, aliada de la longevidad y la prevención de enfermedades crónicas",
+   "url": "https://www.mercacei.com/noticia/66146/actualidad/la-dieta-mediterranea-aliada-de-la-longevidad-y-la-prevencion-de-enfermedades-cronicas.html"
+  }
+ },
+ "https://www.mercacei.com/noticia/66147/actualidad/la-sca-san-vicente-de-mogon-lanza-una-edicion-limitada-de-su-aove-temprano-para-apoyar-a-la-asociacion-de-diabetes-de-jaen.html": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-13",
+   "fuente": "Mercacei",
+   "orden": 4,
+   "resumen": "La SCA San Vicente de Mogón , a través de su marca Puerta de las Villas , ha lanzado una edición especial y limitada de 3.000 botellas de aceite de oliva virgen extra temprano, cuya venta tendrá un componente solidario, ya que una parte del importe se destinará a la Asociación de Diabetes de Jaén (ADEN).",
+   "texto": "",
+   "titulo": "La SCA San Vicente de Mogón lanza una edición limitada de su AOVE temprano para apoyar a la Asociación de Diabetes de Jaén",
+   "url": "https://www.mercacei.com/noticia/66147/actualidad/la-sca-san-vicente-de-mogon-lanza-una-edicion-limitada-de-su-aove-temprano-para-apoyar-a-la-asociacion-de-diabetes-de-jaen.html"
+  }
+ },
+ "https://www.mercacei.com/noticia/66149/ultima-hora/mendoza-argentina-sera-sede-de-las-jornadas-internacionales-del-olivo-y-el-turismo.html": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-13",
+   "fuente": "Mercacei",
+   "orden": 6,
+   "resumen": "Mendoza (Argentina) acogerá del 18 al 27 de noviembre las Jornadas Internacionales del Olivo y el Turismo, que convocarán a especialistas, productores, instituciones y referentes del sector para compartir conocimientos, generar oportunidades y poner en valor la cultura olivícola.",
+   "texto": "",
+   "titulo": "Mendoza (Argentina) será sede de las Jornadas Internacionales del Olivo y el Turismo",
+   "url": "https://www.mercacei.com/noticia/66149/ultima-hora/mendoza-argentina-sera-sede-de-las-jornadas-internacionales-del-olivo-y-el-turismo.html"
   }
  },
  "https://www.oleorevista.com/texto-diario/mostrar/6069058/oro-bailen-preve-batir-record-produccion-aove-premium-campana-2026-2027": {
@@ -2555,6 +2651,18 @@
    "url": "https://www.olimerca.com/noticiadet/-coldiretti-puglia-solicita-mas-vigilancia-ante-la-expansion-de-la-xylella/e385135ae4086d5cb7b30e49dcca2d71"
   }
  },
+ "https://www.olimerca.com/noticiadet/180-profesionales-japoneses-descubren-el-aove-y-las-aceitunas-andaluzas/505b7fb106f9881af074d9fa8ccb6bab": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-13",
+   "fuente": "Olimerca",
+   "orden": 3,
+   "resumen": "",
+   "texto": "",
+   "titulo": "180 profesionales japoneses descubren el AOVE y las aceitunas andaluzas",
+   "url": "https://www.olimerca.com/noticiadet/180-profesionales-japoneses-descubren-el-aove-y-las-aceitunas-andaluzas/505b7fb106f9881af074d9fa8ccb6bab"
+  }
+ },
  "https://www.olimerca.com/noticiadet/300000-euros-mas-para-la-produccion-ecologica-valenciana/723545d96080d36baa3c8b77a2bbd176": {
   "estado": "candidata",
   "noticia": {
@@ -2819,6 +2927,18 @@
    "url": "https://www.olimerca.com/noticiadet/el-aceite-de-oliva-protagonista-en-el-campeonato-mundial-de-tapas-de-valladolid/8a7c6656537bb8f3b97703ad878b6fa8"
   }
  },
+ "https://www.olimerca.com/noticiadet/el-aceite-de-oliva-refuerza-su-presencia-internacional-a-traves-de-la-tapa-espanola/131aa27655d844cdc7bb9b30d89a34e4": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-13",
+   "fuente": "Olimerca",
+   "orden": 2,
+   "resumen": "",
+   "texto": "",
+   "titulo": "El aceite de oliva refuerza su presencia internacional a través de la tapa española",
+   "url": "https://www.olimerca.com/noticiadet/el-aceite-de-oliva-refuerza-su-presencia-internacional-a-traves-de-la-tapa-espanola/131aa27655d844cdc7bb9b30d89a34e4"
+  }
+ },
  "https://www.olimerca.com/noticiadet/el-aove-de-monterrubio-en-la-origenbadajoz-gastroruta/95ae70ccfc22768557602b5e79b83670": {
   "estado": "candidata",
   "noticia": {
@@ -3047,6 +3167,18 @@
    "url": "https://www.olimerca.com/noticiadet/la-alianza-acesur-y-dcoop-refuerza-de-manera-decisiva-el-liderazgo-de-deoleo/299193909462cc83fa6510258b1ccbea"
   }
  },
+ "https://www.olimerca.com/noticiadet/la-ce-pone-en-marcha-la-alianza-para-la-cadena-de-valor-de-los-fertilizantes/e8421dfeef6ca00e8a32af3cb6b842d5": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-13",
+   "fuente": "Olimerca",
+   "orden": 1,
+   "resumen": "",
+   "texto": "",
+   "titulo": "La CE pone en marcha la Alianza para la cadena de valor de los fertilizantes",
+   "url": "https://www.olimerca.com/noticiadet/la-ce-pone-en-marcha-la-alianza-para-la-cadena-de-valor-de-los-fertilizantes/e8421dfeef6ca00e8a32af3cb6b842d5"
+  }
+ },
  "https://www.olimerca.com/noticiadet/la-comunidad-valenciana--tambien-reclama-quedarse-fuera-de-la-retirada-de-aceite/9ff47a81c0d78afd25ba819ae4fe2dce": {
   "estado": "candidata",
   "noticia": {
@@ -3069,6 +3201,18 @@
    "texto": "",
    "titulo": "La concienciación medioambiental de los consumidores no se ve en la cesta de la compra",
    "url": "https://www.olimerca.com/noticiadet/la-concienciacion-medioambiental-de-los-consumidores-no-se-ve-en-la-cesta-de-la-compra/cc058f0202821cfd90796efc1127c0fb"
+  }
+ },
+ "https://www.olimerca.com/noticiadet/la-cooperativa-de-lalbi-lanza-vincle-1919/455e26aaf4fa067f2bb1566664126ea6": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-12",
+   "fuente": "Olimerca",
+   "orden": 7,
+   "resumen": "",
+   "texto": "",
+   "titulo": "La Cooperativa de l’Albi lanza Vincle 1919",
+   "url": "https://www.olimerca.com/noticiadet/la-cooperativa-de-lalbi-lanza-vincle-1919/455e26aaf4fa067f2bb1566664126ea6"
   }
  },
  "https://www.olimerca.com/noticiadet/la-dop-poniente-de-granada-producira-29000-t-de-aceite-de-oliva/d678f3bb14babcb19da898bfa59a9127": {
@@ -3105,6 +3249,18 @@
    "texto": "",
    "titulo": "La venta a futuro del aceite de oliva empobrece al olivicultor",
    "url": "https://www.olimerca.com/noticiadet/la-venta-a-futuro-del-aceite-de-oliva-empobrece-al-olivicultor/2a87f1f5f5fe3a87d6b9137ee284ab1a"
+  }
+ },
+ "https://www.olimerca.com/noticiadet/landaluz-y-carrefour-promocionan-los-aceites-de-oliva-andaluces/8689c7cb0e391af0898bf5d1a18ef2c2": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-13",
+   "fuente": "Olimerca",
+   "orden": 5,
+   "resumen": "",
+   "texto": "",
+   "titulo": "Landaluz y Carrefour promocionan los aceites de oliva andaluces",
+   "url": "https://www.olimerca.com/noticiadet/landaluz-y-carrefour-promocionan-los-aceites-de-oliva-andaluces/8689c7cb0e391af0898bf5d1a18ef2c2"
   }
  },
  "https://www.olimerca.com/noticiadet/las-aceitunas-de-campo-real-mas-cerca-de-la-igp/b59f089543804024f0a9b3adc5c26269": {
@@ -3179,6 +3335,18 @@
    "url": "https://www.olimerca.com/noticiadet/puerta-de-las-villas-cumple-60-anos-/e2dd2aef1a396e55ef1687f02765c187"
   }
  },
+ "https://www.olimerca.com/noticiadet/puerta-de-las-villas-se-solidariza-con-los-diabeticos/2ca46f6b0d76ef1841744f1601bb8d3b": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-13",
+   "fuente": "Olimerca",
+   "orden": 4,
+   "resumen": "",
+   "texto": "",
+   "titulo": "Puerta de Las Villas se solidariza con los diabéticos",
+   "url": "https://www.olimerca.com/noticiadet/puerta-de-las-villas-se-solidariza-con-los-diabeticos/2ca46f6b0d76ef1841744f1601bb8d3b"
+  }
+ },
  "https://www.olimerca.com/noticiadet/se-confirman-las-menores-salidas-de-aceite-de-oliva-en-agosto/2d17d8700eaeb018c86f37350bb7e385": {
   "estado": "antigua",
   "noticia": {
@@ -3201,6 +3369,18 @@
    "texto": "",
    "titulo": "Se frenan las compras de aceite de oliva en origen",
    "url": "https://www.olimerca.com/noticiadet/se-frenan-las-compras-de-aceite-de-oliva-en-origen/60fa8899e536fc35445a54e004b6614d"
+  }
+ },
+ "https://www.olimerca.com/noticiadet/sigue-la-incertidumbre-tras-la-aprobacion-de-la-retirada-del-aceite-de-oliva-del-mercado/261446e83d97c23ab7d805568ea1c2a9": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-13",
+   "fuente": "Olimerca",
+   "orden": 0,
+   "resumen": "",
+   "texto": "",
+   "titulo": "Sigue la incertidumbre tras la aprobación de la retirada del aceite de oliva del mercado",
+   "url": "https://www.olimerca.com/noticiadet/sigue-la-incertidumbre-tras-la-aprobacion-de-la-retirada-del-aceite-de-oliva-del-mercado/261446e83d97c23ab7d805568ea1c2a9"
   }
  },
  "https://www.olimerca.com/noticiadet/vega-capital-inaugura-en-osuna-una-nueva-almazara-/a5ec95ee566b25e3cff143d6ad66e95f": {
