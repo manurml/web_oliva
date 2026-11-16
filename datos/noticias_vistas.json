@@ -1739,6 +1739,18 @@
    "url": "https://www.mercacei.com/noticia/66129/actualidad/biocultura-madrid-2026-reunira-a-16-almazaras-para-mostrar-la-excelencia-del-aove-ecologico.html"
   }
  },
+ "https://www.mercacei.com/noticia/66130/actualidad/arranca-evooleum-2027-comienza-la-carrera-por-estar-entre-los-mejores-aoves-del-mundo.html": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-11",
+   "fuente": "Mercacei",
+   "orden": 0,
+   "resumen": "Arranca la carrera por conquistar un puesto entre los 100 mejores aceites de oliva vírgenes extra del mundo. El Concurso Internacional EVOOLEUM Awards, organizado por AEMO y Grupo Editorial Mercacei y reconocido por el ranking World's Best Olive Oils (WBOO) como el certamen privado más prestigioso del panorama internacional, abre hoy las inscripciones de su XII edición. Los AOVEs premiados protagonizarán la Guía EVOOLEUM , la publicación de referencia para chefs, importadores y coaches gastronómicos de todo el mundo, y una ambiciosa campaña de comunicación de alcance internacional.",
+   "texto": "",
+   "titulo": "Arranca EVOOLEUM 2027: comienza la carrera por estar entre los mejores AOVEs del mundo",
+   "url": "https://www.mercacei.com/noticia/66130/actualidad/arranca-evooleum-2027-comienza-la-carrera-por-estar-entre-los-mejores-aoves-del-mundo.html"
+  }
+ },
  "https://www.mercacei.com/noticia/66130/actualidad/hagas-huelga-o-no-seguro-que-encuentras-un-momento-para-inscribirte-en-evooleum.html": {
   "estado": "publicada",
   "noticia": {
@@ -1917,6 +1929,102 @@
    "texto": "",
    "titulo": "Mendoza (Argentina) será sede de las Jornadas Internacionales del Olivo y el Turismo",
    "url": "https://www.mercacei.com/noticia/66149/ultima-hora/mendoza-argentina-sera-sede-de-las-jornadas-internacionales-del-olivo-y-el-turismo.html"
+  }
+ },
+ "https://www.mercacei.com/noticia/66151/editoriales-/mejor-poner-en-valor-que-almacenar.html": {
+  "estado": "descartada",
+  "noticia": {
+   "fecha": "",
+   "fuente": "Mercacei",
+   "orden": 1,
+   "resumen": "",
+   "texto": "",
+   "titulo": "",
+   "url": "https://www.mercacei.com/noticia/66151/editoriales-/mejor-poner-en-valor-que-almacenar.html"
+  }
+ },
+ "https://www.mercacei.com/noticia/66155/actualidad/la-industria-alimentaria-espanolaidentifica-nuevas-oportunidades-comerciales-en-mexico-para-productos-como-el-aove.html": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-16",
+   "fuente": "Mercacei",
+   "orden": 2,
+   "resumen": "La Federación Española de Industrias de Alimentación y Bebidas (FIAB) participa desde hoy y hasta el 19 de noviembre en la misión empresarial agroalimentaria de la Unión Europea (UE) a México, una iniciativa de la Comisión Europea destinada a facilitar el acceso de los alimentos y bebidas europeos al mercado mexicano y generar nuevas oportunidades comerciales para las empresas del sector.",
+   "texto": "",
+   "titulo": "La industria alimentaria española identifica nuevas oportunidades comerciales en México para productos como el AOVE",
+   "url": "https://www.mercacei.com/noticia/66155/actualidad/la-industria-alimentaria-espanolaidentifica-nuevas-oportunidades-comerciales-en-mexico-para-productos-como-el-aove.html"
+  }
+ },
+ "https://www.mercacei.com/noticia/66156/ultima-hora/educacion-nutricional-en-las-escuelas-italianas-con-el-proyecto-farmacraft.html": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-16",
+   "fuente": "Mercacei",
+   "orden": 6,
+   "resumen": "La proliferación de productos industriales, a menudo caracterizados por formulaciones complejas y altos contenidos de azúcar, sal y grasas, hace urgente invertir en educación nutricional, especialmente entre las generaciones más jóvenes y fortalecer el papel de la prevención en la protección de la salud pública. El proyecto \"Farmacraft\" Coltiva il tuo mondo , impulsado por Coldiretti, Fondazione Campagna Amica y Fondazione Aletheia, avanza en esa dirección.",
+   "texto": "",
+   "titulo": "Educación nutricional en las escuelas italianas con el proyecto Farmacraft",
+   "url": "https://www.mercacei.com/noticia/66156/ultima-hora/educacion-nutricional-en-las-escuelas-italianas-con-el-proyecto-farmacraft.html"
+  }
+ },
+ "https://www.mercacei.com/noticia/66157/actualidad/aceites-de-oliva-de-espana-recupera-a-jose-coronado-para-una-campana-televisiva-de-record.html": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-16",
+   "fuente": "Mercacei",
+   "orden": 0,
+   "resumen": "La Interprofesional del Aceite de Oliva Español , a través de su marca de promoción Aceites de Oliva de España , acaba de relanzar una de sus campañas de promoción más exitosas. Se trata del spot protagonizado por el actor Jose Coronado que tan buena acogida tuvo en su día bajo el lema \"Aceites de Oliva. El complemento perfecto para todas las cocinas\" , según ha destacado la organización.",
+   "texto": "",
+   "titulo": "Aceites de Oliva de España recupera a José Coronado para una campaña televisiva de récord",
+   "url": "https://www.mercacei.com/noticia/66157/actualidad/aceites-de-oliva-de-espana-recupera-a-jose-coronado-para-una-campana-televisiva-de-record.html"
+  }
+ },
+ "https://www.mercacei.com/noticia/66158/actualidad/el-mercat-deloli-nou-de-barcelona-estrena-ubicacion.html": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-16",
+   "fuente": "Mercacei",
+   "orden": 5,
+   "resumen": "El Mercat de l'Oli Nou i de la Mel estrena ubicación. La plaza Josep Antoni Coderch, en Glòries de Barcelona, acogerá la segunda edición de esta fiesta gastronómica los días 20, 21 y 22 de noviembre. El evento tiene como objetivo convertirse en punto de encuentro entre productores y ciudadanía, con el aceite nuevo de la cosecha como protagonista y la incorporación de la miel catalana como novedad de este año.",
+   "texto": "",
+   "titulo": "El Mercat del'Oli Nou de Barcelona estrena ubicación",
+   "url": "https://www.mercacei.com/noticia/66158/actualidad/el-mercat-deloli-nou-de-barcelona-estrena-ubicacion.html"
+  }
+ },
+ "https://www.mercacei.com/noticia/66160/actualidad/autorizados-53-millones-de-euros-para-el-control-de-la-xylella-fastidiosa-y-la-vigilancia-de-nuevas-plagas-en-baleares.html": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-16",
+   "fuente": "Mercacei",
+   "orden": 4,
+   "resumen": "El Consell de Govern ha autorizado, a propuesta de la Conselleria de Agricultura, Pesca y Medio Natural, el gasto de 5.348.376,73 euros para reforzar los trabajos de control y contención de la Xylella fastidiosa , así como la vigilancia y el control de organismos de cuarentena y otras plagas en las Islas Baleares. Las actuaciones se ejecutarán mediante un encargo a la empresa pública TRAGSA y tendrán un plazo de ejecución de cinco años, desde el 1 de enero de 2027 hasta el 31 de diciembre de 2031.",
+   "texto": "",
+   "titulo": "Autorizados 5,3 millones de euros para el control de la Xylella fastidiosa y la vigilancia de nuevas plagas en Baleares",
+   "url": "https://www.mercacei.com/noticia/66160/actualidad/autorizados-53-millones-de-euros-para-el-control-de-la-xylella-fastidiosa-y-la-vigilancia-de-nuevas-plagas-en-baleares.html"
+  }
+ },
+ "https://www.mercacei.com/noticia/66161/actualidad/el-proyecto-competiolivar-inicia-sus-trabajos-de-preevaluacion-de-la-biodiversidad-en-olivares.html": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-16",
+   "fuente": "Mercacei",
+   "orden": 3,
+   "resumen": "El vicepresidente segundo de la Diputación de Jaén y diputado de Relaciones Institucionales, Javier Perales, ha realizado recientemente una visita técnica a la finca Albares de Beas de Segura (Jaén), espacio donde han comenzado los trabajos de diagnóstico sobre biodiversidad enmarcados en el proyecto Competiolivar. El Centro de Innovación Territorial (CIT) impulsa esta iniciativa que combina la sostenibilidad e innovación a través de prácticas respetuosas con el medio ambiente que aporten valor añadido a los productos obtenidos.",
+   "texto": "",
+   "titulo": "El proyecto Competiolivar inicia sus trabajos de preevaluación de la biodiversidad en olivares",
+   "url": "https://www.mercacei.com/noticia/66161/actualidad/el-proyecto-competiolivar-inicia-sus-trabajos-de-preevaluacion-de-la-biodiversidad-en-olivares.html"
+  }
+ },
+ "https://www.mercacei.com/noticia/66162/actualidad/expoliva-se-celebrara-del-12-al-15-de-mayo-de-2027.html": {
+  "estado": "publicada",
+  "noticia": {
+   "fecha": "2026-11-16",
+   "fuente": "Mercacei",
+   "orden": 1,
+   "resumen": "Expoliva , la XXIII Feria Internacional del Aceite de Oliva e Industrias Afines, convertirá a Jaén del 12 al 15 de mayo de 2027 en el punto de encuentro de profesionales y expertos que presentarán las últimas innovaciones e investigaciones desarrolladas en el sector del olivar y del aceite de oliva.",
+   "texto": "",
+   "titulo": "Expoliva se celebrará del 12 al 15 de mayo de 2027",
+   "url": "https://www.mercacei.com/noticia/66162/actualidad/expoliva-se-celebrara-del-12-al-15-de-mayo-de-2027.html"
   }
  },
  "https://www.oleorevista.com/texto-diario/mostrar/6069058/oro-bailen-preve-batir-record-produccion-aove-premium-campana-2026-2027": {
@@ -2639,6 +2747,126 @@
    "url": "https://www.oleorevista.com/texto-diario/mostrar/6089386/sector-oleicola-alerta-roja-hora-exigir-responsabilidades-gestion-no-funciona"
   }
  },
+ "https://www.oleorevista.com/texto-diario/mostrar/6090201/472-consumidores-espanoles-preocupa-sostenibilidad-pero-no-siempre-lleva-cesta-compra": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-15",
+   "fuente": "Óleo Revista",
+   "orden": 9,
+   "resumen": "El precio y la conveniencia siguen condicionando las decisiones de compra, mientras crece la exigencia de transparencia y credibilidad hacia las marcas",
+   "texto": "",
+   "titulo": "El 47,2% de los consumidores españoles se preocupa por la sostenibilidad, pero no siempre la lleva a la cesta de la compra",
+   "url": "https://www.oleorevista.com/texto-diario/mostrar/6090201/472-consumidores-espanoles-preocupa-sostenibilidad-pero-no-siempre-lleva-cesta-compra"
+  }
+ },
+ "https://www.oleorevista.com/texto-diario/mostrar/6090255/proyecto-mat-bio-andaltec-busca-convertir-residuos-olivar-otras-industrias-materiales-alto-valor-anadido": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-15",
+   "fuente": "Óleo Revista",
+   "orden": 8,
+   "resumen": "Financiado mediante una Ayuda Torres Quevedo de la Agencia Estatal de Investigación",
+   "texto": "",
+   "titulo": "El proyecto MAT-BIO de Andaltec busca convertir residuos del olivar y otras industrias en materiales de alto valor añadido",
+   "url": "https://www.oleorevista.com/texto-diario/mostrar/6090255/proyecto-mat-bio-andaltec-busca-convertir-residuos-olivar-otras-industrias-materiales-alto-valor-anadido"
+  }
+ },
+ "https://www.oleorevista.com/texto-diario/mostrar/6090295/aceites-oliva-espana-impulsa-promocion-internacional-aove-traves-campeonato-mundial-tapas": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-15",
+   "fuente": "Óleo Revista",
+   "orden": 7,
+   "resumen": "Los chefs se consolidan como embajadores del AOVE español en los mercados internacionales",
+   "texto": "",
+   "titulo": "Aceites de Oliva de España impulsa la promoción internacional del AOVE a través del Campeonato Mundial de Tapas",
+   "url": "https://www.oleorevista.com/texto-diario/mostrar/6090295/aceites-oliva-espana-impulsa-promocion-internacional-aove-traves-campeonato-mundial-tapas"
+  }
+ },
+ "https://www.oleorevista.com/texto-diario/mostrar/6090433/california-refuerza-calidad-etiquetado-aceite-oliva-campana-2026-2027": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-15",
+   "fuente": "Óleo Revista",
+   "orden": 6,
+   "resumen": "Nuevo marco de calidad para el aceite de oliva californiano",
+   "texto": "",
+   "titulo": "California refuerza la calidad y el etiquetado del aceite de oliva para la campaña 2026/2027",
+   "url": "https://www.oleorevista.com/texto-diario/mostrar/6090433/california-refuerza-calidad-etiquetado-aceite-oliva-campana-2026-2027"
+  }
+ },
+ "https://www.oleorevista.com/texto-diario/mostrar/6090519/trazabilidad-digital-olivar-adopcion-cabe-esperar-como-acelerarla": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-15",
+   "fuente": "Óleo Revista",
+   "orden": 5,
+   "resumen": "Texto de Parra-López, C.; Reina-Usuga, L.; Garcia-Garcia, G.; Carmona-Torres, C., del  Instituto de Investigación y Formación Agraria y Pesquera (IFAPA). Consejería de Agricultura, Pesca, Agua y Desarrollo Rural. Junta de Andalucía",
+   "texto": "",
+   "titulo": "Trazabilidad digital en el olivar: qué adopción cabe esperar y cómo acelerarla",
+   "url": "https://www.oleorevista.com/texto-diario/mostrar/6090519/trazabilidad-digital-olivar-adopcion-cabe-esperar-como-acelerarla"
+  }
+ },
+ "https://www.oleorevista.com/texto-diario/mostrar/6092748/hispack-2027-celebra-20-ediciones-empresas-pioneras-nuevos-distritos": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-16",
+   "fuente": "Óleo Revista",
+   "orden": 4,
+   "resumen": "Del 4 al 7 de mayo en Fira de Barcelona",
+   "texto": "",
+   "titulo": "Hispack 2027 celebra sus 20 ediciones con empresas pioneras y dos nuevos distritos",
+   "url": "https://www.oleorevista.com/texto-diario/mostrar/6092748/hispack-2027-celebra-20-ediciones-empresas-pioneras-nuevos-distritos"
+  }
+ },
+ "https://www.oleorevista.com/texto-diario/mostrar/6092765/uja-difunde-siete-proyectos-investigacion-cientifica-traves-5000-botellas-aove": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-16",
+   "fuente": "Óleo Revista",
+   "orden": 2,
+   "resumen": "La tercera edición de \"AOVE y Ciencia\" utiliza una edición limitada de Oro de Cánava",
+   "texto": "",
+   "titulo": "La UJA difunde siete proyectos de investigación científica a través de 5.000 botellas de AOVE",
+   "url": "https://www.oleorevista.com/texto-diario/mostrar/6092765/uja-difunde-siete-proyectos-investigacion-cientifica-traves-5000-botellas-aove"
+  }
+ },
+ "https://www.oleorevista.com/texto-diario/mostrar/6092795/puerta-villas-convierte-aove-temprano-iniciativa-compromiso-social": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-16",
+   "fuente": "Óleo Revista",
+   "orden": 3,
+   "resumen": "Edición especial y limitada de 3.000 botellas",
+   "texto": "",
+   "titulo": "Puerta de las Villas convierte su AOVE temprano en una iniciativa de compromiso social",
+   "url": "https://www.oleorevista.com/texto-diario/mostrar/6092795/puerta-villas-convierte-aove-temprano-iniciativa-compromiso-social"
+  }
+ },
+ "https://www.oleorevista.com/texto-diario/mostrar/6092914/estudio-compara-impacto-riego-produccion-huella-hidrica-aceite-oliva-arbequina": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-16",
+   "fuente": "Óleo Revista",
+   "orden": 1,
+   "resumen": "Los resultados muestran que el riego cuadruplica la producción por hectárea, pero modifica las características de la aceituna",
+   "texto": "",
+   "titulo": "Un estudio compara el impacto del riego en la producción y la huella hídrica del aceite de oliva Arbequina",
+   "url": "https://www.oleorevista.com/texto-diario/mostrar/6092914/estudio-compara-impacto-riego-produccion-huella-hidrica-aceite-oliva-arbequina"
+  }
+ },
+ "https://www.oleorevista.com/texto-diario/mostrar/6092946/maquinaria-aprende-olivar": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-16",
+   "fuente": "Óleo Revista",
+   "orden": 0,
+   "resumen": "Innovación en el campo",
+   "texto": "",
+   "titulo": "Maquinaria que aprende del olivar",
+   "url": "https://www.oleorevista.com/texto-diario/mostrar/6092946/maquinaria-aprende-olivar"
+  }
+ },
  "https://www.olimerca.com/noticiadet/-coldiretti-puglia-solicita-mas-vigilancia-ante-la-expansion-de-la-xylella/e385135ae4086d5cb7b30e49dcca2d71": {
   "estado": "candidata",
   "noticia": {
@@ -2735,6 +2963,18 @@
    "url": "https://www.olimerca.com/noticiadet/andalucia-sanciona-con-cerca-de-872000--el-fraude-en-el-aceite-de-oliva/c5eaff379024905f17441a1b6d9187bb"
   }
  },
+ "https://www.olimerca.com/noticiadet/andalucia-y-portugal-impulsan-la-digitalizacion-de-sus-pymes-rurales/50897b357f88e13b73fdea16ccad840a": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-16",
+   "fuente": "Olimerca",
+   "orden": 4,
+   "resumen": "",
+   "texto": "",
+   "titulo": "Andalucía y Portugal impulsan la digitalización de sus pymes rurales",
+   "url": "https://www.olimerca.com/noticiadet/andalucia-y-portugal-impulsan-la-digitalizacion-de-sus-pymes-rurales/50897b357f88e13b73fdea16ccad840a"
+  }
+ },
  "https://www.olimerca.com/noticiadet/antonio-jesus-jimenez-asume-la-presidencia-de-oleand-manzanilla-olive/750433d866ff319ea3ade8b9ff6974d7": {
   "estado": "candidata",
   "noticia": {
@@ -2807,6 +3047,18 @@
    "url": "https://www.olimerca.com/noticiadet/buen-comportamiento-de-las-salidas-de-aceite-de-oliva-en-julio/aa5a4ef51bedd84a6a42365880a6b15d"
   }
  },
+ "https://www.olimerca.com/noticiadet/california-refuerza-los-controles-de-calidad-y-trazabilidad-del-aceite-de-oliva/92f3b941fa8b19396c26a1d32644049a": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-16",
+   "fuente": "Olimerca",
+   "orden": 3,
+   "resumen": "",
+   "texto": "",
+   "titulo": "California refuerza los controles de calidad y trazabilidad del aceite de oliva",
+   "url": "https://www.olimerca.com/noticiadet/california-refuerza-los-controles-de-calidad-y-trazabilidad-del-aceite-de-oliva/92f3b941fa8b19396c26a1d32644049a"
+  }
+ },
  "https://www.olimerca.com/noticiadet/cataluna-aprueba-una-ley-para-proteger-la-agricultura-profesional-/7754b808cea1810670f8c2896ae2c913": {
   "estado": "candidata",
   "noticia": {
@@ -2843,6 +3095,18 @@
    "url": "https://www.olimerca.com/noticiadet/clm-plantea-transformar-hasta-9000-ha-de-olivar-en-regadio-en-el-campo-de-montiel/8db0374b6f9453807ff9436cd284358a"
   }
  },
+ "https://www.olimerca.com/noticiadet/competiolivar-estudia-la-biodiversidad-en-beas-de-segura-/3f625e61a4eaadfff79f49b9632224da": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-16",
+   "fuente": "Olimerca",
+   "orden": 1,
+   "resumen": "",
+   "texto": "",
+   "titulo": "Competiolivar estudia la biodiversidad en Beas de Segura",
+   "url": "https://www.olimerca.com/noticiadet/competiolivar-estudia-la-biodiversidad-en-beas-de-segura-/3f625e61a4eaadfff79f49b9632224da"
+  }
+ },
  "https://www.olimerca.com/noticiadet/convocado-el-xxv-premio-internacional-a-la-calidad-de-los-aoves--expoliva/fdc3d1f615cc14f22f160ca2a7e2fb8e": {
   "estado": "candidata",
   "noticia": {
@@ -2868,7 +3132,7 @@
   }
  },
  "https://www.olimerca.com/noticiadet/crisis-del-aceite-de-oliva-en-italia-cierran-las-almazaras-en-senal-de-protesta/b377840855ae1e9e9ded48713bb4957e": {
-  "estado": "candidata",
+  "estado": "antigua",
   "noticia": {
    "fecha": "2026-10-16",
    "fuente": "Olimerca",
@@ -2999,6 +3263,18 @@
    "url": "https://www.olimerca.com/noticiadet/el-sector-del-aceite-de-oliva-en-origen-aguanta-la-respiracion/778f8ec4c7e05b0a04bcbb2ebf8b2c83"
   }
  },
+ "https://www.olimerca.com/noticiadet/el-tce-audita-el-impacto-ambiental-de-los-bonos-verdes-/06e2ee1615d6e9e35eb27a458d793e03": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-13",
+   "fuente": "Olimerca",
+   "orden": 0,
+   "resumen": "",
+   "texto": "",
+   "titulo": "El TCE audita el impacto ambiental de los bonos verdes",
+   "url": "https://www.olimerca.com/noticiadet/el-tce-audita-el-impacto-ambiental-de-los-bonos-verdes-/06e2ee1615d6e9e35eb27a458d793e03"
+  }
+ },
  "https://www.olimerca.com/noticiadet/el-valor-del-japan-olive-oil-prize/8fbbd06c4bc7b5e0bac0ff338e13c2ba": {
   "estado": "candidata",
   "noticia": {
@@ -3119,6 +3395,18 @@
    "url": "https://www.olimerca.com/noticiadet/italia-destinara-300-m-al-plan-olivicola-nacional-2026-2030/b0e8ee88c61acc4dcefbb2f122346d3b"
   }
  },
+ "https://www.olimerca.com/noticiadet/italia-impulsara-el-uso-de-aove-en-la-restauracion/aabd03cc01d48ae230dfbc82be5bd25e": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-16",
+   "fuente": "Olimerca",
+   "orden": 6,
+   "resumen": "",
+   "texto": "",
+   "titulo": "Italia impulsará el uso de AOVE en la restauración",
+   "url": "https://www.olimerca.com/noticiadet/italia-impulsara-el-uso-de-aove-en-la-restauracion/aabd03cc01d48ae230dfbc82be5bd25e"
+  }
+ },
  "https://www.olimerca.com/noticiadet/italia-pierde-un-tercio-de-su-produccion-de-aceite-de-oliva/39e8726f2b666b1736974de51e9d9962": {
   "estado": "antigua",
   "noticia": {
@@ -3141,6 +3429,18 @@
    "texto": "",
    "titulo": "Jaén incorporará dos nuevos proyectos a su oferta oleoturística",
    "url": "https://www.olimerca.com/noticiadet/jaen-incorporara-dos-nuevos-proyectos-a-su-oferta-oleoturistica/57d1cc4ce897488a4e1cef94ef44d813"
+  }
+ },
+ "https://www.olimerca.com/noticiadet/jose-coronado-vuelve-a-impulsar-el-aceite-de-oliva-en-television/bca1fc0a979c8496e95b9179320aca47": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-16",
+   "fuente": "Olimerca",
+   "orden": 0,
+   "resumen": "",
+   "texto": "",
+   "titulo": "José Coronado vuelve a impulsar el aceite de oliva en televisión",
+   "url": "https://www.olimerca.com/noticiadet/jose-coronado-vuelve-a-impulsar-el-aceite-de-oliva-en-television/bca1fc0a979c8496e95b9179320aca47"
   }
  },
  "https://www.olimerca.com/noticiadet/juan-vilar-embajador-de-la-xiii-fiesta-del-primer-aceite-de-jaen/491e1bee1d0752e0118c683b4f24f6c2": {
@@ -3215,6 +3515,18 @@
    "url": "https://www.olimerca.com/noticiadet/la-cooperativa-de-lalbi-lanza-vincle-1919/455e26aaf4fa067f2bb1566664126ea6"
   }
  },
+ "https://www.olimerca.com/noticiadet/la-dop-aceite-de-madrid-inicia-su-campana-oleicola-202627/21715c96d1efdca4baabac7eb625c6e4": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-16",
+   "fuente": "Olimerca",
+   "orden": 5,
+   "resumen": "",
+   "texto": "",
+   "titulo": "La DOP Aceite de Madrid inicia su campaña oleícola 2026/27",
+   "url": "https://www.olimerca.com/noticiadet/la-dop-aceite-de-madrid-inicia-su-campana-oleicola-202627/21715c96d1efdca4baabac7eb625c6e4"
+  }
+ },
  "https://www.olimerca.com/noticiadet/la-dop-poniente-de-granada-producira-29000-t-de-aceite-de-oliva/d678f3bb14babcb19da898bfa59a9127": {
   "estado": "candidata",
   "noticia": {
@@ -3225,6 +3537,18 @@
    "texto": "",
    "titulo": "La DOP Poniente de Granada producirá 29.000 t de aceite de oliva",
    "url": "https://www.olimerca.com/noticiadet/la-dop-poniente-de-granada-producira-29000-t-de-aceite-de-oliva/d678f3bb14babcb19da898bfa59a9127"
+  }
+ },
+ "https://www.olimerca.com/noticiadet/la-formacion-preventiva-clave-para-evitar-accidentes-en-el-campo/02bc84ab4f15e8cedbcf8475b1150573": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-16",
+   "fuente": "Olimerca",
+   "orden": 2,
+   "resumen": "",
+   "texto": "",
+   "titulo": "La formación preventiva, clave para evitar accidentes en el campo",
+   "url": "https://www.olimerca.com/noticiadet/la-formacion-preventiva-clave-para-evitar-accidentes-en-el-campo/02bc84ab4f15e8cedbcf8475b1150573"
   }
  },
  "https://www.olimerca.com/noticiadet/la-produccion-de-aceite-de-oliva-en-el-centro-y-norte-de-italia-se-duplica/9c1746cf33393a0cb2165b69b88abd03": {

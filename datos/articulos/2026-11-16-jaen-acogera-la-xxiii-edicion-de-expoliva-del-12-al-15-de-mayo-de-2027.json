@@ -1,0 +1,54 @@
+{
+ "bloques": [
+  {
+   "texto": "Un referente internacional para el sector oleícola",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "Según recoge Mercacei, la XXIII Feria Internacional del Aceite de Oliva e Industrias Afines, Expoliva, ya tiene fechas confirmadas y se celebrará del 12 al 15 de mayo de 2027. El Palacio de Ferias y Congresos de Jaén volverá a acoger este evento durante cuatro jornadas que pretenden reunir a profesionales, expertos y empresas de todo el mundo procedentes de ámbitos tan diversos como la maquinaria oleícola, las cooperativas, las almazaras industriales, los fertilizantes, la distribución y la tecnología.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Nace ExpolivaTech para impulsar la innovación",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "Entre las principales novedades que presenta esta edición destaca la creación de ExpolivaTech, un espacio tecnológico vinculado al Simposio Científico-Técnico organizado por la Fundación del Olivar. Tal y como detalla la información, este nuevo escaparate tecnológico se ubicará en la sede de la Fundación en el parque científico y tecnológico Geolit, centrándose en soluciones de agricultura de precisión, inteligencia artificial, robótica, sensórica y sostenibilidad.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Este preámbulo tecnológico arrancará los días 10 y 11 de mayo con ponencias y demostraciones científicas, trasladándose el miércoles 12 de mayo a IFEJA para coincidir con la inauguración oficial de la feria. De este modo, la organización busca potenciar el debate sobre el presente y el futuro del sector del olivar a través de la transferencia de conocimiento.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Protagonismo para los virgenes extra en SÍAOVE",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "Asimismo, la programación se completará con el Salón Internacional del Aceite Oliva Virgen Extra SÍAOVE, también impulsado por la Fundación del Olivar. Este espacio acogerá exposiciones de marcas de AOVE procedentes de diversos puntos del planeta, sesiones de cata, talleres prácticos culinarios, entrega de premios oficiales, showcookings y mesas redondas de gran interés para los profesionales del sector.",
+   "tipo": "parrafo"
+  }
+ ],
+ "claves": [
+  "Expoliva 2027 se celebrará en el Palacio de Ferias y Congresos de Jaén del 12 al 15 de mayo.",
+  "El nuevo espacio ExpolivaTech en Geolit centrará su foco en la innovación y digitalización.",
+  "La cita incluirá el Salón Internacional SÍAOVE con catas, talleres y muestras de AOVE."
+ ],
+ "entradilla": "La feria internacional volverá a convertir a Jaén en el epicentro mundial del sector del olivar y del aceite de oliva, estrenando novedades en su simposio científico.",
+ "etiquetas": [
+  "expoliva",
+  "feria",
+  "innovacion",
+  "siaoev"
+ ],
+ "fecha_publicacion": "2026-11-16",
+ "fuente": {
+  "fecha": "2026-11-16",
+  "nombre": "Mercacei",
+  "titulo": "Expoliva se celebrará del 12 al 15 de mayo de 2027",
+  "url": "https://www.mercacei.com/noticia/66162/actualidad/expoliva-se-celebrara-del-12-al-15-de-mayo-de-2027.html"
+ },
+ "redactado_con_ia": true,
+ "slug": "2026-11-16-jaen-acogera-la-xxiii-edicion-de-expoliva-del-12-al-15-de-mayo-de-2027",
+ "titulo": "Jaén acogerá la XXIII edición de Expoliva del 12 al 15 de mayo de 2027"
+}
