@@ -1848,7 +1848,7 @@
   }
  },
  "https://www.mercacei.com/noticia/66141/actualidad/retirar-aceite-de-oliva-o-conquistar-mercados-el-sector-analiza-la-nueva-medida-de-regulacion-del-mercado.html": {
-  "estado": "candidata",
+  "estado": "publicada",
   "noticia": {
    "fecha": "2026-11-13",
    "fuente": "Mercacei",
@@ -1943,6 +1943,18 @@
    "url": "https://www.mercacei.com/noticia/66151/editoriales-/mejor-poner-en-valor-que-almacenar.html"
   }
  },
+ "https://www.mercacei.com/noticia/66154/actualidad/el-consumo-de-aceites-de-oliva-en-los-hogares-cayo-un-46-entre-septiembre-de-2025-y-agosto-de-2026.html": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-17",
+   "fuente": "Mercacei",
+   "orden": 0,
+   "resumen": "Los últimos datos del panel de consumo alimentario del Ministerio de Agricultura, Pesca y Alimentación (MAPA) recogen que el consumo de aceites de oliva en el año móvil, es decir, de septiembre de 2025 a agosto de 2026, fue de 303,15 millones de litros (-4,6%) por valor de 1.390,84 millones de euros (-23,4%). Por su parte, el consumo per cápita en dicho período fue de 6,42 litros.",
+   "texto": "",
+   "titulo": "El consumo de aceites de oliva en los hogares cayó un 4,6% entre septiembre de 2025 y agosto de 2026",
+   "url": "https://www.mercacei.com/noticia/66154/actualidad/el-consumo-de-aceites-de-oliva-en-los-hogares-cayo-un-46-entre-septiembre-de-2025-y-agosto-de-2026.html"
+  }
+ },
  "https://www.mercacei.com/noticia/66155/actualidad/la-industria-alimentaria-espanolaidentifica-nuevas-oportunidades-comerciales-en-mexico-para-productos-como-el-aove.html": {
   "estado": "candidata",
   "noticia": {
@@ -2025,6 +2037,66 @@
    "texto": "",
    "titulo": "Expoliva se celebrará del 12 al 15 de mayo de 2027",
    "url": "https://www.mercacei.com/noticia/66162/actualidad/expoliva-se-celebrara-del-12-al-15-de-mayo-de-2027.html"
+  }
+ },
+ "https://www.mercacei.com/noticia/66175/actualidad/la-dop-poniente-de-granada-inicia-la-cosecha-con-excelentes-perspectivas-de-calidad-y-reivindica-el-futuro-del-olivar-de-montana.html": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-17",
+   "fuente": "Mercacei",
+   "orden": 3,
+   "resumen": "El Consejo Regulador de la Denominación de Origen Protegida Poniente de Granada ha inaugurado la campaña oleícola 2026/27 con una previsión de producción de unas 29.000 toneladas de aceite de oliva y unas expectativas \"excelentes\" de calidad. Cerca del 80% de ese volumen, en torno a 23.000 toneladas, corresponderá, según las estimaciones del Consejo Regulador, a aceite de oliva virgen extra amparado por la DOP.",
+   "texto": "",
+   "titulo": "La DOP Poniente de Granada inicia la cosecha con \"excelentes\" perspectivas de calidad y reivindica el futuro del olivar de montaña",
+   "url": "https://www.mercacei.com/noticia/66175/actualidad/la-dop-poniente-de-granada-inicia-la-cosecha-con-excelentes-perspectivas-de-calidad-y-reivindica-el-futuro-del-olivar-de-montana.html"
+  }
+ },
+ "https://www.mercacei.com/noticia/66176/empresas/grupo-interoleo-mantiene-por-tercer-ano-consecutivo-la-maxima-calificacion-en-las-certificaciones-ifs-broker-y-brc-broker.html": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-17",
+   "fuente": "Mercacei",
+   "orden": 5,
+   "resumen": "Grupo Interóleo renovó en el pasado mes de septiembre, y por séptimo año consecutivo, las certificaciones internacionales IFS Broker y BRC Broker, dos estándares de referencia en materia de calidad y seguridad alimentaria. Además, el Grupo volvió a obtener las máximas calificaciones en ambas, AA en BRC Broker y Higher Level en IFS Broker, un resultado que mantiene desde hace tres años.",
+   "texto": "",
+   "titulo": "Grupo Interóleo mantiene por tercer año consecutivo la máxima calificación en las certificaciones IFS Broker y BRC Broker",
+   "url": "https://www.mercacei.com/noticia/66176/empresas/grupo-interoleo-mantiene-por-tercer-ano-consecutivo-la-maxima-calificacion-en-las-certificaciones-ifs-broker-y-brc-broker.html"
+  }
+ },
+ "https://www.mercacei.com/noticia/66177/actualidad/argentina-alimenta-reunira-en-su-primera-edicion-a-compradores-internacionales-y-empresas-agroalimentarias-en-buenos-aires.html": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-17",
+   "fuente": "Mercacei",
+   "orden": 2,
+   "resumen": "Argentina Alimenta celebrará su primera edición del 17 al 19 de noviembre en Buenos Aires con el objetivo de conectar la industria alimentaria argentina con compradores de distintos mercados. El nuevo salón profesional reunirá a más de 300 empresas de alimentación y bebidas y combinará la exposición comercial con rondas de negocios y un programa de actividades sobre los retos y oportunidades del sector.",
+   "texto": "",
+   "titulo": "Argentina Alimenta reunirá en su primera edición a compradores internacionales y empresas agroalimentarias en Buenos Aires",
+   "url": "https://www.mercacei.com/noticia/66177/actualidad/argentina-alimenta-reunira-en-su-primera-edicion-a-compradores-internacionales-y-empresas-agroalimentarias-en-buenos-aires.html"
+  }
+ },
+ "https://www.mercacei.com/noticia/66179/ultima-hora/llegan-las-cestas-y-lotes-de-navidad-con-propuestas-personalizadas-y-con-el-aove-entre-los-productos-estrella.html": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-17",
+   "fuente": "Mercacei",
+   "orden": 4,
+   "resumen": "El Corte Inglés ha presentado la nueva campaña de Cestas y Lotes de Navidad, una propuesta que combina tradición, calidad y una cuidada selección de productos -entre ellos aceite de oliva virgen extra y aceitunas- para acompañar uno de los momentos más especiales del año.",
+   "texto": "",
+   "titulo": "Llegan las cestas y lotes de Navidad con propuestas personalizadas y con el AOVE entre los productos estrella",
+   "url": "https://www.mercacei.com/noticia/66179/ultima-hora/llegan-las-cestas-y-lotes-de-navidad-con-propuestas-personalizadas-y-con-el-aove-entre-los-productos-estrella.html"
+  }
+ },
+ "https://www.mercacei.com/noticia/66180/actualidad/groundx-mide-por-satelite-el-efecto-real-de-los-tratamientos-y-productos-biologicos-en-los-cultivos.html": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-17",
+   "fuente": "Mercacei",
+   "orden": 1,
+   "resumen": "GroundX , el espacio de datos agroalimentario promovido por Agroterra Tecnologías Agrarias, permite al productor ver qué está pasando con los productos que aplica en sus parcelas en plena campaña y no solo a través de los ensayos.",
+   "texto": "",
+   "titulo": "GroundX mide por satélite el efecto real de los tratamientos y productos biológicos en los cultivos",
+   "url": "https://www.mercacei.com/noticia/66180/actualidad/groundx-mide-por-satelite-el-efecto-real-de-los-tratamientos-y-productos-biologicos-en-los-cultivos.html"
   }
  },
  "https://www.oleorevista.com/texto-diario/mostrar/6069058/oro-bailen-preve-batir-record-produccion-aove-premium-campana-2026-2027": {
@@ -2352,7 +2424,7 @@
   }
  },
  "https://www.oleorevista.com/texto-diario/mostrar/6079476/deoleo-acepta-oferta-acesur-dcoop-valora-compania-520-millones-euros": {
-  "estado": "candidata",
+  "estado": "publicada",
   "noticia": {
    "fecha": "2026-11-05",
    "fuente": "Óleo Revista",
@@ -2867,6 +2939,66 @@
    "url": "https://www.oleorevista.com/texto-diario/mostrar/6092946/maquinaria-aprende-olivar"
   }
  },
+ "https://www.oleorevista.com/texto-diario/mostrar/6094412/biocultura-madrid-2026-diez-actividades-imprescindibles-feria": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-17",
+   "fuente": "Óleo Revista",
+   "orden": 4,
+   "resumen": "Del 26 al 29 de noviembre",
+   "texto": "",
+   "titulo": "Diez actividades imprescindibles en BioCultura Madrid 2026",
+   "url": "https://www.oleorevista.com/texto-diario/mostrar/6094412/biocultura-madrid-2026-diez-actividades-imprescindibles-feria"
+  }
+ },
+ "https://www.oleorevista.com/texto-diario/mostrar/6094435/italia-moviliza-1000-millones-euros-impulsar-agricultura-plan-coltivaitalia": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-17",
+   "fuente": "Óleo Revista",
+   "orden": 3,
+   "resumen": "Entre las principales partidas figuran 150 millones de euros para jóvenes agricultores y 300 millones para el Plan Nacional del Aceite de Oliva 2026-2030",
+   "texto": "",
+   "titulo": "Italia moviliza más de 1.000 millones de euros para impulsar su agricultura con el plan ColtivaItalia",
+   "url": "https://www.oleorevista.com/texto-diario/mostrar/6094435/italia-moviliza-1000-millones-euros-impulsar-agricultura-plan-coltivaitalia"
+  }
+ },
+ "https://www.oleorevista.com/texto-diario/mostrar/6094453/grupo-interoleo-refuerza-competitividad-internacional-maximas-certificaciones-calidad": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-17",
+   "fuente": "Óleo Revista",
+   "orden": 2,
+   "resumen": "Con las calificaciones AA en BRC Broker y Higher Level en IFS Broker",
+   "texto": "",
+   "titulo": "Grupo Interóleo refuerza su competitividad internacional con las máximas certificaciones de calidad",
+   "url": "https://www.oleorevista.com/texto-diario/mostrar/6094453/grupo-interoleo-refuerza-competitividad-internacional-maximas-certificaciones-calidad"
+  }
+ },
+ "https://www.oleorevista.com/texto-diario/mostrar/6094476/aceites-oliva-espana-relanza-campana-jose-coronado-logra-estreno-record-television": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-17",
+   "fuente": "Óleo Revista",
+   "orden": 1,
+   "resumen": "José Coronado vuelve a protagonizarla",
+   "texto": "",
+   "titulo": "Aceites de Oliva de España relanza su campaña con José Coronado y logra un estreno récord en televisión",
+   "url": "https://www.oleorevista.com/texto-diario/mostrar/6094476/aceites-oliva-espana-relanza-campana-jose-coronado-logra-estreno-record-television"
+  }
+ },
+ "https://www.oleorevista.com/texto-diario/mostrar/6094576/futuro-aove-debate-cinco-voces-sector-analizan-retos-olivar": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-17",
+   "fuente": "Óleo Revista",
+   "orden": 0,
+   "resumen": "Análisis y perspectivas - Balance de campaña 2025/2026",
+   "texto": "",
+   "titulo": "El futuro del AOVE, a debate: cinco voces del sector analizan los retos del olivar",
+   "url": "https://www.oleorevista.com/texto-diario/mostrar/6094576/futuro-aove-debate-cinco-voces-sector-analizan-retos-olivar"
+  }
+ },
  "https://www.olimerca.com/noticiadet/-coldiretti-puglia-solicita-mas-vigilancia-ante-la-expansion-de-la-xylella/e385135ae4086d5cb7b30e49dcca2d71": {
   "estado": "candidata",
   "noticia": {
@@ -2915,6 +3047,18 @@
    "url": "https://www.olimerca.com/noticiadet/42-m-para-impulsar-experiencias-turisticas-como-el-oleoturismo/fb9a500baad62034b1afef3fa227e29f"
   }
  },
+ "https://www.olimerca.com/noticiadet/50-productores-catalanes-brindaran-sus-aoves-en-el-mercat-de-loli-nou-/856d269e10c5c1b86f2fa88e82ae9dfc": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-17",
+   "fuente": "Olimerca",
+   "orden": 5,
+   "resumen": "",
+   "texto": "",
+   "titulo": "50 productores catalanes brindarán sus AOVEs en el Mercat de l’Oli Nou",
+   "url": "https://www.olimerca.com/noticiadet/50-productores-catalanes-brindaran-sus-aoves-en-el-mercat-de-loli-nou-/856d269e10c5c1b86f2fa88e82ae9dfc"
+  }
+ },
  "https://www.olimerca.com/noticiadet/aimplas-desarrollara-fertilizantes-biodegradables-/f371c390a2b16cb35506dc6c345ffb3f": {
   "estado": "candidata",
   "noticia": {
@@ -2949,6 +3093,18 @@
    "texto": "",
    "titulo": "Andaltec desarrollará biomateriales y biocomposites sostenibles",
    "url": "https://www.olimerca.com/noticiadet/andaltec-desarrollara-biomateriales-y-biocomposites-sostenibles/2595777922cfe4b17313e8ec75a2fdba"
+  }
+ },
+ "https://www.olimerca.com/noticiadet/andalucia-recorta-un-187-los-fondos-para-agricultura/782d18f3f022f7a51c843d7a5958ec87": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-17",
+   "fuente": "Olimerca",
+   "orden": 0,
+   "resumen": "",
+   "texto": "",
+   "titulo": "Andalucía recorta un 18,7% los fondos para Agricultura",
+   "url": "https://www.olimerca.com/noticiadet/andalucia-recorta-un-187-los-fondos-para-agricultura/782d18f3f022f7a51c843d7a5958ec87"
   }
  },
  "https://www.olimerca.com/noticiadet/andalucia-sanciona-con-cerca-de-872000--el-fraude-en-el-aceite-de-oliva/c5eaff379024905f17441a1b6d9187bb": {
@@ -3215,6 +3371,18 @@
    "url": "https://www.olimerca.com/noticiadet/el-aove-de-monterrubio-en-la-origenbadajoz-gastroruta/95ae70ccfc22768557602b5e79b83670"
   }
  },
+ "https://www.olimerca.com/noticiadet/el-aove-oro-de-canava-divulga-los-proyectos-cientificos-de-la-uja/c851babb49b60700c9b1a5a613b9fb12": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-17",
+   "fuente": "Olimerca",
+   "orden": 6,
+   "resumen": "",
+   "texto": "",
+   "titulo": "El AOVE Oro de Cánava divulga los proyectos científicos de la UJA",
+   "url": "https://www.olimerca.com/noticiadet/el-aove-oro-de-canava-divulga-los-proyectos-cientificos-de-la-uja/c851babb49b60700c9b1a5a613b9fb12"
+  }
+ },
  "https://www.olimerca.com/noticiadet/el-gobierno-de-brasil-denuncia-fraude-en-las-importaciones-de-aceite-de-oliva/70063e1ecc4ef26409760b9074f9c579": {
   "estado": "antigua",
   "noticia": {
@@ -3225,6 +3393,18 @@
    "texto": "",
    "titulo": "El gobierno de Brasil denuncia fraude en las importaciones de aceite de oliva",
    "url": "https://www.olimerca.com/noticiadet/el-gobierno-de-brasil-denuncia-fraude-en-las-importaciones-de-aceite-de-oliva/70063e1ecc4ef26409760b9074f9c579"
+  }
+ },
+ "https://www.olimerca.com/noticiadet/el-gran-consumo-continua-creciendo-y-eleva-sus-ventas-un-48/687d2c53d301c8f72dbea1828818ec1f": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-17",
+   "fuente": "Olimerca",
+   "orden": 2,
+   "resumen": "",
+   "texto": "",
+   "titulo": "El gran consumo continúa creciendo y eleva sus ventas un 4,8%",
+   "url": "https://www.olimerca.com/noticiadet/el-gran-consumo-continua-creciendo-y-eleva-sus-ventas-un-48/687d2c53d301c8f72dbea1828818ec1f"
   }
  },
  "https://www.olimerca.com/noticiadet/el-mapa-activa-la-retirada-obligatoria-del-12-de-la-produccion-de-aceite-de-oliva/62aedf72b1f9aef8a93e611ad13b7acd": {
@@ -3371,6 +3551,18 @@
    "url": "https://www.olimerca.com/noticiadet/hacienda-aprueba-una-reduccion-fiscal-del-10-para-agricultores-en-modulos-2027/95f18f63a0ac712ee0ecb3e5bcfbf5ed"
   }
  },
+ "https://www.olimerca.com/noticiadet/interoleo-mantiene-su-compromiso-con-la-calidad-y-seguridad-alimentaria/0cee350973971374b468b558d056941d": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-17",
+   "fuente": "Olimerca",
+   "orden": 3,
+   "resumen": "",
+   "texto": "",
+   "titulo": "Interóleo mantiene su compromiso con la calidad y seguridad alimentaria",
+   "url": "https://www.olimerca.com/noticiadet/interoleo-mantiene-su-compromiso-con-la-calidad-y-seguridad-alimentaria/0cee350973971374b468b558d056941d"
+  }
+ },
  "https://www.olimerca.com/noticiadet/italia-continua-almacenando-altos-volumenes-de-aceite-de-oliva/cfe8d16b06ce89db8fe659897ff74428": {
   "estado": "candidata",
   "noticia": {
@@ -3477,6 +3669,18 @@
    "texto": "",
    "titulo": "La CE pone en marcha la Alianza para la cadena de valor de los fertilizantes",
    "url": "https://www.olimerca.com/noticiadet/la-ce-pone-en-marcha-la-alianza-para-la-cadena-de-valor-de-los-fertilizantes/e8421dfeef6ca00e8a32af3cb6b842d5"
+  }
+ },
+ "https://www.olimerca.com/noticiadet/la-comunidad-de-madrid-cuestiona-la-inmovilizacion-de-12-del-aceite/d389035e7ecf80370a5b7c733518d926": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-17",
+   "fuente": "Olimerca",
+   "orden": 4,
+   "resumen": "",
+   "texto": "",
+   "titulo": "La Comunidad de Madrid cuestiona la inmovilización de 12% del aceite",
+   "url": "https://www.olimerca.com/noticiadet/la-comunidad-de-madrid-cuestiona-la-inmovilizacion-de-12-del-aceite/d389035e7ecf80370a5b7c733518d926"
   }
  },
  "https://www.olimerca.com/noticiadet/la-comunidad-valenciana--tambien-reclama-quedarse-fuera-de-la-retirada-de-aceite/9ff47a81c0d78afd25ba819ae4fe2dce": {
@@ -3611,6 +3815,18 @@
    "url": "https://www.olimerca.com/noticiadet/las-opas-respaldan-la-retirada-de-aceite-para-estabilizar-el-mercado/c3ee3c139f7263cc9ffa0bb7b0da1168"
   }
  },
+ "https://www.olimerca.com/noticiadet/olyfo-tunez-apuesta-por-la-exportacion-de-aceite-de-oliva-envasado/b1f77052d3f89ca82420a25aa92235c8": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-17",
+   "fuente": "Olimerca",
+   "orden": 7,
+   "resumen": "",
+   "texto": "",
+   "titulo": "OLYFO (Túnez) apuesta por la exportación de aceite de oliva envasado",
+   "url": "https://www.olimerca.com/noticiadet/olyfo-tunez-apuesta-por-la-exportacion-de-aceite-de-oliva-envasado/b1f77052d3f89ca82420a25aa92235c8"
+  }
+ },
  "https://www.olimerca.com/noticiadet/oriva-reunira-a-20-centros-de-formacion-en-la-viii-edicion-de-el-duelo/3cd47bcd7894d5797f7e262c19b40482": {
   "estado": "candidata",
   "noticia": {
@@ -3717,6 +3933,18 @@
    "texto": "",
    "titulo": "Vega Capital inaugura en Osuna una nueva almazara",
    "url": "https://www.olimerca.com/noticiadet/vega-capital-inaugura-en-osuna-una-nueva-almazara-/a5ec95ee566b25e3cff143d6ad66e95f"
+  }
+ },
+ "https://www.olimerca.com/noticiadet/ventajas-de-la-quema-de-hueso-de-aceituna-valorizado-en-la-caldera-de-las-almazaras/4c7962ec5625ee3d71504a76e6ed67a4": {
+  "estado": "candidata",
+  "noticia": {
+   "fecha": "2026-11-17",
+   "fuente": "Olimerca",
+   "orden": 1,
+   "resumen": "",
+   "texto": "",
+   "titulo": "Ventajas de la quema de hueso de aceituna valorizado en la caldera de las almazaras",
+   "url": "https://www.olimerca.com/noticiadet/ventajas-de-la-quema-de-hueso-de-aceituna-valorizado-en-la-caldera-de-las-almazaras/4c7962ec5625ee3d71504a76e6ed67a4"
   }
  },
  "https://www.olimerca.com/noticiadet/vuelven-las-ofertas-de-bidones-de-aove-al-lineal-de-la-gran-distribucion/109fef6eaa04f9d26db1b5b8d1368c27": {

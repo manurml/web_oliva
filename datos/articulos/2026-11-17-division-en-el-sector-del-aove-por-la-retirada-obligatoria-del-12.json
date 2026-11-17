@@ -1,0 +1,50 @@
+{
+ "bloques": [
+  {
+   "texto": "Un mecanismo para frenar la caída de precios",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "El Ministerio de Agricultura, Pesca y Alimentación (MAPA) determinó el pasado 6 de noviembre la retirada obligatoria del 12% del aceite de oliva producido en España durante la campaña 2026/27. Según subraya el titular de la cartera, Luis Planas, la iniciativa busca garantizar una retribución adecuada a los olivicultores y dotar de estabilidad a los consumidores frente a fluctuaciones bruscas. Sin embargo, tal y como recoge Mercacei, la medida ha abierto una profunda brecha entre los diferentes agentes del sector oleícola nacional.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Apoyos desde el cooperativismo y las organizaciones agrarias",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "Gran parte del sector productor y del cooperativismo ha recibido la decisión con satisfacción, considerándola una respuesta a reivindicaciones históricas para evitar los temidos dientes de sierra en las cotizaciones. Entidades como UPA, COAG, Asaja-Sevilla, Dcoop, Jaencoop y Cooperativas Agro-alimentarias defienden que este instrumento de regulación resulta indispensable para evitar que las cotizaciones caigan por debajo de los costes de producción. A pesar de valorar positivamente la medida como un suelo de seguridad, algunos de estos representantes reclaman mayor control sobre las importaciones procedentes de terceros países para evitar que la demanda insatisfecha se desvíe al exterior.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Críticas a la intervención y apuesta por la promoción",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "En el extremo opuesto, numerosas almazaras, empresas envasadoras y expertos comerciales alertan sobre los efectos adversos de la inmovilización. Voces críticas señalan que restringir la oferta española puede beneficiar a competidores mediterráneos y generar incertidumbre entre los clientes internacionales. Asimismo, advierten de los elevados costos financieros que recaerán sobre las almazaras debido a la Ley de la Cadena Alimentaria, insistiendo en que la única vía sostenible para garantizar la rentabilidad a largo plazo pasa por incrementar la demanda exterior y potenciar la promoción comercial del producto.",
+   "tipo": "parrafo"
+  }
+ ],
+ "claves": [
+  "El MAPA fija una retirada obligatoria del 12% del aceite español de la campaña 2026/27.",
+  "El sector productor valora la medida como red de seguridad para los precios en origen.",
+  "Almazaras y exportadores critican el riesgo de perder cuota frente a terceros países."
+ ],
+ "entradilla": "El Ministerio de Agricultura ha ordenado la inmovilización del 12% de la producción de la campaña 2026/27 para frenar la caída de precios, una decisión que desata un intenso debate entre cooperativas, almazaras y organizaciones agrarias.",
+ "etiquetas": [
+  "precios",
+  "campaña 2026/27",
+  "mercado",
+  "almazaras"
+ ],
+ "fecha_publicacion": "2026-11-17",
+ "fuente": {
+  "fecha": "2026-11-13",
+  "nombre": "Mercacei",
+  "titulo": "¿Retirar aceite de oliva o conquistar mercados? El sector analiza la nueva medida de regulación del mercado",
+  "url": "https://www.mercacei.com/noticia/66141/actualidad/retirar-aceite-de-oliva-o-conquistar-mercados-el-sector-analiza-la-nueva-medida-de-regulacion-del-mercado.html"
+ },
+ "redactado_con_ia": true,
+ "slug": "2026-11-17-division-en-el-sector-del-aove-por-la-retirada-obligatoria-del-12",
+ "titulo": "División en el sector del AOVE por la retirada obligatoria del 12%"
+}

@@ -1,0 +1,50 @@
+{
+ "bloques": [
+  {
+   "texto": "Una alianza estratégica para toda la cadena de valor",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "Según recoge Óleo Revista, Deoleo ha dado un paso decisivo en su estructura corporativa al seleccionar la oferta presentada conjuntamente por Acesur y Dcoop. Esta operación industrial valora al grupo líder mundial en el sector del aceite de oliva en 520 millones de euros en términos de 'enterprise value'. La transacción destaca por su solidez financiera y por ofrecer una clara certidumbre de ejecución en los plazos previstos. El objetivo principal de este movimiento es integrar la vinculación con el origen, la capilaridad agrícola y la capacidad productiva de los compradores con la dilatada experiencia de Deoleo en el marketing, las marcas de gran consumo y la distribución internacional, reforzando así la posición estratégica de España en la cadena de valor del sector.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Declaraciones institucionales y objetivos comerciales",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "Desde la dirección de la compañía, Ignacio Silva ha señalado que el acuerdo supone un reconocimiento al trabajo de los últimos años y aporta certidumbre operativa a los productores. Por su parte, Cristóbal Valdés ha destacado el compromiso de la plantilla y la apuesta por la calidad bajo la hoja de ruta Evoo-lution. Los futuros accionistas han trasladado su intención de impulsar el consumo mundial de aceite de oliva, proteger el arraigo de las familias agricultoras y preservar marcas globales tan conocidas como Carbonell, Bertolli, Hojiblanca o Koipe, combinando la tradición olivarera de España e Italia.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Plazos y autorizaciones regulatorias necesarias",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "Para que la operación se complete de manera definitiva, la transacción todavía debe superar los trámites regulatorios pertinentes. Esto incluye el visto bueno de las autoridades de competencia de España y Estados Unidos, así como la aprobación relativa a la inversión extranjera directa en Italia. Deoleo calcula que todo este proceso administrativo se prolongará entre seis y ocho meses. Mientras tanto, la compañía ha confirmado que mantendrá la total normalidad en su gestión comercial, su operativa industrial y sus compromisos con los clientes. Una vez obtenidas las autorizaciones, se procederá a la reorganización de activos entre los dos grupos compradores para cumplir con la normativa de competencia vigente.",
+   "tipo": "parrafo"
+  }
+ ],
+ "claves": [
+  "La oferta valora el grupo en 520 millones y destaca por su solidez financiera.",
+  "La alianza une la capacidad productiva de Acesur y Dcoop con las marcas internacionales de Deoleo.",
+  "El cierre de la transacción está sujeto a autorizaciones regulatorias y se prevé en varios meses."
+ ],
+ "entradilla": "El gigante oleícola Deoleo ha alcanzado un acuerdo para su venta a un consorcio formado por Acesur y Dcoop, en una operación valorada en 520 millones de euros que busca integrar el origen agrario con la distribución internacional.",
+ "etiquetas": [
+  "deoleo",
+  "acesur",
+  "dcoop",
+  "mercado"
+ ],
+ "fecha_publicacion": "2026-11-17",
+ "fuente": {
+  "fecha": "2026-11-05",
+  "nombre": "Óleo Revista",
+  "titulo": "Deoleo inicia una nueva etapa con Acesur y Dcoop al frente de su proyecto industrial",
+  "url": "https://www.oleorevista.com/texto-diario/mostrar/6079476/deoleo-acepta-oferta-acesur-dcoop-valora-compania-520-millones-euros"
+ },
+ "redactado_con_ia": true,
+ "slug": "2026-11-17-acesur-y-dcoop-lideran-la-compra-de-deoleo-por-520-millones",
+ "titulo": "Acesur y Dcoop lideran la compra de Deoleo por 520 millones"
+}
