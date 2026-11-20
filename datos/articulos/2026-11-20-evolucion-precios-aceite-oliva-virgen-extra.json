@@ -1,0 +1,50 @@
+{
+ "bloques": [
+  {
+   "texto": "Análisis del mercado en origen",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "El mercado del aceite de oliva virgen extra registra diferentes movimientos en las principales zonas productoras durante el mes de noviembre de 2026. Según los datos de precios en origen a granel facilitados por la fuente Oleista, en España el aceite de oliva virgen extra se sitúa en 3,200 euros por kilo el 20 de noviembre de 2026, registrando una variación del 0,0 por ciento en la sesión anterior, un incremento del 0,6 por ciento en la semana y del 0,6 por ciento en el mes, con un rango de treinta días que oscila entre 3,100 y 3,230 euros por kilo. Por su parte, en Andalucía, el precio del virgen extra alcanza los 3,270 euros por kilo el 11 de noviembre de 2026, con una variación del 0,0 por ciento en la sesión anterior, un aumento del 6,2 por ciento en la semana y del 3,8 por ciento en el mes, situándose su rango de treinta días entre 3,080 y 3,270 euros por kilo.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Referencias en otros mercados europeos",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "Fuera de las fronteras españolas, las cotizaciones muestran comportamientos diversos en los mercados internacionales de referencia. En Grecia, el virgen extra se anota un precio de 3,440 euros por kilo el 17 de noviembre de 2026, con una subida del 3,5 por ciento tanto en la sesión anterior como en la semana, y una bajada del 4,2 por ciento en el mes, moviéndose en un rango de treinta días de 3,300 a 3,530 euros por kilo. En el caso de Italia, el AOVE cotiza a 4,982 euros por kilo el 4 de noviembre de 2026, con una variación del 0,0 por ciento en la sesión anterior, un descenso del 3,8 por ciento en la semana y un incremento del 14,0 por ciento en el mes, con un rango de treinta días situado entre 4,370 y 5,181 euros por kilo.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Datos de la referencia oficial semanal",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "Por otro lado, la referencia oficial semanal del Ministerio de Agricultura, correspondiente al boletín de la semana 45 de 2026 que abarca del 2 de noviembre de 2026 al 8 de noviembre de 2026, ofrece una media en euros por kilo que no es comparable día a día con los datos de Oleista. En este boletín, el precio medio en España para el virgen extra se sitúa en 3,098 euros por kilo, con una caída semanal del 2,1 por ciento y del 6,7 por ciento en las últimas cuatro semanas. Asimismo, en Andalucía el virgen extra marca una media de 3,051 euros por kilo, reflejando una bajada del 2,3 por ciento en la semana y del 6,2 por ciento en el periodo de cuatro semanas. En Castilla-La Mancha, el AOVE registra un valor medio de 3,279 euros por kilo, con un descenso semanal del 1,0 por ciento y del 3,5 por ciento en cuatro semanas, mientras que en Cataluña se sitúa en 3,400 euros por kilo, manteniéndose sin cambios en la semana y con una reducción del 5,6 por ciento en cuatro semanas. Finalmente, en Extremadura, el precio medio del virgen extra alcanza los 3,280 euros por kilo, lo que representa una caída semanal del 3,2 por ciento y del 6,8 por ciento en las últimas cuatro semanas.",
+   "tipo": "parrafo"
+  }
+ ],
+ "claves": [],
+ "contenido_markdown": "## Análisis del mercado en origen\n\nEl mercado del aceite de oliva virgen extra registra diferentes movimientos en las principales zonas productoras durante el mes de noviembre de 2026. Según los datos de precios en origen a granel facilitados por la fuente Oleista, en España el aceite de oliva virgen extra se sitúa en 3,200 euros por kilo el 20 de noviembre de 2026, registrando una variación del 0,0 por ciento en la sesión anterior, un incremento del 0,6 por ciento en la semana y del 0,6 por ciento en el mes, con un rango de treinta días que oscila entre 3,100 y 3,230 euros por kilo. Por su parte, en Andalucía, el precio del virgen extra alcanza los 3,270 euros por kilo el 11 de noviembre de 2026, con una variación del 0,0 por ciento en la sesión anterior, un aumento del 6,2 por ciento en la semana y del 3,8 por ciento en el mes, situándose su rango de treinta días entre 3,080 y 3,270 euros por kilo.\n\n## Referencias en otros mercados europeos\n\nFuera de las fronteras españolas, las cotizaciones muestran comportamientos diversos en los mercados internacionales de referencia. En Grecia, el virgen extra se anota un precio de 3,440 euros por kilo el 17 de noviembre de 2026, con una subida del 3,5 por ciento tanto en la sesión anterior como en la semana, y una bajada del 4,2 por ciento en el mes, moviéndose en un rango de treinta días de 3,300 a 3,530 euros por kilo. En el caso de Italia, el AOVE cotiza a 4,982 euros por kilo el 4 de noviembre de 2026, con una variación del 0,0 por ciento en la sesión anterior, un descenso del 3,8 por ciento en la semana y un incremento del 14,0 por ciento en el mes, con un rango de treinta días situado entre 4,370 y 5,181 euros por kilo.\n\n## Datos de la referencia oficial semanal\n\nPor otro lado, la referencia oficial semanal del Ministerio de Agricultura, correspondiente al boletín de la semana 45 de 2026 que abarca del 2 de noviembre de 2026 al 8 de noviembre de 2026, ofrece una media en euros por kilo que no es comparable día a día con los datos de Oleista. En este boletín, el precio medio en España para el virgen extra se sitúa en 3,098 euros por kilo, con una caída semanal del 2,1 por ciento y del 6,7 por ciento en las últimas cuatro semanas. Asimismo, en Andalucía el virgen extra marca una media de 3,051 euros por kilo, reflejando una bajada del 2,3 por ciento en la semana y del 6,2 por ciento en el periodo de cuatro semanas. En Castilla-La Mancha, el AOVE registra un valor medio de 3,279 euros por kilo, con un descenso semanal del 1,0 por ciento y del 3,5 por ciento en cuatro semanas, mientras que en Cataluña se sitúa en 3,400 euros por kilo, manteniéndose sin cambios en la semana y con una reducción del 5,6 por ciento en cuatro semanas. Finalmente, en Extremadura, el precio medio del virgen extra alcanza los 3,280 euros por kilo, lo que representa una caída semanal del 3,2 por ciento y del 6,8 por ciento en las últimas cuatro semanas.",
+ "entradilla": "Analizamos la situación reciente de las cotizaciones del virgen extra a granel en los mercados de origen, revisando los datos de Oleista y del Ministerio de Agricultura.",
+ "estado": "published",
+ "etiquetas": [
+  "aove",
+  "precios",
+  "mercado",
+  "aceite de oliva"
+ ],
+ "fecha_publicacion": "2026-11-20",
+ "fuente": {
+  "fecha": "2026-11-20",
+  "nombre": "Oleista",
+  "titulo": "Cotizaciones del aceite de oliva",
+  "url": "https://oleista.com/es/precios"
+ },
+ "meta_descripcion": "Consulta la evolución y tendencia reciente de los precios del aceite de oliva virgen extra en origen según los datos de Oleista y el Ministerio.",
+ "redactado_con_ia": true,
+ "slug": "2026-11-20-evolucion-precios-aceite-oliva-virgen-extra",
+ "tipo": "analisis",
+ "titulo": "Evolución de los precios del aceite de oliva virgen extra en origen"
+}
