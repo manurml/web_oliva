@@ -1,0 +1,54 @@
+{
+ "bloques": [
+  {
+   "texto": "Crecimiento histórico en España y el entorno mediterráneo",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "El sector del aceite de oliva encara la campaña 2026/27 bajo un escenario de mayor disponibilidad de producto y estabilidad en las cotizaciones. Según recoge Óleo Revista a partir del informe 'Focus on Olive Oil' de la FAO, la producción global se elevará hasta los 3,7 millones de toneladas. Este volumen récord viene motivado fundamentalmente por el notable repunte de la cosecha en España, primer productor mundial, donde se estiman 1,6 millones de toneladas gracias a unas condiciones meteorológicas propicias durante la floración y el cuajado del fruto.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Junto al caso español, el organismo internacional subraya la recuperación productiva esperada en otros países exportadores de relevancia en la cuenca mediterránea, tales como Portugal, Grecia y Turquía. Esta mayor oferta generalizada contribuye de forma directa a relajar las tensiones de suministro que habían marcado el mercado en los ejercicios anteriores, actuando como elemento principal de contención en los precios en origen.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Respaldo firme de la demanda internacional",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "Pese al incremento de la oferta disponible, el mercado cuenta con el contrapeso positivo de una demanda sólida. De acuerdo con las previsiones de la FAO publicadas por Óleo Revista, el consumo mundial de aceite de oliva registrará un aumento del 6% en este periodo, enlazando así tres años consecutivos de recuperación tras el frenazo motivado por la escalada histórica de precios. Además del consumo en los mercados mediterráneos tradicionales, destaca el avance sostenido de las ventas en países como Estados Unidos, Brasil, Canadá y China.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Factores de incertidumbre y perspectivas a corto plazo",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "A pesar de las favorables perspectivas iniciales, el sector agrario e industrial continúa operando con cautela ante la volatilidad climática latente en el Mediterráneo, donde episodios de escasez hídrica y altas temperaturas pueden alterar los rendimientos finales. En el corto plazo, las almazaras, cooperativas y envasadores mantendrán la atención en el avance efectivo de la recolección, los rendimientos grasos reales y la evolución comercial, configurando un escenario general de estabilidad en los precios.",
+   "tipo": "parrafo"
+  }
+ ],
+ "claves": [
+  "La producción mundial alcanzará los 3,7 millones de toneladas según la FAO.",
+  "España prevé recolectar 1,6 millones de toneladas, un 22,7% más que el año pasado.",
+  "El consumo global encadenará tres campañas de recuperación con crecimiento en mercados exteriores."
+ ],
+ "entradilla": "El último informe de la FAO apunta a una cosecha global récord para la campaña 2026/27, impulsada por la recuperación de España y el resto de productores mediterráneos.",
+ "etiquetas": [
+  "mercado",
+  "precios",
+  "campaña 2026/27",
+  "fao"
+ ],
+ "fecha_publicacion": "2026-11-20",
+ "fuente": {
+  "fecha": "2026-11-19",
+  "nombre": "Óleo Revista",
+  "titulo": "La FAO prevé una producción mundial de 3,7 millones de toneladas en la campaña 2026/2027",
+  "url": "https://www.oleorevista.com/texto-diario/mostrar/6100858/fao-preve-produccion-mundial-37-millones-toneladas-campana-2026-2027"
+ },
+ "redactado_con_ia": true,
+ "slug": "2026-11-20-la-fao-situa-la-produccion-mundial-de-aove-en-3-7-millones-de-toneladas",
+ "titulo": "La FAO sitúa la producción mundial de AOVE en 3,7 millones de toneladas"
+}
