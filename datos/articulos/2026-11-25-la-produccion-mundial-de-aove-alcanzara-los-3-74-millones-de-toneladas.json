@@ -1,0 +1,50 @@
+{
+ "bloques": [
+  {
+   "texto": "Recuperación de la oferta global y liderazgo de la Unión Europea",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "La campaña oleícola 2026/27 traerá consigo un escenario de mayor disponibilidad de producto tras las fluctuaciones habituales del mercado. Tal como recoge la publicación especializada Mercacei basándose en los datos del Consejo Oleícola Internacional (COI), la producción mundial de aceite de oliva se situará en torno a los 3,74 millones de toneladas. Esto representa un incremento del 6,4% en comparación con el ejercicio anterior. Abderraouf Laajimi, director ejecutivo adjunto del COI, ha destacado en la reunión anual de estadísticos de noviembre que este crecimiento vendrá acompañado de una demanda global estable y de una recomposición significativa de las existencias.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Dentro de este contexto, la Unión Europea consolidará su papel como el principal motor de la oferta mundial, abarcando aproximadamente el 63,9% del total con cerca de 2,4 millones de toneladas. En el plano nacional, España revalidará con claridad su hegemonía como el primer productor del planeta, alcanzando una cosecha estimada en 1,60 millones de toneladas. Por detrás de nuestro país se situarán Turquía, Túnez, Grecia e Italia como los siguientes actores clave en el volumen de producción.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Comportamiento dispar del consumo y contracción del comercio exterior",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "En el apartado del consumo, las estimaciones del COI apuntan a un volumen global de 3,42 millones de toneladas, lo que supone un ligero repunte del 0,8%. No obstante, el comportamiento de los mercados no será homogéneo. Mientras que la Unión Europea experimentará un incremento del consumo del 6,6% y los países miembros del organismo registrarán una subida del 3,6%, las naciones ajenas al COI sufrirán un retroceso del 8,3%. España e Italia continuarán liderando la demanda comunitaria con 510.000 y 497.100 toneladas respectivamente.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Por otro lado, el comercio internacional sufrirá una moderación general. Las importaciones mundiales descenderán un 10,5% hasta quedarse en 1.152.000 toneladas, con Estados Unidos como el mayor comprador mundial al concentrar más de un tercio de las compras. Del mismo modo, las exportaciones globales registrarán una caída del 11,4% para situarse en 1.194.000 toneladas, lastradas principalmente por los menores envíos procedentes de la Unión Europea y de Túnez, según los datos difundidos por Mercacei.",
+   "tipo": "parrafo"
+  }
+ ],
+ "claves": [
+  "Cosecha mundial estimada en 3,74 millones de toneladas, un 6,4% más.",
+  "España lidera la producción global con una previsión de 1,60 millones de toneladas.",
+  "El consumo se mantiene estable mientras descienden los intercambios internacionales."
+ ],
+ "entradilla": "El Consejo Oleícola Internacional prevé un crecimiento del 6,4% en la cosecha global para la campaña 2026/27, con España al frente del incremento.",
+ "etiquetas": [
+  "producción",
+  "coi",
+  "campaña 2026/27",
+  "mercado"
+ ],
+ "fecha_publicacion": "2026-11-25",
+ "fuente": {
+  "fecha": "2026-11-24",
+  "nombre": "Mercacei",
+  "titulo": "La producción mundial de aceite de oliva se situará en 3,74 millones de toneladas en la campaña 2026/27, un 6,4% más",
+  "url": "https://www.mercacei.com/noticia/66251/actualidad/la-produccion-mundial-de-aceite-de-oliva-se-situara-en-374-millones-de-toneladas-en-la-campana-2026/27-un-64-mas.html"
+ },
+ "redactado_con_ia": true,
+ "slug": "2026-11-25-la-produccion-mundial-de-aove-alcanzara-los-3-74-millones-de-toneladas",
+ "titulo": "La producción mundial de AOVE alcanzará los 3,74 millones de toneladas"
+}
