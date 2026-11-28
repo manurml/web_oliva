@@ -1,0 +1,57 @@
+{
+ "bloques": [
+  {
+   "texto": "El mercado en origen del aceite de oliva virgen extra (AOVE) muestra una dinámica de ajustes en las últimas jornadas de noviembre, marcada por oscilaciones en las principales plazas productoras y movimientos estratégicos de los operadores comerciales.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Comportamiento de las cotizaciones en España",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "Según los registros de Oleista del 25 de noviembre de 2026, el virgen extra a granel en España se situó en 3,140 euros por kilo. Esta cotización supuso un descenso del 2,2 % tanto respecto a la sesión anterior como en el balance semanal, mientras que en el cómputo del último mes registró una subida del 0,2 %. Dentro de este periodo de 30 días, las operaciones de AOVE nacional se han movido en un rango entre 3,100 y 3,210 euros por kilo.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Por zonas productoras, los datos de Oleista correspondientes al 18 de noviembre de 2026 fijaron el AOVE en Andalucía en 3,270 euros por kilo, sin cambios en la comparativa semanal pero con un incremento mensual del 4,5 %.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Por su parte, el Ministerio de Agricultura, Pesca y Alimentación, en su boletín correspondiente a la semana 46/2026 (del 9 de noviembre de 2026 al 15 de noviembre de 2026), situó la media oficial del virgen extra español en 3,100 euros por kilo. Este informe oficial reflejó una ligera subida semanal del 0,1 %, contrastada con una bajada del 5,0 % en el balance de cuatro semanas.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Panorama exterior y contexto sectorial",
+   "tipo": "subtitulo"
+  },
+  {
+   "texto": "En el ámbito internacional, los mercados de referencia muestran comportamientos dispares según las cifras de Oleista. En Italia, el virgen extra marcó 4,677 euros por kilo el 11 de noviembre de 2026, con una caída semanal del 6,1 %. En Grecia, la cotización del AOVE se situó en 3,440 euros por kilo el 17 de noviembre de 2026, con un aumento semanal del 4,6 % y un retroceso mensual del 4,2 %.",
+   "tipo": "parrafo"
+  },
+  {
+   "texto": "Junto a la evolución de las pizarras de precios, la actualidad comercial ha estado marcada por declaraciones clave en la industria. El 25 de noviembre de 2026, el presidente de Dcoop, Antonio Luque, abordó públicamente en Madrid los detalles de la adquisición de Deoleo realizada junto a Acesur, un encuentro en el que también analizó la retirada del mercado del 12 % de la producción de aceite de oliva en la actual campaña.",
+   "tipo": "parrafo"
+  }
+ ],
+ "claves": [],
+ "contenido_markdown": "El mercado en origen del aceite de oliva virgen extra (AOVE) muestra una dinámica de ajustes en las últimas jornadas de noviembre, marcada por oscilaciones en las principales plazas productoras y movimientos estratégicos de los operadores comerciales.\n\n## Comportamiento de las cotizaciones en España\n\nSegún los registros de Oleista del 25 de noviembre de 2026, el virgen extra a granel en España se situó en 3,140 euros por kilo. Esta cotización supuso un descenso del 2,2 % tanto respecto a la sesión anterior como en el balance semanal, mientras que en el cómputo del último mes registró una subida del 0,2 %. Dentro de este periodo de 30 días, las operaciones de AOVE nacional se han movido en un rango entre 3,100 y 3,210 euros por kilo.\n\nPor zonas productoras, los datos de Oleista correspondientes al 18 de noviembre de 2026 fijaron el AOVE en Andalucía en 3,270 euros por kilo, sin cambios en la comparativa semanal pero con un incremento mensual del 4,5 %.\n\nPor su parte, el Ministerio de Agricultura, Pesca y Alimentación, en su boletín correspondiente a la semana 46/2026 (del 9 de noviembre de 2026 al 15 de noviembre de 2026), situó la media oficial del virgen extra español en 3,100 euros por kilo. Este informe oficial reflejó una ligera subida semanal del 0,1 %, contrastada con una bajada del 5,0 % en el balance de cuatro semanas.\n\n## Panorama exterior y contexto sectorial\n\nEn el ámbito internacional, los mercados de referencia muestran comportamientos dispares según las cifras de Oleista. En Italia, el virgen extra marcó 4,677 euros por kilo el 11 de noviembre de 2026, con una caída semanal del 6,1 %. En Grecia, la cotización del AOVE se situó en 3,440 euros por kilo el 17 de noviembre de 2026, con un aumento semanal del 4,6 % y un retroceso mensual del 4,2 %.\n\nJunto a la evolución de las pizarras de precios, la actualidad comercial ha estado marcada por declaraciones clave en la industria. El 25 de noviembre de 2026, el presidente de Dcoop, Antonio Luque, abordó públicamente en Madrid los detalles de la adquisición de Deoleo realizada junto a Acesur, un encuentro en el que también analizó la retirada del mercado del 12 % de la producción de aceite de oliva en la actual campaña.",
+ "entradilla": "Las cotizaciones en origen del aceite de oliva virgen extra muestran ajustes recientes en el mercado nacional, situando el granel español en 3,140 euros el kilo a finales de noviembre.",
+ "estado": "published",
+ "etiquetas": [
+  "aove",
+  "precios en origen",
+  "mercado del aceite"
+ ],
+ "fecha_publicacion": "2026-11-28",
+ "fuente": {
+  "fecha": "2026-11-25",
+  "nombre": "Oleista",
+  "titulo": "Cotizaciones del aceite de oliva",
+  "url": "https://oleista.com/es/precios"
+ },
+ "meta_descripcion": "Análisis de la tendencia de precios del aceite de oliva virgen extra en origen a finales de noviembre de 2026, con datos de España e internacionales.",
+ "redactado_con_ia": true,
+ "slug": "2026-11-28-tendencia-precios-aceite-oliva-virgen-extra-noviembre-2026",
+ "tipo": "analisis",
+ "titulo": "El virgen extra registra ajustes recientes en el mercado en origen"
+}
